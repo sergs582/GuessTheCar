@@ -54,7 +54,9 @@ class GameOverViewController: UIViewController {
 
 
 extension UIButton{
+    
     func corners(){
+        print("hi")
         self.layer.cornerRadius = 5
     }
     
