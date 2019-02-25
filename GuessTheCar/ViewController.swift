@@ -20,7 +20,6 @@ class ViewController: UIViewController {
     var i = 1
     var Sound : Bool = true
     var BackSound : AVAudioPlayer = AVAudioPlayer()
-    // esche odna proverochka
     
     
     override func viewDidLoad() {
