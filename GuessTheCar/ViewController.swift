@@ -99,7 +99,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var vc = segue.destination as! GameProcessViewController
+        let vc = segue.destination as! GameProcessViewController
         vc.Sound = Sound
     }
     
