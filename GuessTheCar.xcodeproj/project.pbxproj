@@ -19,6 +19,7 @@
 		A583098E220479CC00326ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583098D220479CC00326ABB /* ViewController.swift */; };
 		A5830991220479CC00326ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A583098F220479CC00326ABB /* Main.storyboard */; };
 		A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5830994220479CD00326ABB /* LaunchScreen.storyboard */; };
+		A5BCB1FC2227A84B00055904 /* Scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BCB1FB2227A84B00055904 /* Scores.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A5830990220479CC00326ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5830995220479CD00326ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5830997220479CD00326ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BCB1FB2227A84B00055904 /* Scores.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Scores.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				A583098F220479CC00326ABB /* Main.storyboard */,
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
 				A5830997220479CD00326ABB /* Info.plist */,
+				A5BCB1FB2227A84B00055904 /* Scores.plist */,
 			);
 			path = GuessTheCar;
 			sourceTree = "<group>";
@@ -104,6 +107,7 @@
 				A5830984220479CC00326ABB /* Sources */,
 				A5830985220479CC00326ABB /* Frameworks */,
 				A5830986220479CC00326ABB /* Resources */,
+				A53AA2612227EF06006E047B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -157,12 +161,33 @@
 				A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */,
 				A577C4DB2204D47900F47CD0 /* Assets.xcassets in Resources */,
 				A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */,
+				A5BCB1FC2227A84B00055904 /* Scores.plist in Resources */,
 				A5830991220479CC00326ABB /* Main.storyboard in Resources */,
 				A56FB2422220772C00EAFAA4 /* Wrong.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A53AA2612227EF06006E047B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5830984220479CC00326ABB /* Sources */ = {

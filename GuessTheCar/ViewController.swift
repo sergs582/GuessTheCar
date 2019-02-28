@@ -104,6 +104,32 @@ class ViewController: UIViewController {
     }
     
     
+    struct Scores: Codable {
+        var Score1 : String
+        var Score2 : String
+        var Score3 : String
+        var Score4 : String
+        var Score5 : String
+    }
+    
+    func plist(){
+        let ScoresPath = Bundle.main.path(forResource: "Scores", ofType: "plist")
+    
+        let ScoreBD = FileManager.default.contents(atPath: ScoresPath!)
+        do{
+//          try  let scoress = PropertyListDecoder.init().decode(Scores.self, from: ScoreBD!){
+//
+//            }catch{
+//                print(error)
+//            }
+     
+        }
+    //   print(scoress)
+    }
+    
+    @IBAction func ScoresBtn(_ sender: Any) {
+        plist()
+    }
     
     @objc func lights(){
         if i == 4{

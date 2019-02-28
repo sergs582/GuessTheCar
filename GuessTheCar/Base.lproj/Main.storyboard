@@ -63,6 +63,9 @@
                                 <state key="normal" title="Scores">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="ScoresBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="upt-1j-ZNp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsQ-uO-dN9">
                                 <rect key="frame" x="172" y="533" width="80" height="80"/>
@@ -120,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.40000000000001" y="130.78817733990149"/>
+            <point key="canvasLocation" x="104" y="-12"/>
         </scene>
         <!--Game Process View Controller-->
         <scene sceneID="VAJ-xA-7HJ">
@@ -698,7 +701,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WyZ-t3-Ulc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="-103"/>
+            <point key="canvasLocation" x="2265" y="-85"/>
         </scene>
     </scenes>
     <resources>
@@ -721,6 +724,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="V1I-Bh-eHu"/>
-        <segue reference="sPG-yv-dOF"/>
+        <segue reference="EMF-C5-JzV"/>
     </inferredMetricsTieBreakers>
 </document>
