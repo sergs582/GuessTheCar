@@ -77,6 +77,9 @@
                                 <state key="normal" title="Help">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="HelpBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JqP-yi-Ott"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgx-Kg-dWi">
                                 <rect key="frame" x="20" y="666" width="50" height="50"/>
@@ -86,7 +89,9 @@
                                 </constraints>
                                 <state key="normal" image="info"/>
                                 <connections>
+                                    <action selector="HelpInfoBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lHh-oc-Wx4"/>
                                     <action selector="Info:" destination="BYZ-38-t0r" eventType="touchUpInside" id="czw-qz-FOL"/>
+                                    <segue destination="NEx-ln-bFb" kind="presentation" identifier="vvediscores" id="O8g-PF-vLR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -123,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104" y="-12"/>
+            <point key="canvasLocation" x="102.89855072463769" y="-12.228260869565219"/>
         </scene>
         <!--Game Process View Controller-->
         <scene sceneID="VAJ-xA-7HJ">
@@ -355,7 +360,7 @@
                                                     <constraint firstAttribute="width" constant="55" id="N4o-jP-sGO"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44v-UM-4vg">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="44v-UM-4vg">
                                                 <rect key="frame" x="272" y="18" width="55" height="55"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="55" id="Hwv-bh-cf1"/>
@@ -535,6 +540,69 @@
             </objects>
             <point key="canvasLocation" x="1123" y="-12"/>
         </scene>
+        <!--Hue-->
+        <scene sceneID="NrH-Py-suf">
+            <objects>
+                <viewController id="NEx-ln-bFb" customClass="Hue" customModule="GuessTheCar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cLX-26-gaT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="vvedite text to save" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bdx-ve-J7u">
+                                <rect key="frame" x="103" y="147" width="213" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XL9-LE-KVL">
+                                <rect key="frame" x="0.0" y="390" width="414" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Read">
+                                    <color key="titleColor" red="0.93006259319999995" green="1" blue="0.097078270300000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="readbtn:" destination="NEx-ln-bFb" eventType="touchUpInside" id="1Tx-8z-wun"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="vvedite text to read" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hyr-GA-ryr">
+                                <rect key="frame" x="103" y="185" width="213" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T44-UL-nJO">
+                                <rect key="frame" x="131" y="62" width="144" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75h-w7-X7D">
+                                <rect key="frame" x="0.0" y="282" width="414" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93006259319999995" green="1" blue="0.097078270300000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="savebtn:" destination="NEx-ln-bFb" eventType="touchUpInside" id="2xZ-5q-Mcj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3W1-gg-QEJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="T44-UL-nJO" id="pa2-Xt-QzF"/>
+                        <outlet property="readtext" destination="hyr-GA-ryr" id="tDb-SH-d37"/>
+                        <outlet property="savetext" destination="Bdx-ve-J7u" id="XdA-ub-aed"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jjX-2a-49F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="831.88405797101461" y="-650.54347826086962"/>
+        </scene>
         <!--Game Over View Controller-->
         <scene sceneID="bZn-VB-ryw">
             <objects>
@@ -589,7 +657,7 @@
                                             <constraint firstAttribute="width" constant="55" id="Xvu-JN-0Bt"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88T-GG-8RD">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="88T-GG-8RD">
                                         <rect key="frame" x="272" y="18" width="55" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="55" id="LdA-sp-xIM"/>
@@ -723,7 +791,8 @@
         <image name="skip" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="V1I-Bh-eHu"/>
-        <segue reference="EMF-C5-JzV"/>
+        <segue reference="Nfg-Ie-lt4"/>
+        <segue reference="HUV-qX-d2O"/>
+        <segue reference="sPG-yv-dOF"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var Button3: UIButton!
@@ -99,8 +100,19 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! GameProcessViewController
-        vc.Sound = Sound
+        
+        switch segue.identifier {
+        case "vvediscores" : let vc = segue.destination as! Hue
+            break
+        case "Game" :
+            let vc = segue.destination as! GameProcessViewController
+            vc.Sound = Sound
+       
+        
+        //let vc = segue.destination as! GameProcessViewController
+        
+        default : print("shit")
+        }
     }
     
     
@@ -113,24 +125,31 @@ class ViewController: UIViewController {
     }
     
     func plist(){
-        let ScoresPath = Bundle.main.path(forResource: "Scores", ofType: "plist")
-    
-        let ScoreBD = FileManager.default.contents(atPath: ScoresPath!)
-        do{
-//          try  let scoress = PropertyListDecoder.init().decode(Scores.self, from: ScoreBD!){
-//
-//            }catch{
-//                print(error)
-//            }
-     
+        if  let ScoresPath = Bundle.main.path(forResource: "Scores", ofType: "plist"),
+            let ScoreBD = FileManager.default.contents(atPath: ScoresPath),
+            let scoress = try? PropertyListDecoder.init().decode(Scores.self, from: ScoreBD){
+            print(scoress)
         }
-    //   print(scoress)
     }
+    
+    
+   
+    
+    @IBAction func HelpInfoBtn(_ sender: Any) {
+        performSegue(withIdentifier: "vvediscores", sender: self)
+    }
+    
     
     @IBAction func ScoresBtn(_ sender: Any) {
-        plist()
+       var n = 0
+        
+        ScoresAPI().SaveNewScore(score: "tettt", k : n)
+      n += 1
     }
     
+    @IBAction func HelpBtn(_ sender: Any) {
+
+    }
     @objc func lights(){
         if i == 4{
             i = 1

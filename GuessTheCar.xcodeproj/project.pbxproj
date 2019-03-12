@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A5165C1022060CF0005CC20D /* GameProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */; };
+		A53E76872237AC1100EFA42E /* Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53E76862237AC1100EFA42E /* Hue.swift */; };
 		A557C6FF2219CBFC00E6BBA8 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */; };
 		A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */; };
 		A56FB2352220630900EAFAA4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56FB2342220630900EAFAA4 /* AVFoundation.framework */; };
@@ -20,10 +21,12 @@
 		A5830991220479CC00326ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A583098F220479CC00326ABB /* Main.storyboard */; };
 		A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5830994220479CD00326ABB /* LaunchScreen.storyboard */; };
 		A5BCB1FC2227A84B00055904 /* Scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BCB1FB2227A84B00055904 /* Scores.plist */; };
+		A5FB461722356E5500F038C4 /* ScoresAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB461622356E5500F038C4 /* ScoresAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProcessViewController.swift; sourceTree = "<group>"; };
+		A53E76862237AC1100EFA42E /* Hue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hue.swift; sourceTree = "<group>"; };
 		A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundSound.mp3; sourceTree = "<group>"; };
 		A56FB2342220630900EAFAA4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -38,6 +41,7 @@
 		A5830995220479CD00326ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5830997220479CD00326ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5BCB1FB2227A84B00055904 /* Scores.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Scores.plist; sourceTree = "<group>"; };
+		A5FB461622356E5500F038C4 /* ScoresAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		A583098A220479CC00326ABB /* GuessTheCar */ = {
 			isa = PBXGroup;
 			children = (
+				A5FB461A223595F400F038C4 /* plist */,
+				A5FB461622356E5500F038C4 /* ScoresAPI.swift */,
 				A577C4DA2204D47900F47CD0 /* Assets.xcassets */,
 				A583098B220479CC00326ABB /* AppDelegate.swift */,
 				A583098D220479CC00326ABB /* ViewController.swift */,
@@ -92,9 +98,17 @@
 				A583098F220479CC00326ABB /* Main.storyboard */,
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
 				A5830997220479CD00326ABB /* Info.plist */,
-				A5BCB1FB2227A84B00055904 /* Scores.plist */,
+				A53E76862237AC1100EFA42E /* Hue.swift */,
 			);
 			path = GuessTheCar;
+			sourceTree = "<group>";
+		};
+		A5FB461A223595F400F038C4 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				A5BCB1FB2227A84B00055904 /* Scores.plist */,
+			);
+			path = plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A557C6FF2219CBFC00E6BBA8 /* GameOverViewController.swift in Sources */,
+				A5FB461722356E5500F038C4 /* ScoresAPI.swift in Sources */,
+				A53E76872237AC1100EFA42E /* Hue.swift in Sources */,
 				A5165C1022060CF0005CC20D /* GameProcessViewController.swift in Sources */,
 				A583098E220479CC00326ABB /* ViewController.swift in Sources */,
 				A583098C220479CC00326ABB /* AppDelegate.swift in Sources */,
