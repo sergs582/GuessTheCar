@@ -19,6 +19,8 @@
 		A5830991220479CC00326ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A583098F220479CC00326ABB /* Main.storyboard */; };
 		A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5830994220479CD00326ABB /* LaunchScreen.storyboard */; };
 		A5BCB1FC2227A84B00055904 /* Scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BCB1FB2227A84B00055904 /* Scores.plist */; };
+		A5F8E774223D87CA005B06E2 /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5F8E772223D87C9005B06E2 /* Correct.wav */; };
+		A5F8E775223D87CA005B06E2 /* Wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5F8E773223D87CA005B06E2 /* Wrong.wav */; };
 		A5FB461722356E5500F038C4 /* ScoresAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB461622356E5500F038C4 /* ScoresAPI.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		A5830995220479CD00326ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5830997220479CD00326ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5BCB1FB2227A84B00055904 /* Scores.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Scores.plist; sourceTree = "<group>"; };
+		A5F8E772223D87C9005B06E2 /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Correct.wav; sourceTree = "<group>"; };
+		A5F8E773223D87CA005B06E2 /* Wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Wrong.wav; sourceTree = "<group>"; };
 		A5FB461622356E5500F038C4 /* ScoresAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +96,8 @@
 				A583098F220479CC00326ABB /* Main.storyboard */,
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
 				A5830997220479CD00326ABB /* Info.plist */,
+				A5F8E772223D87C9005B06E2 /* Correct.wav */,
+				A5F8E773223D87CA005B06E2 /* Wrong.wav */,
 				A53E76862237AC1100EFA42E /* Hue.swift */,
 			);
 			path = GuessTheCar;
@@ -166,10 +172,12 @@
 			files = (
 				A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */,
 				A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */,
+				A5F8E775223D87CA005B06E2 /* Wrong.wav in Resources */,
 				A577C4DB2204D47900F47CD0 /* Assets.xcassets in Resources */,
 				A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */,
 				A5BCB1FC2227A84B00055904 /* Scores.plist in Resources */,
 				A5830991220479CC00326ABB /* Main.storyboard in Resources */,
+				A5F8E774223D87CA005B06E2 /* Correct.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
