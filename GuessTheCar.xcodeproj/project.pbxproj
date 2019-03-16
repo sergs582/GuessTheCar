@@ -13,8 +13,6 @@
 		A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */; };
 		A56FB2352220630900EAFAA4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56FB2342220630900EAFAA4 /* AVFoundation.framework */; };
 		A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A56FB23822206ED700EAFAA4 /* Horn.wav */; };
-		A56FB2412220772C00EAFAA4 /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = A56FB23F2220772C00EAFAA4 /* Correct.wav */; };
-		A56FB2422220772C00EAFAA4 /* Wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = A56FB2402220772C00EAFAA4 /* Wrong.wav */; };
 		A577C4DB2204D47900F47CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A577C4DA2204D47900F47CD0 /* Assets.xcassets */; };
 		A583098C220479CC00326ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583098B220479CC00326ABB /* AppDelegate.swift */; };
 		A583098E220479CC00326ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583098D220479CC00326ABB /* ViewController.swift */; };
@@ -31,8 +29,6 @@
 		A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundSound.mp3; sourceTree = "<group>"; };
 		A56FB2342220630900EAFAA4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A56FB23822206ED700EAFAA4 /* Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Horn.wav; sourceTree = "<group>"; };
-		A56FB23F2220772C00EAFAA4 /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Correct.wav; path = ../../../../Desktop/Correct.wav; sourceTree = "<group>"; };
-		A56FB2402220772C00EAFAA4 /* Wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Wrong.wav; path = ../../../../Desktop/Wrong.wav; sourceTree = "<group>"; };
 		A577C4DA2204D47900F47CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5830988220479CC00326ABB /* GuessTheCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A583098B220479CC00326ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,8 +88,6 @@
 				A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */,
 				A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */,
 				A56FB23822206ED700EAFAA4 /* Horn.wav */,
-				A56FB23F2220772C00EAFAA4 /* Correct.wav */,
-				A56FB2402220772C00EAFAA4 /* Wrong.wav */,
 				A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */,
 				A583098F220479CC00326ABB /* Main.storyboard */,
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
@@ -171,13 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */,
-				A56FB2412220772C00EAFAA4 /* Correct.wav in Resources */,
 				A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */,
 				A577C4DB2204D47900F47CD0 /* Assets.xcassets in Resources */,
 				A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */,
 				A5BCB1FC2227A84B00055904 /* Scores.plist in Resources */,
 				A5830991220479CC00326ABB /* Main.storyboard in Resources */,
-				A56FB2422220772C00EAFAA4 /* Wrong.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

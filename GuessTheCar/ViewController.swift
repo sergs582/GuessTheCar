@@ -102,7 +102,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         switch segue.identifier {
-        case "vvediscores" : let vc = segue.destination as! Hue
+        case "vvediscores" : let _ = segue.destination as! Hue
             break
         case "Game" :
             let vc = segue.destination as! GameProcessViewController
