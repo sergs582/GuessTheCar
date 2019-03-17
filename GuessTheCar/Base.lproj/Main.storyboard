@@ -148,7 +148,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="FirstVariant:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="Hsi-nq-vSa"/>
+                                    <action selector="FirstVariantBtn:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="T1E-bZ-svl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icr-EK-rIh">
@@ -158,7 +158,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="SecondVariant:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="CaQ-7b-OIf"/>
+                                    <action selector="SecondVariantBtn:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="8Nn-Qy-PnQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ui-vL-EqE">
@@ -168,7 +168,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="ThirdVariant:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="92S-35-CMb"/>
+                                    <action selector="ThirdVariantBtn:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="ZKL-Ct-8F3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAJ-bj-YLZ">
@@ -178,7 +178,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="FourthVariant:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="Gfm-OI-6fk"/>
+                                    <action selector="FourthVariantBtn:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="ZI8-jQ-LeS"/>
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleAspectFit" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="Xqt-pu-VjP">
@@ -237,18 +237,30 @@
                                     </imageView>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6H-w0-Mg6">
                                         <rect key="frame" x="0.0" y="0.0" width="138" height="60"/>
-                                        <inset key="imageEdgeInsets" minX="32" minY="4" maxX="32" maxY="4"/>
+                                        <inset key="imageEdgeInsets" minX="40" minY="7" maxX="40" maxY="7"/>
                                         <state key="normal" image="5050"/>
+                                        <connections>
+                                            <action selector="HintBtn:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="jgP-Uu-ZLE"/>
+                                            <action selector="HintBtnAlpha:" destination="YCb-4q-Ulc" eventType="touchDown" id="lYf-4T-tOB"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxu-s6-NYh">
                                         <rect key="frame" x="138" y="0.0" width="138" height="60"/>
-                                        <inset key="imageEdgeInsets" minX="32" minY="4" maxX="32" maxY="4"/>
+                                        <inset key="imageEdgeInsets" minX="40" minY="4" maxX="42" maxY="4"/>
                                         <state key="normal" image="more time"/>
+                                        <connections>
+                                            <action selector="ExtraTimeAlpha:" destination="YCb-4q-Ulc" eventType="touchDown" id="3MZ-8s-PIZ"/>
+                                            <action selector="ExtraTimeBtn:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="CLV-EO-62Z"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joI-il-eaw">
                                         <rect key="frame" x="276" y="0.0" width="138" height="60"/>
-                                        <inset key="imageEdgeInsets" minX="32" minY="4" maxX="32" maxY="4"/>
+                                        <inset key="imageEdgeInsets" minX="42" minY="8" maxX="42" maxY="8"/>
                                         <state key="normal" image="skip"/>
+                                        <connections>
+                                            <action selector="SkipAlpha:" destination="YCb-4q-Ulc" eventType="touchDown" id="5up-U1-gL8"/>
+                                            <action selector="SkipBtn:" destination="YCb-4q-Ulc" eventType="touchUpInside" id="wH6-5X-9x9"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -273,7 +285,7 @@
                                     <constraint firstAttribute="trailing" secondItem="joI-il-eaw" secondAttribute="trailing" id="wB0-el-T4Q"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fzy-j6-4kO">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fzy-j6-4kO">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pause background" translatesAutoresizingMaskIntoConstraints="NO" id="eoM-eI-Oxd">
@@ -548,24 +560,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="vvedite text to save" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bdx-ve-J7u">
-                                <rect key="frame" x="103" y="147" width="213" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XL9-LE-KVL">
-                                <rect key="frame" x="0.0" y="390" width="414" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Read">
-                                    <color key="titleColor" red="0.93006259319999995" green="1" blue="0.097078270300000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="readbtn:" destination="NEx-ln-bFb" eventType="touchUpInside" id="1Tx-8z-wun"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="vvedite text to read" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hyr-GA-ryr">
                                 <rect key="frame" x="103" y="185" width="213" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -574,7 +568,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T44-UL-nJO">
-                                <rect key="frame" x="131" y="62" width="144" height="49"/>
+                                <rect key="frame" x="135" y="225" width="144" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -589,6 +583,36 @@
                                     <action selector="savebtn:" destination="NEx-ln-bFb" eventType="touchUpInside" id="2xZ-5q-Mcj"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fc7-Qw-iir">
+                                <rect key="frame" x="0.0" y="518" width="323" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="vvedite text to save" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Bdx-ve-J7u">
+                                <rect key="frame" x="18" y="44" width="379" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25094899535179138" green="0.25099846720695496" blue="0.25094583630561829" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.87686955118096499" green="0.94679060066527998" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="echa:" destination="NEx-ln-bFb" eventType="editingChanged" id="gEK-PD-fxA"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XL9-LE-KVL">
+                                <rect key="frame" x="0.0" y="390" width="414" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Read">
+                                    <color key="titleColor" red="0.93006259319999995" green="1" blue="0.097078270300000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="readbtn:" destination="NEx-ln-bFb" eventType="touchUpInside" id="1Tx-8z-wun"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3W1-gg-QEJ"/>
@@ -601,7 +625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jjX-2a-49F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="831.88405797101461" y="-650.54347826086962"/>
+            <point key="canvasLocation" x="809" y="-783"/>
         </scene>
         <!--Game Over View Controller-->
         <scene sceneID="bZn-VB-ryw">
@@ -769,7 +793,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WyZ-t3-Ulc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2265" y="-85"/>
+            <point key="canvasLocation" x="2210" y="-84"/>
         </scene>
     </scenes>
     <resources>
@@ -791,7 +815,6 @@
         <image name="skip" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Nfg-Ie-lt4"/>
         <segue reference="HUV-qX-d2O"/>
         <segue reference="sPG-yv-dOF"/>
     </inferredMetricsTieBreakers>

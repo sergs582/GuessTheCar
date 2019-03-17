@@ -18,6 +18,12 @@ class Hue: UIViewController {
        
     }
     
+    
+    @IBAction func echa(_ sender: Any) {
+        label.text = savetext.text
+    
+    }
+    
     @IBAction func savebtn(_ sender: Any) {
         ScoresAPI().SaveNewScore(score: savetext.text!, k: s)
         

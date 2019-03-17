@@ -42,6 +42,7 @@ class GameProcessViewController: UIViewController {
     var scoreTimer = Timer()
     var UpdTimer = Timer()
     var showHealth = Timer()
+    var closeHelp = Timer()
     
     var score : Int = 0
     var seconds : Int = 0
@@ -50,7 +51,8 @@ class GameProcessViewController: UIViewController {
     
     var Sound : Bool = true
     
-    
+    var randomNum: Int = 0
+    var randomHintNumber: Int = 0
     
     var UnusedCarNames : [String] = ["Ferrari 488 Pista", "Lamborghini Gallardo", "Dodge Challenger Hellcat", "Audi A5", "BMW M5 F90", "Chevrolete Corvete", "Ford Focus RS", "Mercedes-Benz C-Class", "Volvo V40", "Audi 80", "Audi TT", "BMW 3-series", "Chevrolete Tahoe", "Ferrari 488 GTB", "Ford Fiesta", "Ford GT", "Infinity FX37", "Infinity QX56", "Kia Sportage", "Lamborghini Aventador", "Lamborghini Urus", "McLaren 720s", "Mercedes-AMG G63", "Mercedes-Benz CLS-Class"]
     var VariantsForButtons_Easy : [String] = ["Ford Focus", "BMW M5 E60", "Lamborghini Urus","Mercedes-AMG S63", "Nissan GT-R", "Porsche Macan" ,"Audi A5", "BMW M5 F90", "Chevrolette Corvete", "Ford Focus", "Mercedes-Benz C-Class", "Volvo V40", "Audi 80", "Audi TT", "BMW 3-series", "Chevrolete Tahoe", "Ferrari 488 GTB", "Ford Fiesta", "Ford GT", "Infinity FX37", "Infinity QX56", "Kia Sportage", "Lamborghini Aventador", "McLaren 720s", "Mercedes-AMG G63", "Mercedes-Benz CLS-Class"]
@@ -62,12 +64,17 @@ class GameProcessViewController: UIViewController {
     var WrongAnswer : AVAudioPlayer = AVAudioPlayer()
     var CorrectAnswer : AVAudioPlayer = AVAudioPlayer()
     
+    var VariantsButtonsArray: [UIButton] = [UIButton]()
+    
     @IBOutlet weak var PauseMenu: UIView!
     @IBOutlet weak var ButtonsView: UIView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        VariantsButtonsArray = [FirstVariant,SecondVariant,ThirdVariant,FourthVariant]
+     
 
         FirstVariant.customCorner()
         SecondVariant.customCorner()
@@ -94,8 +101,6 @@ class GameProcessViewController: UIViewController {
             try HornSound = AVAudioPlayer(contentsOf: URL(fileURLWithPath: HornSoundPath!))
             try WrongAnswer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: WrongSoundPath!))
             try CorrectAnswer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: CorrectSoundPath!))
-
-            
         }catch{
             print(error)
         }
@@ -106,35 +111,30 @@ class GameProcessViewController: UIViewController {
         if timeProgress.progress == 1{
             timer.invalidate()
         }else{
-        timeProgress.progress += 1/1500
-            
+            timeProgress.progress += 1/1500
         }
     }
     
-    //Варианты ответов
-    @IBAction func FirstVariant(_ sender: Any) {
+    //Buttons
+    //Answers variant buttons
+    @IBAction func FirstVariantBtn(_ sender: Any) {
         makeGuess(button: FirstVariant)
-       
-      
     }
     
-    @IBAction func SecondVariant(_ sender: Any) {
+    @IBAction func SecondVariantBtn(_ sender: Any) {
        makeGuess(button: SecondVariant)
-        
     }
     
-    @IBAction func ThirdVariant(_ sender: Any) {
+    @IBAction func ThirdVariantBtn(_ sender: Any) {
        makeGuess(button: ThirdVariant)
     }
     
-    @IBAction func FourthVariant(_ sender: Any) {
+    @IBAction func FourthVariantBtn(_ sender: Any) {
       makeGuess(button: FourthVariant)
-        
     }
     
-    
+    //Enabling/Disabling sound in pause menu
     @IBAction func Sound(_ sender: Any) {
-        
         switch Sound {
         case true:
             Sound = false
@@ -143,11 +143,127 @@ class GameProcessViewController: UIViewController {
         case false:
             Sound = true
             SoundBtn.setImage(UIImage(named: "SoundOn"), for: .normal)
-            
         break
         }
-       
     }
+    
+    
+    //Pause Button and Pause Menu buttons
+    @IBAction func pauseAlpha(_ sender: Any) {
+        Pause.MakeBrighter()
+    }
+    @IBAction func pauseBtn(_ sender: Any) {
+        Pause.alpha = 1
+        Health_PauseMenu.image = UIImage(named: "\(health)Health")
+        carsGuessed_PauseMenu.text = String(cars)
+        Score_PauseMenu.text = String(score)
+        self.PauseMenu.isHidden = false
+        UIView.animate(withDuration: 0.3){
+            self.PauseMenu.alpha = 1
+        }
+        timer.invalidate()
+        scoreTimer.invalidate()
+    }
+    
+    
+    @IBAction func MainMenubtn(_ sender: Any) {
+        performSegue(withIdentifier: "MainMenu", sender: self)
+    }
+    @IBAction func continueBtn(_ sender: Any) {
+        PauseMenu.isHidden = true
+        timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(timeLeft), userInfo: nil, repeats: true)
+        scoreTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(scoreCounter), userInfo: nil, repeats: true)
+    }
+    
+    
+    
+    //Help Button and Help Menu Buttons
+    @IBAction func helpAlpha(_ sender: Any) {
+        Help.MakeBrighter()
+    }
+    
+    @IBAction func helpBtn(_ sender: Any) {
+        Help.alpha = 1
+        if HintButton.isHidden == true{
+            
+            HintButton.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.6)
+            ExtraTime.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.6)
+            SkipButton.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.6)
+            
+            HintButton.isHidden = false
+            ExtraTime.isHidden = false
+            SkipButton.isHidden = false
+            
+            HealthImage.isHidden = true
+            
+            closeHelp = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(closeHelpBtns), userInfo: nil, repeats: false)
+        }else{
+            
+            HintButton.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.0)
+            ExtraTime.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.0)
+            SkipButton.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.0)
+            
+            HintButton.isHidden = true
+            ExtraTime.isHidden = true
+            SkipButton.isHidden = true
+            closeHelp.invalidate()
+        }
+        
+        
+    }
+    
+    @objc func closeHelpBtns(){
+        HintButton.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.0)
+        ExtraTime.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.0)
+        SkipButton.backgroundColor = UIColor(red: 225/255, green: 237/255, blue: 222/255, alpha: 0.0)
+        
+        HintButton.isHidden = true
+        ExtraTime.isHidden = true
+        SkipButton.isHidden = true
+        
+        
+    }
+    
+    
+    @IBAction func HintBtnAlpha(_ sender: Any) {
+        HintButton.MakeBrighter()
+    }
+    
+    @IBAction func HintBtn(_ sender: Any) {
+        HintButton.MakeBrighter()
+        HintButton.isEnabled = false
+        RandomHintButtonGenerator()
+        for i in 0 ... 3 {
+            if i != randomHintNumber - 1 && i != randomNum - 1{
+                VariantsButtonsArray[i].setTitle("", for: .normal)
+                VariantsButtonsArray[i].isEnabled = false
+            }
+        }
+        
+    }
+    
+    
+    @IBAction func ExtraTimeAlpha(_ sender: Any) {
+        ExtraTime.MakeBrighter()
+    }
+    
+    @IBAction func ExtraTimeBtn(_ sender: Any) {
+        timeProgress.progress = 0
+        scoreTimer.invalidate()
+        seconds = 15
+        scoreTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(scoreCounter), userInfo: nil, repeats: true)
+        ExtraTime.isEnabled = false
+    }
+    
+    
+    @IBAction func SkipAlpha(_ sender: Any) {
+        SkipButton.MakeBrighter()
+    }
+    @IBAction func SkipBtn(_ sender: Any) {
+        update()
+        SkipButton.isEnabled = false
+    }
+    
     
     
     
@@ -157,6 +273,7 @@ class GameProcessViewController: UIViewController {
         SecondVariant.isEnabled = false
         ThirdVariant.isEnabled = false
         FourthVariant.isEnabled = false
+        
         if check(name: button.title(for: .normal)!) == true{
             cars += 1
             score += seconds
@@ -164,9 +281,11 @@ class GameProcessViewController: UIViewController {
             button.layer.backgroundColor = UIColor.green.cgColor
             timer.invalidate()
             scoreTimer.invalidate()
+            carsGuessed.text = String(cars)
             if Sound{
             CorrectAnswer.play()
             }
+            
             UpdTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: false)
             
         }else{
@@ -177,11 +296,10 @@ class GameProcessViewController: UIViewController {
             scoreTimer.invalidate()
             button.layer.backgroundColor = UIColor.red.cgColor
             if Sound{
-                
             WrongAnswer.play()
             }
             if health != 0 {
-            UpdTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: false)
+                 UpdTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: false)
             }else{
                  UpdTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(gameOverTimer), userInfo: nil, repeats: false)
             }
@@ -224,68 +342,13 @@ class GameProcessViewController: UIViewController {
         HealthImage.isHidden = true
     }
     
-    //просто делает кнопку светлее 208 255 108
-    @IBAction func pauseAlpha(_ sender: Any) {
-        Pause.alpha = 0.6
-    }
-    
    
-    @IBAction func pauseBtn(_ sender: Any) {
-        Pause.alpha = 1
-        Health_PauseMenu.image = UIImage(named: "\(health)Health")
-        carsGuessed_PauseMenu.text = String(cars)
-        Score_PauseMenu.text = String(score)
-        self.PauseMenu.isHidden = false
-        UIView.animate(withDuration: 0.3){
-           self.PauseMenu.alpha = 1
-        }
-        timer.invalidate()
-        scoreTimer.invalidate()
-    }
-    
-    
-    @IBAction func MainMenubtn(_ sender: Any) {
-        performSegue(withIdentifier: "MainMenu", sender: self)
-        
-    }
-    
-    
-    
-    
-    @IBAction func helpAlpha(_ sender: Any) {
-        Help.alpha = 0.6
-    }
-    @IBAction func helpBtn(_ sender: Any) {
-        Help.alpha = 1
-        if HintButton.isHidden == true{
-            
-            HintButton.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.2)
-            ExtraTime.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.2)
-            SkipButton.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.2)
-
-            HintButton.isHidden = false
-            ExtraTime.isHidden = false
-            SkipButton.isHidden = false
-            
-            HealthImage.isHidden = true
-            
-        }else{
-            
-            HintButton.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.0)
-            ExtraTime.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.0)
-            SkipButton.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.0)
-
-            HintButton.isHidden = true
-            ExtraTime.isHidden = true
-            SkipButton.isHidden = true
-        }
-    }
     
     
     //Функция принимает текст с кнопки сверяет с названием картинки и выдает значение true или false, при этом удаляя название картинки из массива названий
     func check(name: String)->Bool{
         if name == CurrentCar{
-      return true
+            return true
         }else{
             return false
         }
@@ -309,7 +372,7 @@ class GameProcessViewController: UIViewController {
             vc.Sound = Sound
             
         default:
-            print("error")
+            print("Error with segue from GameProcessViewController")
         }
       
     }
@@ -317,15 +380,11 @@ class GameProcessViewController: UIViewController {
     
     
     
-    @IBAction func continueBtn(_ sender: Any) {
-        PauseMenu.isHidden = true
-         timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(timeLeft), userInfo: nil, repeats: true)
-        scoreTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(scoreCounter), userInfo: nil, repeats: true)
-    }
+    
     
     func update(){
         
-        let randomNum = Int.random(in: 1 ... 4)
+        randomNum = Int.random(in: 1 ... 4)
         let randomCarCount = Int.random(in: 0 ..< UnusedCarNames.count)
         CurrentCar = UnusedCarNames[randomCarCount]
         UnusedCarNames.remove(at: randomCarCount)
@@ -335,6 +394,7 @@ class GameProcessViewController: UIViewController {
         SecondVariant.isEnabled = true
         ThirdVariant.isEnabled = true
         FourthVariant.isEnabled = true
+        
         switch randomNum{
         case 1: FirstVariant.setTitle(CurrentCar, for: .normal)
                 ExtraButtonTitle()
@@ -367,20 +427,23 @@ class GameProcessViewController: UIViewController {
                 ThirdVariant.setTitle(titleButton, for: .normal)
                 ExtraButtonTitle()
                 FirstVariant.setTitle(titleButton, for: .normal)
-        default: print("error")
+        default: print("Error with updating current screen")
         }
         
-        timeProgress.progress = 0
+        
         timer.invalidate()
         timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(timeLeft), userInfo: nil, repeats: true)
+        timeProgress.progress = 0
         scoreTimer.invalidate()
         seconds = 15
         scoreTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(scoreCounter), userInfo: nil, repeats: true)
+        
         FirstVariant.backgroundColor = UIColor(red: 208/255, green: 255/255, blue: 108/255, alpha: 1.0)
         SecondVariant.backgroundColor = UIColor(red: 208/255, green: 255/255, blue: 108/255, alpha: 1.0)
         ThirdVariant.backgroundColor = UIColor(red: 208/255, green: 255/255, blue: 108/255, alpha: 1.0)
         FourthVariant.backgroundColor = UIColor(red: 208/255, green: 255/255, blue: 108/255, alpha: 1.0)
-        carsGuessed.text = String(cars)
+        
+        
 
         VariantsForButtons_Easy = ["Ford Focus", "BMW M5 E60", "Lamborghini Urus","Mercedes-AMG S63", "Nissan GT-R", "Porsche Macan" ,"Audi A5", "BMW M5 F90", "Chevrolette Corvete", "Ford Focus", "Mercedes-Benz C-Class", "Volvo V40", "Audi 80", "Audi TT", "BMW 3-series", "Chevrolete Tahoe", "Ferrari 488 GTB", "Ford Fiesta", "Ford GT", "Infinity FX37", "Infinity QX56", "Kia Sportage", "Lamborghini Aventador", "McLaren 720s", "Mercedes-AMG G63", "Mercedes-Benz CLS-Class"]
         
@@ -414,7 +477,6 @@ class GameProcessViewController: UIViewController {
     какое-либо название авто если оно совпадает с названием авто на картинке то функция вызывает
      себя же опять чтобы не было двух одинаковых кнопок, так же удаляет использованное название */
     func ExtraButtonTitle(){
-        
         let randomExtraCar = Int.random(in: 0 ..< VariantsForButtons_Easy.count)
         titleButton = VariantsForButtons_Easy[randomExtraCar]
         VariantsForButtons_Easy.remove(at: randomExtraCar)
@@ -423,10 +485,18 @@ class GameProcessViewController: UIViewController {
         }
     }
     
-    
+    /* Function that generates random number for lefting two buttons enabled
+     (Button with right answer and Button that is generated by this function).
+     If generated numer equals to number of button with right answer function
+     is called agian to get unique number*/
+    func RandomHintButtonGenerator(){
+        randomHintNumber = Int.random(in: 1...4)
+        if randomHintNumber == randomNum{
+            RandomHintButtonGenerator()
+        }
+    }
     
 }
-
 
 
 
@@ -436,6 +506,9 @@ extension  UIButton {
         self.layer.cornerRadius = 8
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor(red: 193/255, green: 247/255, blue: 14/255, alpha: 0.8).cgColor
+    }
+    func MakeBrighter(){
+        self.alpha = 0.7
     }
     
 }

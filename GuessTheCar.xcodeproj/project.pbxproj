@@ -84,7 +84,7 @@
 		A583098A220479CC00326ABB /* GuessTheCar */ = {
 			isa = PBXGroup;
 			children = (
-				A5FB461A223595F400F038C4 /* plist */,
+				A5BCB1FB2227A84B00055904 /* Scores.plist */,
 				A5FB461622356E5500F038C4 /* ScoresAPI.swift */,
 				A577C4DA2204D47900F47CD0 /* Assets.xcassets */,
 				A583098B220479CC00326ABB /* AppDelegate.swift */,
@@ -101,14 +101,6 @@
 				A53E76862237AC1100EFA42E /* Hue.swift */,
 			);
 			path = GuessTheCar;
-			sourceTree = "<group>";
-		};
-		A5FB461A223595F400F038C4 /* plist */ = {
-			isa = PBXGroup;
-			children = (
-				A5BCB1FB2227A84B00055904 /* Scores.plist */,
-			);
-			path = plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
