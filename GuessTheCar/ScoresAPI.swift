@@ -20,7 +20,6 @@ class ScoresAPI {
         if let ScoresPath = Bundle.main.path(forResource: "Scores", ofType: "plist"),
             let ScoresBD = FileManager.default.contents(atPath: ScoresPath),
             let Scores = try? PropertyListDecoder.init().decode(ScoresStruct.self, from: ScoresBD){
-            print(ScoresPath)
             return Scores
         }else{
             print("error reading scores file")
@@ -65,7 +64,7 @@ class ScoresAPI {
         encoder.outputFormat = .xml
        
         let path = Bundle.main.url(forResource: "Scores", withExtension: "plist")
-        print(path)
+        
         
         do{
             let data =  try encoder.encode(Scores)

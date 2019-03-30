@@ -8,12 +8,13 @@ class Hue: UIViewController {
     @IBOutlet weak var savetext: UITextField!
     @IBOutlet weak var readtext: UITextField!
     
+  
     var s = 1
     var r = 0
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+      
         
        
     }

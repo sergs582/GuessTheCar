@@ -102,19 +102,22 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         switch segue.identifier {
+            
         case "vvediscores" : let _ = segue.destination as! Hue
             break
+            
         case "Game" :
             let vc = segue.destination as! GameProcessViewController
             vc.Sound = Sound
-       
-        
-        //let vc = segue.destination as! GameProcessViewController
-        
-        default : print("shit")
+            break
+            
+        case "ScoreView":
+            let vc = segue.destination as! ScoresViewController
+            vc.Sound = Sound
+            break
+        default : print("Error in segue from View Controller")
         }
     }
-    
     
     struct Scores: Codable {
         var Score1 : String
@@ -141,10 +144,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func ScoresBtn(_ sender: Any) {
-       var n = 0
-        
-        ScoresAPI().SaveNewScore(score: "tettt", k : n)
-      n += 1
+    performSegue(withIdentifier: "ScoresView", sender: self)
     }
     
     @IBAction func HelpBtn(_ sender: Any) {

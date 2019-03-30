@@ -91,7 +91,7 @@ class GameProcessViewController: UIViewController {
         PauseMenu.alpha = 0
         HealthImage.image = UIImage(named: "\(health)Health")
         HealthImage.alpha = 0
-        HealthImage.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.2)
+        HealthImage.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.6)
         update()
         
         let HornSoundPath = Bundle.main.path(forResource: "Horn", ofType: "wav")
@@ -497,9 +497,6 @@ class GameProcessViewController: UIViewController {
     }
     
 }
-
-
-
 
 extension  UIButton {
     func customCorner(){
