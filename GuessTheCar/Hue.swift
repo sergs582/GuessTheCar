@@ -26,7 +26,7 @@ class Hue: UIViewController {
     }
     
     @IBAction func savebtn(_ sender: Any) {
-        ScoresAPI().SaveNewScore(score: savetext.text!, k: s)
+        //ScoresAPI().SaveNewScore(score: savetext.text!, k: s)
         
         s += 1
         if s == 5{
@@ -36,7 +36,7 @@ class Hue: UIViewController {
     }
     
     @IBAction func readbtn(_ sender: Any) {
-        label.text = ScoresAPI().GetScoresList()[r]
+      //  label.text = ScoresAPI().GetScoresList()[r]
         r += 1
         if r == 5{
             r = 0

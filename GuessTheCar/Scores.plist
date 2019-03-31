@@ -2,15 +2,40 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Score1</key>
-	<string>567</string>
-	<key>Score2</key>
-	<string>432</string>
-	<key>Score3</key>
-	<string>321</string>
-	<key>Score4</key>
-	<string>111</string>
-	<key>Score5</key>
-	<string>90</string>
+	<key>No1</key>
+	<dict>
+		<key>Scores</key>
+		<integer>234</integer>
+		<key>Cars</key>
+		<integer>123</integer>
+	</dict>
+	<key>No2</key>
+	<dict>
+		<key>Scores</key>
+		<integer>365</integer>
+		<key>Cars</key>
+		<integer>14</integer>
+	</dict>
+	<key>No3</key>
+	<dict>
+		<key>Scores</key>
+		<integer>0</integer>
+		<key>Cars</key>
+		<integer>0</integer>
+	</dict>
+	<key>No4</key>
+	<dict>
+		<key>Scores</key>
+		<integer>2</integer>
+		<key>Cars</key>
+		<integer>1</integer>
+	</dict>
+	<key>No5</key>
+	<dict>
+		<key>Scores</key>
+		<integer>2444</integer>
+		<key>Cars</key>
+		<integer>435</integer>
+	</dict>
 </dict>
 </plist>

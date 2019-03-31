@@ -356,6 +356,7 @@ class GameProcessViewController: UIViewController {
     
     
     func GameOver(){
+        ScoresAPI().SaveNewScore(score: score, cars: cars)
         performSegue(withIdentifier: "GameOver", sender: self)
     }
     
