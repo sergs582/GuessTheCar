@@ -88,14 +88,15 @@ class ScoresAPI {
         let encoder = PropertyListEncoder()
         encoder.outputFormat = .xml
     
-        let path = Bundle.main.url(forResource: "Scores", withExtension: "plist")
-    
+       let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("Scores.plist")
     
         do{
             let data =  try encoder.encode(Scores)
-            try data.write(to: path!)
+            try data.write(to: path)
         }catch{
             print(error)
         }
+        print(GetScoresList())
+        print("\n \(GetCarsList())")
     }
 }

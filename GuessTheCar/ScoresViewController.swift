@@ -10,7 +10,7 @@ import UIKit
 
 class ScoresViewController: UIViewController {
  
-    var Sound : Bool = true
+  
     var ScoresArray : [Int] = [Int]()
     var CarsArray : [Int] = [Int]()
     
@@ -45,5 +45,12 @@ class ScoresViewController: UIViewController {
             CarLabelArray[i]!.text = String(CarsArray[i])
         }
         
+    }
+    @IBAction func Back(_ sender: Any) {
+        performSegue(withIdentifier: "Menu", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let _ = segue.destination as! ViewController
     }
 }

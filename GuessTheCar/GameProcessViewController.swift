@@ -74,7 +74,7 @@ class GameProcessViewController: UIViewController {
         super.viewDidLoad()
         
         VariantsButtonsArray = [FirstVariant,SecondVariant,ThirdVariant,FourthVariant]
-     
+     print("hi")
 
         FirstVariant.customCorner()
         SecondVariant.customCorner()

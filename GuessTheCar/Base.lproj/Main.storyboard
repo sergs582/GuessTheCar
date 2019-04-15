@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -65,7 +65,7 @@
                                 </state>
                                 <connections>
                                     <action selector="ScoresBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="upt-1j-ZNp"/>
-                                    <segue destination="5JF-i9-6xi" kind="presentation" identifier="ScoresView" id="1QR-VJ-U5f"/>
+                                    <segue destination="5JF-i9-6xi" kind="presentation" identifier="ScoresView" id="Xdj-Pm-VyL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsQ-uO-dN9">
@@ -455,7 +455,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="5dO-MM-e9B"/>
+                                    <action selector="Back:" destination="5JF-i9-6xi" eventType="touchUpInside" id="uIR-Jf-5gL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -490,6 +490,7 @@
                         <outlet property="Score3" destination="y6I-NH-tUD" id="VBZ-2S-IDT"/>
                         <outlet property="Score4" destination="WYN-zG-rkE" id="yoq-Qy-Lhw"/>
                         <outlet property="Score5" destination="VXl-7B-ApK" id="tXt-H4-Pt0"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="Menu" id="Azx-MT-GpZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKf-rS-a0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1163,17 +1164,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2Health" width="528" height="240"/>
-        <image name="3Health" width="528" height="240"/>
+        <image name="2Health" width="1100" height="500"/>
+        <image name="3Health" width="1100" height="500"/>
         <image name="5050" width="512" height="512"/>
         <image name="Custom Preset4" width="1080" height="1920"/>
         <image name="GameBackground2" width="1080" height="1920"/>
         <image name="GameOver" width="1080" height="1920"/>
         <image name="ScoresBack" width="1080" height="1920"/>
-        <image name="SoundOn" width="75" height="75"/>
+        <image name="SoundOn" width="100" height="100"/>
         <image name="TraficLight" width="480" height="488"/>
         <image name="car symbol" width="256" height="256"/>
-        <image name="info" width="75" height="75"/>
+        <image name="info" width="100" height="100"/>
         <image name="more time" width="200" height="200"/>
         <image name="pause" width="1600" height="1600"/>
         <image name="pause background" width="1080" height="1920"/>
@@ -1182,7 +1183,7 @@
         <image name="skip" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HUV-qX-d2O"/>
-        <segue reference="5dO-MM-e9B"/>
+        <segue reference="V1I-Bh-eHu"/>
+        <segue reference="Azx-MT-GpZ"/>
     </inferredMetricsTieBreakers>
 </document>

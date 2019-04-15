@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let soundPath = Bundle.main.path(forResource: "BackgroundSound", ofType: "mp3")
         
         do{
@@ -63,6 +62,9 @@ class ViewController: UIViewController {
     }
     
     func playSound(){
+        soundTimer.invalidate()
+        BackSound.stop()
+        BackSound.currentTime = 0
         BackSound.play()
         BackSound.volume = 0.8
         soundTimer = Timer.scheduledTimer(timeInterval: 28, target: self, selector: #selector(repeatSound), userInfo: nil, repeats: true)
@@ -78,7 +80,6 @@ class ViewController: UIViewController {
             Sound = false
             SoundBtn.setImage(UIImage(named: "SoundOff"), for: .normal)
             BackSound.stop()
-            BackSound.currentTime = 0
             soundTimer.invalidate()
             break
         case false:
@@ -103,51 +104,45 @@ class ViewController: UIViewController {
         
         switch segue.identifier {
             
-        case "vvediscores" : let _ = segue.destination as! Hue
-            break
-            
+        case "vvediscores" :
+            let _ = segue.destination as! Hue
+        case "ScoresView":
+            let _ = segue.destination as! ScoresViewController
         case "Game" :
             let vc = segue.destination as! GameProcessViewController
             vc.Sound = Sound
-            break
-            
-        case "ScoreView":
-            let vc = segue.destination as! ScoresViewController
-            vc.Sound = Sound
-            break
-        default : print("Error in segue from View Controller")
+        default :
+            print("Error in segue from View Controller")
         }
     }
     
-    struct Scores: Codable {
-        var Score1 : String
-        var Score2 : String
-        var Score3 : String
-        var Score4 : String
-        var Score5 : String
-    }
-    
-    func plist(){
-        if  let ScoresPath = Bundle.main.path(forResource: "Scores", ofType: "plist"),
-            let ScoreBD = FileManager.default.contents(atPath: ScoresPath),
-            let scoress = try? PropertyListDecoder.init().decode(Scores.self, from: ScoreBD){
-            print(scoress)
-        }
-    }
-    
-    
+
    
     
     @IBAction func HelpInfoBtn(_ sender: Any) {
-        performSegue(withIdentifier: "vvediscores", sender: self)
+    performSegue(withIdentifier: "vvediscores", sender: self)
     }
     
     
     @IBAction func ScoresBtn(_ sender: Any) {
+    BackSound.stop()
+    soundTimer.invalidate()
     performSegue(withIdentifier: "ScoresView", sender: self)
     }
     
     @IBAction func HelpBtn(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Help", message: """
+                                            The rules are simple!
+                                            Guess what car is on the
+                                            image before time is over!
+                                            """, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default
+            , handler: {
+                //убрать потом
+               _ in print("Help btn is pressed")
+        }))
+        self.present(alert, animated: true, completion: nil)
 
     }
     @objc func lights(){
