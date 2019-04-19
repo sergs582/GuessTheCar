@@ -13,23 +13,51 @@ class ScoresAPI {
         var No5 : [String: Int] = [:]
     }
     
-    /*Функция возвращает структуру состоящую из полей файла plist для
+    /* Функция
+     проверяет существует ли файл .plist(чтобы избежать создание нового при обновлении
+     если существует, то она достает нужные значения из него, если не существует, то копирует файл
+     из корня программы в нужную директорию и читает данные из нового файла
+     возвращает структуру состоящую из полей файла plist для
      дальнейшего преобразования в массив в функции GetScoresList()
      или записи новых данных в plist в функции SaveNewScore()
+     
     */
     func GetScoresStruct() -> ScoresStruct{
-        if let ScoresPath = Bundle.main.path(forResource: "Scores", ofType: "plist"),
-            let ScoresBD = FileManager.default.contents(atPath: ScoresPath),
-            let Scores = try? PropertyListDecoder.init().decode(ScoresStruct.self, from: ScoresBD){
-            return Scores
+        
+        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true) as NSArray
+        let documentsDirectory = paths.object(at: 0) as! NSString
+        let path = documentsDirectory.appendingPathComponent("Scores.plist")
+        
+        let emptyScoresStruct : ScoresStruct = ScoresStruct(No1: [:], No2: [:], No3: [:], No4: [:], No5: [:])
+        
+        let fileManager = FileManager.default
+        
+        if fileManager.fileExists(atPath: path){
+            if  let ScoresBD = FileManager.default.contents(atPath: path),
+                let Scores = try? PropertyListDecoder.init().decode(ScoresStruct.self, from: ScoresBD){
+                print("scoresPath ---- \(path)")
+                return Scores
+            }else{
+                print("error reading scores file")
+                
+                return emptyScoresStruct
+            }
         }else{
-            print("error reading scores file")
-            let emptyScoresStruct : ScoresStruct = ScoresStruct(No1: [:], No2: [:], No3: [:], No4: [:], No5: [:])
-            return emptyScoresStruct
+            do{
+                try fileManager.copyItem(atPath: Bundle.main.path(forResource: "Scores", ofType: "plist")!, toPath: path)
+                return GetScoresStruct()
+            }catch{
+                print(error)
+                return emptyScoresStruct
+                }
+        
+            }
         }
         
         
-    }
+       
+        
+    
    
     func GetScoresList() -> [Int]{
         let Scores = GetScoresStruct()
@@ -88,8 +116,7 @@ class ScoresAPI {
         let encoder = PropertyListEncoder()
         encoder.outputFormat = .xml
     
-       let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("Scores.plist")
-    
+        let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("Scores.plist")
         do{
             let data =  try encoder.encode(Scores)
             try data.write(to: path)
@@ -100,3 +127,4 @@ class ScoresAPI {
         print("\n \(GetCarsList())")
     }
 }
+

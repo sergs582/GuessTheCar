@@ -5,16 +5,16 @@
 	<key>No1</key>
 	<dict>
 		<key>Scores</key>
-		<integer>234</integer>
+		<integer>0</integer>
 		<key>Cars</key>
-		<integer>123</integer>
+		<integer>0</integer>
 	</dict>
 	<key>No2</key>
 	<dict>
 		<key>Scores</key>
-		<integer>365</integer>
+		<integer>0</integer>
 		<key>Cars</key>
-		<integer>14</integer>
+		<integer>0</integer>
 	</dict>
 	<key>No3</key>
 	<dict>
@@ -26,16 +26,16 @@
 	<key>No4</key>
 	<dict>
 		<key>Scores</key>
-		<integer>2</integer>
+		<integer>0</integer>
 		<key>Cars</key>
-		<integer>1</integer>
+		<integer>0</integer>
 	</dict>
 	<key>No5</key>
 	<dict>
 		<key>Scores</key>
-		<integer>2444</integer>
+		<integer>0</integer>
 		<key>Cars</key>
-		<integer>435</integer>
+		<integer>0</integer>
 	</dict>
 </dict>
 </plist>
