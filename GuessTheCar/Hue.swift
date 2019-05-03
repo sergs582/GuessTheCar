@@ -7,6 +7,7 @@ class Hue: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var savetext: UITextField!
     @IBOutlet weak var readtext: UITextField!
+    @IBOutlet var swipe: UISwipeGestureRecognizer!
     
   
     var s = 1
@@ -14,11 +15,13 @@ class Hue: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      
-        
-       
+        swipe = UISwipeGestureRecognizer(target: self, action: #selector(test(sender:)))
+        self.view.addGestureRecognizer(swipe)
+        self.view.draw(CGRect(x: 40, y: 40, width: 10, height: 10))
     }
-    
+    @objc func test(sender: UISwipeGestureRecognizer){
+        label.text = "Swiped"
+    }
     
     @IBAction func echa(_ sender: Any) {
         label.text = savetext.text

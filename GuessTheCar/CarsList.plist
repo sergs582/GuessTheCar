@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Alfa-Romeo 8C</string>
+	<string>BMW X6 M</string>
+	<string>AUDI RS6</string>
+	<string>Rolls-Royce Ghost</string>
+	<string>Ferrari 488 Pista</string>
+	<string>Lamborghini Gallardo</string>
+	<string>Dodge Challenger Hellcat</string>
+	<string>Audi A5</string>
+	<string>BMW M5 F90</string>
+	<string>Chevrolete Corvete</string>
+	<string>Ford Focus RS</string>
+	<string>Mercedes-Benz C-Class</string>
+	<string>Volvo V40</string>
+	<string>Audi 80</string>
+	<string>Audi TT</string>
+	<string>BMW 3-series</string>
+	<string>Chevrolete Tahoe</string>
+	<string>Ferrari 488 GTB</string>
+	<string>Ford Fiesta</string>
+	<string>Ford GT</string>
+	<string>Infinity FX37</string>
+	<string>Infinity QX56</string>
+	<string>Kia Sportage</string>
+	<string>Lamborghini Aventador</string>
+	<string>Lamborghini Urus</string>
+	<string>McLaren 720s</string>
+	<string>Mercedes-AMG G63</string>
+	<string>Mercedes-Benz CLS-Class</string>
+</array>
+</plist>

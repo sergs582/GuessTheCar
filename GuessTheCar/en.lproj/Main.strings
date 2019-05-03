@@ -1,0 +1,129 @@
+
+/* Class = "UIButton"; normalTitle = "Play"; ObjectID = "1Id-j5-iDs"; */
+"1Id-j5-iDs.normalTitle" = "Play";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "3Bn-Xh-NXO"; */
+"3Bn-Xh-NXO.text" = "5";
+
+/* Class = "UILabel"; text = "Cars Guessed"; ObjectID = "3ZZ-L2-Wdk"; */
+"3ZZ-L2-Wdk.text" = "Cars Guessed";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "42H-IZ-oG2"; */
+"42H-IZ-oG2.text" = "4";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "44v-UM-4vg"; */
+"44v-UM-4vg.text" = "0";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "4Os-b6-ofY"; */
+"4Os-b6-ofY.text" = "Score";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "75h-w7-X7D"; */
+"75h-w7-X7D.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "88T-GG-8RD"; */
+"88T-GG-8RD.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "89B-bR-oDj"; */
+"89B-bR-oDj.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Button3"; ObjectID = "8Ui-vL-EqE"; */
+"8Ui-vL-EqE.normalTitle" = "Button3";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "A0L-Dn-MLf"; */
+"A0L-Dn-MLf.text" = "#";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "Aqf-Gt-hzb"; */
+"Aqf-Gt-hzb.text" = "3";
+
+/* Class = "UITextField"; placeholder = "vvedite text to save"; ObjectID = "Bdx-ve-J7u"; */
+"Bdx-ve-J7u.placeholder" = "vvedite text to save";
+
+/* Class = "UIButton"; normalTitle = "Help"; ObjectID = "CsQ-uO-dN9"; */
+"CsQ-uO-dN9.normalTitle" = "Help";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "Gbd-Gr-wwd"; */
+"Gbd-Gr-wwd.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "LJ4-BU-avK"; */
+"LJ4-BU-avK.text" = "000";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "MF3-cX-9PE"; */
+"MF3-cX-9PE.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Main Menu"; ObjectID = "Og4-tG-irp"; */
+"Og4-tG-irp.normalTitle" = "Main Menu";
+
+/* Class = "UIButton"; normalTitle = "Button1"; ObjectID = "Q4H-em-NSG"; */
+"Q4H-em-NSG.normalTitle" = "Button1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "QYV-jw-cCd"; */
+"QYV-jw-cCd.text" = "0";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "SAc-zL-Ujc"; */
+"SAc-zL-Ujc.text" = "Score";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "Sgq-8e-rgc"; */
+"Sgq-8e-rgc.text" = "000";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "T44-UL-nJO"; */
+"T44-UL-nJO.text" = "Text";
+
+/* Class = "UILabel"; text = "Cars Guessed"; ObjectID = "TMH-oZ-RbL"; */
+"TMH-oZ-RbL.text" = "Cars Guessed";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "VXl-7B-ApK"; */
+"VXl-7B-ApK.text" = "000";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "WYN-zG-rkE"; */
+"WYN-zG-rkE.text" = "000";
+
+/* Class = "UIButton"; normalTitle = "Read"; ObjectID = "XL9-LE-KVL"; */
+"XL9-LE-KVL.normalTitle" = "Read";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "ZKN-xL-vWZ"; */
+"ZKN-xL-vWZ.text" = "000";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "aUK-T4-UsZ"; */
+"aUK-T4-UsZ.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "bPv-CV-Qoz"; */
+"bPv-CV-Qoz.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "h0r-xC-OyR"; */
+"h0r-xC-OyR.text" = "000";
+
+/* Class = "UITextField"; placeholder = "vvedite text to read"; ObjectID = "hyr-GA-ryr"; */
+"hyr-GA-ryr.placeholder" = "vvedite text to read";
+
+/* Class = "UIButton"; normalTitle = "Button2"; ObjectID = "icr-EK-rIh"; */
+"icr-EK-rIh.normalTitle" = "Button2";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "k9L-ju-fXo"; */
+"k9L-ju-fXo.text" = "1";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "lyw-gy-UGb"; */
+"lyw-gy-UGb.text" = "000";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "qVZ-ae-Vrv"; */
+"qVZ-ae-Vrv.text" = "2";
+
+/* Class = "UIButton"; normalTitle = "Scores"; ObjectID = "rJ3-X3-rNo"; */
+"rJ3-X3-rNo.normalTitle" = "Scores";
+
+/* Class = "UIButton"; normalTitle = "Restart"; ObjectID = "tcU-tZ-0fk"; */
+"tcU-tZ-0fk.normalTitle" = "Restart";
+
+/* Class = "UIButton"; normalTitle = "Back to Menu"; ObjectID = "vSj-Wz-zZH"; */
+"vSj-Wz-zZH.normalTitle" = "Back to Menu";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "vlI-ao-V3s"; */
+"vlI-ao-V3s.text" = "000";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "wUI-35-6jY"; */
+"wUI-35-6jY.text" = "000";
+
+/* Class = "UIButton"; normalTitle = "Button4"; ObjectID = "xAJ-bj-YLZ"; */
+"xAJ-bj-YLZ.normalTitle" = "Button4";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "y6I-NH-tUD"; */
+"y6I-NH-tUD.text" = "000";

@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     var Sound : Bool = true
     var BackSound : AVAudioPlayer = AVAudioPlayer()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let soundPath = Bundle.main.path(forResource: "BackgroundSound", ofType: "mp3")
@@ -33,11 +32,14 @@ class ViewController: UIViewController {
         }catch{
             print(error)
         }
+        
         Button1.layer.cornerRadius = Button1.frame.height/2
         Button2.layer.cornerRadius = Button2.frame.height/2
         Button3.layer.cornerRadius = Button3.frame.height/2
        
-        
+        Button1.isExclusiveTouch = true
+        Button2.isExclusiveTouch = true
+        Button3.isExclusiveTouch = true
         
         if Sound {
             playSound()
@@ -50,8 +52,8 @@ class ViewController: UIViewController {
         Button1.layer.backgroundColor = UIColor.red.cgColor
         Button2.layer.backgroundColor = UIColor(red: 219/255, green: 208/255, blue: 0/255, alpha: 1).cgColor
         Button3.layer.backgroundColor = UIColor(red: 40/255, green: 132/255, blue: 11/255, alpha: 1).cgColor
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(lights), userInfo: nil, repeats: true)
         
+        timer = Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(lights), userInfo: nil, repeats: true)
     }
     
     @objc func repeatSound(){

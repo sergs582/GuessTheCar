@@ -11,42 +11,85 @@
 		A530CD1A2247AD5900AB256C /* Scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = A530CD192247AD5800AB256C /* Scores.plist */; };
 		A53E76872237AC1100EFA42E /* Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53E76862237AC1100EFA42E /* Hue.swift */; };
 		A53F656F2247B6530080298F /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F656E2247B6530080298F /* ScoresViewController.swift */; };
+		A5516191226B90AB00273E29 /* GuessTheCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5516190226B90AB00273E29 /* GuessTheCarUITests.swift */; };
+		A551619F226B90BA00273E29 /* GuessTheCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551619E226B90BA00273E29 /* GuessTheCarTests.swift */; };
 		A557C6FF2219CBFC00E6BBA8 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */; };
+		A561B73D22738598003DCF52 /* CarsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A561B73C22738598003DCF52 /* CarsList.plist */; };
+		A561B73F2273917B003DCF52 /* CarsVariants.plist in Resources */ = {isa = PBXBuildFile; fileRef = A561B73E2273917B003DCF52 /* CarsVariants.plist */; };
 		A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */; };
 		A56FB2352220630900EAFAA4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56FB2342220630900EAFAA4 /* AVFoundation.framework */; };
 		A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A56FB23822206ED700EAFAA4 /* Horn.wav */; };
-		A577C4DB2204D47900F47CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A577C4DA2204D47900F47CD0 /* Assets.xcassets */; };
 		A583098C220479CC00326ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583098B220479CC00326ABB /* AppDelegate.swift */; };
 		A583098E220479CC00326ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583098D220479CC00326ABB /* ViewController.swift */; };
 		A5830991220479CC00326ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A583098F220479CC00326ABB /* Main.storyboard */; };
 		A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5830994220479CD00326ABB /* LaunchScreen.storyboard */; };
+		A5CF275222737AEE0055FAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CF275122737AED0055FAC5 /* Assets.xcassets */; };
 		A5F8E774223D87CA005B06E2 /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5F8E772223D87C9005B06E2 /* Correct.wav */; };
 		A5F8E775223D87CA005B06E2 /* Wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5F8E773223D87CA005B06E2 /* Wrong.wav */; };
 		A5FB461722356E5500F038C4 /* ScoresAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB461622356E5500F038C4 /* ScoresAPI.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5516193226B90AB00273E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5830980220479CC00326ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5830987220479CC00326ABB;
+			remoteInfo = GuessTheCar;
+		};
+		A55161A1226B90BA00273E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5830980220479CC00326ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5830987220479CC00326ABB;
+			remoteInfo = GuessTheCar;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProcessViewController.swift; sourceTree = "<group>"; };
 		A530CD192247AD5800AB256C /* Scores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Scores.plist; sourceTree = "<group>"; };
 		A53E76862237AC1100EFA42E /* Hue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hue.swift; sourceTree = "<group>"; };
 		A53F656E2247B6530080298F /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
+		A551618E226B90AB00273E29 /* GuessTheCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5516190226B90AB00273E29 /* GuessTheCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheCarUITests.swift; sourceTree = "<group>"; };
+		A5516192226B90AB00273E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A551619C226B90BA00273E29 /* GuessTheCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A551619E226B90BA00273E29 /* GuessTheCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheCarTests.swift; sourceTree = "<group>"; };
+		A55161A0226B90BA00273E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		A561B73C22738598003DCF52 /* CarsList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsList.plist; sourceTree = "<group>"; };
+		A561B73E2273917B003DCF52 /* CarsVariants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsVariants.plist; sourceTree = "<group>"; };
 		A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundSound.mp3; sourceTree = "<group>"; };
 		A56FB2342220630900EAFAA4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A56FB23822206ED700EAFAA4 /* Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Horn.wav; sourceTree = "<group>"; };
-		A577C4DA2204D47900F47CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5830988220479CC00326ABB /* GuessTheCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A583098B220479CC00326ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A583098D220479CC00326ABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5830990220479CC00326ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5830995220479CD00326ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5830997220479CD00326ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CF275122737AED0055FAC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F8E772223D87C9005B06E2 /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Correct.wav; sourceTree = "<group>"; };
 		A5F8E773223D87CA005B06E2 /* Wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Wrong.wav; sourceTree = "<group>"; };
 		A5FB461622356E5500F038C4 /* ScoresAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A551618B226B90AB00273E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5516199226B90BA00273E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5830985220479CC00326ABB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,6 +101,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A551618F226B90AB00273E29 /* GuessTheCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5516190226B90AB00273E29 /* GuessTheCarUITests.swift */,
+				A5516192226B90AB00273E29 /* Info.plist */,
+			);
+			path = GuessTheCarUITests;
+			sourceTree = "<group>";
+		};
+		A551619D226B90BA00273E29 /* GuessTheCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A551619E226B90BA00273E29 /* GuessTheCarTests.swift */,
+				A55161A0226B90BA00273E29 /* Info.plist */,
+			);
+			path = GuessTheCarTests;
+			sourceTree = "<group>";
+		};
+		A561B739227383C9003DCF52 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A56FB23822206ED700EAFAA4 /* Horn.wav */,
+				A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */,
+				A5F8E772223D87C9005B06E2 /* Correct.wav */,
+				A5F8E773223D87CA005B06E2 /* Wrong.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		A56FB2332220630900EAFAA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				A583098A220479CC00326ABB /* GuessTheCar */,
+				A551618F226B90AB00273E29 /* GuessTheCarUITests */,
+				A551619D226B90BA00273E29 /* GuessTheCarTests */,
 				A5830989220479CC00326ABB /* Products */,
 				A56FB2332220630900EAFAA4 /* Frameworks */,
 			);
@@ -79,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				A5830988220479CC00326ABB /* GuessTheCar.app */,
+				A551618E226B90AB00273E29 /* GuessTheCarUITests.xctest */,
+				A551619C226B90BA00273E29 /* GuessTheCarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +162,8 @@
 		A583098A220479CC00326ABB /* GuessTheCar */ = {
 			isa = PBXGroup;
 			children = (
-				A577C4DA2204D47900F47CD0 /* Assets.xcassets */,
+				A561B739227383C9003DCF52 /* Sounds */,
+				A5CF275122737AED0055FAC5 /* Assets.xcassets */,
 				A583098B220479CC00326ABB /* AppDelegate.swift */,
 				A583098D220479CC00326ABB /* ViewController.swift */,
 				A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */,
@@ -96,12 +173,10 @@
 				A5FB461622356E5500F038C4 /* ScoresAPI.swift */,
 				A583098F220479CC00326ABB /* Main.storyboard */,
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
-				A56FB23822206ED700EAFAA4 /* Horn.wav */,
-				A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */,
-				A5F8E772223D87C9005B06E2 /* Correct.wav */,
-				A5F8E773223D87CA005B06E2 /* Wrong.wav */,
 				A5830997220479CD00326ABB /* Info.plist */,
 				A530CD192247AD5800AB256C /* Scores.plist */,
+				A561B73C22738598003DCF52 /* CarsList.plist */,
+				A561B73E2273917B003DCF52 /* CarsVariants.plist */,
 			);
 			path = GuessTheCar;
 			sourceTree = "<group>";
@@ -109,6 +184,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A551618D226B90AB00273E29 /* GuessTheCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5516197226B90AB00273E29 /* Build configuration list for PBXNativeTarget "GuessTheCarUITests" */;
+			buildPhases = (
+				A551618A226B90AB00273E29 /* Sources */,
+				A551618B226B90AB00273E29 /* Frameworks */,
+				A551618C226B90AB00273E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5516194226B90AB00273E29 /* PBXTargetDependency */,
+			);
+			name = GuessTheCarUITests;
+			productName = GuessTheCarUITests;
+			productReference = A551618E226B90AB00273E29 /* GuessTheCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A551619B226B90BA00273E29 /* GuessTheCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55161A3226B90BA00273E29 /* Build configuration list for PBXNativeTarget "GuessTheCarTests" */;
+			buildPhases = (
+				A5516198226B90BA00273E29 /* Sources */,
+				A5516199226B90BA00273E29 /* Frameworks */,
+				A551619A226B90BA00273E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55161A2226B90BA00273E29 /* PBXTargetDependency */,
+			);
+			name = GuessTheCarTests;
+			productName = GuessTheCarTests;
+			productReference = A551619C226B90BA00273E29 /* GuessTheCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A5830987220479CC00326ABB /* GuessTheCar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A583099A220479CD00326ABB /* Build configuration list for PBXNativeTarget "GuessTheCar" */;
@@ -133,12 +244,21 @@
 		A5830980220479CC00326ABB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "сергей";
 				TargetAttributes = {
+					A551618D226B90AB00273E29 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A5830987220479CC00326ABB;
+					};
+					A551619B226B90BA00273E29 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A5830987220479CC00326ABB;
+					};
 					A5830987220479CC00326ABB = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -156,22 +276,40 @@
 			projectRoot = "";
 			targets = (
 				A5830987220479CC00326ABB /* GuessTheCar */,
+				A551618D226B90AB00273E29 /* GuessTheCarUITests */,
+				A551619B226B90BA00273E29 /* GuessTheCarTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A551618C226B90AB00273E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A551619A226B90BA00273E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5830986220479CC00326ABB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */,
+				A561B73F2273917B003DCF52 /* CarsVariants.plist in Resources */,
 				A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */,
 				A5F8E775223D87CA005B06E2 /* Wrong.wav in Resources */,
-				A577C4DB2204D47900F47CD0 /* Assets.xcassets in Resources */,
+				A561B73D22738598003DCF52 /* CarsList.plist in Resources */,
 				A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */,
 				A530CD1A2247AD5900AB256C /* Scores.plist in Resources */,
 				A5830991220479CC00326ABB /* Main.storyboard in Resources */,
+				A5CF275222737AEE0055FAC5 /* Assets.xcassets in Resources */,
 				A5F8E774223D87CA005B06E2 /* Correct.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +337,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A551618A226B90AB00273E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5516191226B90AB00273E29 /* GuessTheCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5516198226B90BA00273E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A551619F226B90BA00273E29 /* GuessTheCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5830984220479CC00326ABB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +368,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5516194226B90AB00273E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5830987220479CC00326ABB /* GuessTheCar */;
+			targetProxy = A5516193226B90AB00273E29 /* PBXContainerItemProxy */;
+		};
+		A55161A2226B90BA00273E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5830987220479CC00326ABB /* GuessTheCar */;
+			targetProxy = A55161A1226B90BA00273E29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A583098F220479CC00326ABB /* Main.storyboard */ = {
@@ -235,6 +402,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A5516195226B90AB00273E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CSPGX38AJ;
+				INFOPLIST_FILE = GuessTheCarUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test..GuessTheCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessTheCar;
+			};
+			name = Debug;
+		};
+		A5516196226B90AB00273E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CSPGX38AJ;
+				INFOPLIST_FILE = GuessTheCarUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test..GuessTheCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessTheCar;
+			};
+			name = Release;
+		};
+		A55161A4226B90BA00273E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CSPGX38AJ;
+				INFOPLIST_FILE = GuessTheCarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test..GuessTheCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheCar.app/GuessTheCar";
+			};
+			name = Debug;
+		};
+		A55161A5226B90BA00273E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CSPGX38AJ;
+				INFOPLIST_FILE = GuessTheCarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test..GuessTheCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessTheCar.app/GuessTheCar";
+			};
+			name = Release;
+		};
 		A5830998220479CD00326ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -365,7 +614,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test..GuessTheCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -384,7 +633,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test..GuessTheCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -392,6 +641,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A5516197226B90AB00273E29 /* Build configuration list for PBXNativeTarget "GuessTheCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5516195226B90AB00273E29 /* Debug */,
+				A5516196226B90AB00273E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55161A3226B90BA00273E29 /* Build configuration list for PBXNativeTarget "GuessTheCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55161A4226B90BA00273E29 /* Debug */,
+				A55161A5226B90BA00273E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5830983220479CC00326ABB /* Build configuration list for PBXProject "GuessTheCar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

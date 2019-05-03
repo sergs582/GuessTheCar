@@ -54,8 +54,8 @@ class GameProcessViewController: UIViewController {
     var randomNum: Int = 0
     var randomHintNumber: Int = 0
     
-    var UnusedCarNames : [String] = ["Ferrari 488 Pista", "Lamborghini Gallardo", "Dodge Challenger Hellcat", "Audi A5", "BMW M5 F90", "Chevrolete Corvete", "Ford Focus RS", "Mercedes-Benz C-Class", "Volvo V40", "Audi 80", "Audi TT", "BMW 3-series", "Chevrolete Tahoe", "Ferrari 488 GTB", "Ford Fiesta", "Ford GT", "Infinity FX37", "Infinity QX56", "Kia Sportage", "Lamborghini Aventador", "Lamborghini Urus", "McLaren 720s", "Mercedes-AMG G63", "Mercedes-Benz CLS-Class"]
-    var VariantsForButtons_Easy : [String] = ["Ford Focus", "BMW M5 E60", "Lamborghini Urus","Mercedes-AMG S63", "Nissan GT-R", "Porsche Macan" ,"Audi A5", "BMW M5 F90", "Chevrolette Corvete", "Ford Focus", "Mercedes-Benz C-Class", "Volvo V40", "Audi 80", "Audi TT", "BMW 3-series", "Chevrolete Tahoe", "Ferrari 488 GTB", "Ford Fiesta", "Ford GT", "Infinity FX37", "Infinity QX56", "Kia Sportage", "Lamborghini Aventador", "McLaren 720s", "Mercedes-AMG G63", "Mercedes-Benz CLS-Class"]
+    var UnusedCarNames : [String] = [String]()
+    var VariantsForButtons_Easy : [String] = [String]()
     
     var CurrentCar : String = ""
     var titleButton : String = ""
@@ -73,8 +73,16 @@ class GameProcessViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        FirstVariant.isExclusiveTouch = true
+        SecondVariant.isExclusiveTouch = true
+        ThirdVariant.isExclusiveTouch = true
+        FourthVariant.isExclusiveTouch = true
+        
+        
+       UnusedCarNames = readPlist(name: "CarsList")!
+       VariantsForButtons_Easy = readPlist(name: "CarsVariants")!
+        
         VariantsButtonsArray = [FirstVariant,SecondVariant,ThirdVariant,FourthVariant]
-     print("hi")
 
         FirstVariant.customCorner()
         SecondVariant.customCorner()
@@ -103,6 +111,17 @@ class GameProcessViewController: UIViewController {
             try CorrectAnswer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: CorrectSoundPath!))
         }catch{
             print(error)
+        }
+        
+    }
+    
+    
+    func readPlist(name: String)->[String]?{
+       if let path = Bundle.main.path(forResource: name, ofType: "plist"),
+         let CarsList = FileManager.default.contents(atPath: path) {
+            return (try? PropertyListSerialization.propertyList(from: CarsList, options: .mutableContainers, format: nil)) as? [String]
+            }else{
+                return nil
         }
         
     }
@@ -167,7 +186,16 @@ class GameProcessViewController: UIViewController {
     
     
     @IBAction func MainMenubtn(_ sender: Any) {
-        performSegue(withIdentifier: "MainMenu", sender: self)
+        let alert = UIAlertController(title: "Are You Sure?", message: "Do you want to exit?\nYour progress won't be saved!", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Exit" , style: .default, handler: {
+            (alert: UIAlertAction)-> Void in
+            self.performSegue(withIdentifier: "MainMenu", sender: self)
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: {
+            (alert: UIAlertAction) -> Void in
+        }))
+        self.present(alert, animated: true, completion: nil)
+        
     }
     @IBAction func continueBtn(_ sender: Any) {
         PauseMenu.isHidden = true
@@ -273,6 +301,7 @@ class GameProcessViewController: UIViewController {
         SecondVariant.isEnabled = false
         ThirdVariant.isEnabled = false
         FourthVariant.isEnabled = false
+        Help.isEnabled = false
         
         if check(name: button.title(for: .normal)!) == true{
             cars += 1
@@ -395,6 +424,7 @@ class GameProcessViewController: UIViewController {
         SecondVariant.isEnabled = true
         ThirdVariant.isEnabled = true
         FourthVariant.isEnabled = true
+        Help.isEnabled = true
         
         switch randomNum{
         case 1: FirstVariant.setTitle(CurrentCar, for: .normal)
@@ -446,8 +476,7 @@ class GameProcessViewController: UIViewController {
         
         
 
-        VariantsForButtons_Easy = ["Ford Focus", "BMW M5 E60", "Lamborghini Urus","Mercedes-AMG S63", "Nissan GT-R", "Porsche Macan" ,"Audi A5", "BMW M5 F90", "Chevrolette Corvete", "Ford Focus", "Mercedes-Benz C-Class", "Volvo V40", "Audi 80", "Audi TT", "BMW 3-series", "Chevrolete Tahoe", "Ferrari 488 GTB", "Ford Fiesta", "Ford GT", "Infinity FX37", "Infinity QX56", "Kia Sportage", "Lamborghini Aventador", "McLaren 720s", "Mercedes-AMG G63", "Mercedes-Benz CLS-Class"]
-        
+        VariantsForButtons_Easy = readPlist(name: "CarsVariants")!
     }
     
     @objc func scoreCounter(){
