@@ -18,6 +18,12 @@ class Hue: UIViewController {
         swipe = UISwipeGestureRecognizer(target: self, action: #selector(test(sender:)))
         self.view.addGestureRecognizer(swipe)
         self.view.draw(CGRect(x: 40, y: 40, width: 10, height: 10))
+        //let arr = readPlist(name: "AppTests")!
+       // print(arr.randomElement())
+        //print(arr["BMW"]![1])
+        
+        
+        
     }
     @objc func test(sender: UISwipeGestureRecognizer){
         label.text = "Swiped"
@@ -26,6 +32,17 @@ class Hue: UIViewController {
     @IBAction func echa(_ sender: Any) {
         label.text = savetext.text
     
+    }
+    
+    
+    func readPlist(name: String)->[String:[String]]?{
+        if let path = Bundle.main.path(forResource: name, ofType: "plist"),
+            let CarsList = FileManager.default.contents(atPath: path) {
+            return (try? PropertyListSerialization.propertyList(from: CarsList, options: .mutableContainers, format: nil)) as? [String:[String]]
+        }else{
+            return nil
+        }
+        
     }
     
     @IBAction func savebtn(_ sender: Any) {

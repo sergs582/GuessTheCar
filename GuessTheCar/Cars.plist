@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Audi</string>
+	<string>BMW</string>
+	<string>Alfa-Romeo</string>
+	<string>Rolls-Royce</string>
+	<string>Ferrari</string>
+	<string>Lamborghini</string>
+	<string>Chevrolete</string>
+	<string>Volvo</string>
+	<string>Ford</string>
+	<string>Infinity</string>
+	<string>Mercedes-Benz</string>
+	<string>Mercedes-AMG</string>
+	<string>Fiat</string>
+	<string>McLaren</string>
+	<string>Dodge</string>
+	<string>Kia</string>
+	<string>Porsche</string>
+	<string>Nissan</string>
+	<string>Other</string>
+</array>
+</plist>

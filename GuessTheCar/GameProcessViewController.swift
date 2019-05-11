@@ -54,8 +54,10 @@ class GameProcessViewController: UIViewController {
     var randomNum: Int = 0
     var randomHintNumber: Int = 0
     
-    var UnusedCarNames : [String] = [String]()
-    var VariantsForButtons_Easy : [String] = [String]()
+    var UnusedCars : [String:[String]] = [String:[String]]()
+    var VariantsForButtons : [String:[String]] = [String:[String]]()
+    var CarNamesArray : [String] = [String]()
+    var CarName : String = ""
     
     var CurrentCar : String = ""
     var titleButton : String = ""
@@ -70,17 +72,20 @@ class GameProcessViewController: UIViewController {
     @IBOutlet weak var ButtonsView: UIView!
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+    
         FirstVariant.isExclusiveTouch = true
-        SecondVariant.isExclusiveTouch = true
+      SecondVariant.isExclusiveTouch = true
         ThirdVariant.isExclusiveTouch = true
-        FourthVariant.isExclusiveTouch = true
+       FourthVariant.isExclusiveTouch = true
         
-        
-       UnusedCarNames = readPlist(name: "CarsList")!
-       VariantsForButtons_Easy = readPlist(name: "CarsVariants")!
+        CarNamesArray = readPlist(name: "Cars")!
+        UnusedCars = readPlist2(name: "CarsList")!
+        VariantsForButtons = readPlist2(name: "CarsVariants")!
         
         VariantsButtonsArray = [FirstVariant,SecondVariant,ThirdVariant,FourthVariant]
 
@@ -122,6 +127,16 @@ class GameProcessViewController: UIViewController {
             return (try? PropertyListSerialization.propertyList(from: CarsList, options: .mutableContainers, format: nil)) as? [String]
             }else{
                 return nil
+        }
+        
+    }
+    
+    func readPlist2(name: String)->[String:[String]]?{
+        if let path = Bundle.main.path(forResource: name, ofType: "plist"),
+            let CarsList = FileManager.default.contents(atPath: path) {
+            return (try? PropertyListSerialization.propertyList(from: CarsList, options: .mutableContainers, format: nil)) as? [String:[String]]
+        }else{
+            return nil
         }
         
     }
@@ -409,15 +424,39 @@ class GameProcessViewController: UIViewController {
     
     
     
-    
+    func GetCar(){
+     let RandomCarNameNum = Int.random(in: 0 ..< CarNamesArray.count)
+     CarName = CarNamesArray[RandomCarNameNum]
+        
+        if let ModelsArray = UnusedCars[CarName], ModelsArray.count != 0{
+            let randomCarCount = Int.random(in: 0 ..< ModelsArray.count)
+            if CarName == "Other"{
+                CurrentCar = ModelsArray[randomCarCount]
+            }else{
+              CurrentCar = CarName + " " + ModelsArray[randomCarCount]
+            }
+            
+            UnusedCars[CarName]!.remove(at: randomCarCount)
+            if UnusedCars[CarName]!.count == 0{
+                UnusedCars.removeValue(forKey: CarName)
+                CarNamesArray.remove(at: RandomCarNameNum)
+            }
+            
+        }else{
+            
+            GetCar()
+        }
+    }
     
     
     func update(){
         
-        randomNum = Int.random(in: 1 ... 4)
-        let randomCarCount = Int.random(in: 0 ..< UnusedCarNames.count)
-        CurrentCar = UnusedCarNames[randomCarCount]
-        UnusedCarNames.remove(at: randomCarCount)
+        
+        
+        GetCar()
+        
+        
+       
         CarImage.image = UIImage(named: CurrentCar)
        
         FirstVariant.isEnabled = true
@@ -425,6 +464,9 @@ class GameProcessViewController: UIViewController {
         ThirdVariant.isEnabled = true
         FourthVariant.isEnabled = true
         Help.isEnabled = true
+        
+        
+        randomNum = Int.random(in: 1 ... 4)
         
         switch randomNum{
         case 1: FirstVariant.setTitle(CurrentCar, for: .normal)
@@ -476,7 +518,7 @@ class GameProcessViewController: UIViewController {
         
         
 
-        VariantsForButtons_Easy = readPlist(name: "CarsVariants")!
+        VariantsForButtons = readPlist2(name: "CarsVariants")!
     }
     
     @objc func scoreCounter(){
@@ -503,22 +545,37 @@ class GameProcessViewController: UIViewController {
     }
     
     
-    /* Функиция которая из массива неиспользованных имен авто добавляет в переменную title
+    /* Функиция которая из Dictionary авто добавляет в переменную title
     какое-либо название авто если оно совпадает с названием авто на картинке то функция вызывает
-     себя же опять чтобы не было двух одинаковых кнопок, так же удаляет использованное название */
+     себя же опять чтобы не было двух одинаковых кнопок, так же удаляет использованное название
+     
+     */
     func ExtraButtonTitle(){
-        let randomExtraCar = Int.random(in: 0 ..< VariantsForButtons_Easy.count)
-        titleButton = VariantsForButtons_Easy[randomExtraCar]
-        VariantsForButtons_Easy.remove(at: randomExtraCar)
-        if titleButton == CurrentCar{
-          ExtraButtonTitle()
+        var Car = CarName //строковая переменная с названием ключа в словаре VariantsForButtons
+        
+        if VariantsForButtons[Car]!.count <= 0{   // проверка на количество элементов массива с автомобилями данной марки
+        Car = "Other"                             // если элементы закончились, то переменной Car присваиваем значение "Other",
+        }                                         // чтобы следующие значение брались из массива дополнительных авто
+        
+        let randomExtraCar = Int.random(in: 0 ..< VariantsForButtons[Car]!.count)
+        if Car == "Other"{
+            titleButton = VariantsForButtons[Car]![randomExtraCar]   // чтобы не отображать слово 'Other' в названии авто на кнопке
+        }else{
+        titleButton = CarName + " " + VariantsForButtons[Car]![randomExtraCar]
+        }
+        VariantsForButtons[Car]!.remove(at: randomExtraCar) // удаляем этот элемент из массива, чтобы несколько раз им не заполнить кнопки
+        if titleButton == CurrentCar{   // если подобранный вариант совпадает с title кнопки то функция срабатывает заново
+            ExtraButtonTitle()
         }
     }
     
-    /* Function that generates random number for lefting two buttons enabled
+    /** Function that generates random number for lefting two buttons enabled
      (Button with right answer and Button that is generated by this function).
      If generated numer equals to number of button with right answer function
-     is called agian to get unique number*/
+     is called agian to get unique number
+     
+     - returns: Nothing
+     */
     func RandomHintButtonGenerator(){
         randomHintNumber = Int.random(in: 1...4)
         if randomHintNumber == randomNum{
@@ -533,6 +590,7 @@ extension  UIButton {
         self.layer.cornerRadius = 8
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor(red: 193/255, green: 247/255, blue: 14/255, alpha: 0.8).cgColor
+        self.title
     }
     func MakeBrighter(){
         self.alpha = 0.7

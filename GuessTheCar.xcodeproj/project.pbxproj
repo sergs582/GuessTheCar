@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A5165C1022060CF0005CC20D /* GameProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */; };
+		A527B0BC2280C1F000046C1F /* CarsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BB2280C1F000046C1F /* CarsList.plist */; };
+		A527B0BE2280C20700046C1F /* Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BD2280C20700046C1F /* Cars.plist */; };
 		A530CD1A2247AD5900AB256C /* Scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = A530CD192247AD5800AB256C /* Scores.plist */; };
 		A53E76872237AC1100EFA42E /* Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53E76862237AC1100EFA42E /* Hue.swift */; };
 		A53F656F2247B6530080298F /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F656E2247B6530080298F /* ScoresViewController.swift */; };
 		A5516191226B90AB00273E29 /* GuessTheCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5516190226B90AB00273E29 /* GuessTheCarUITests.swift */; };
 		A551619F226B90BA00273E29 /* GuessTheCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551619E226B90BA00273E29 /* GuessTheCarTests.swift */; };
 		A557C6FF2219CBFC00E6BBA8 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */; };
-		A561B73D22738598003DCF52 /* CarsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A561B73C22738598003DCF52 /* CarsList.plist */; };
 		A561B73F2273917B003DCF52 /* CarsVariants.plist in Resources */ = {isa = PBXBuildFile; fileRef = A561B73E2273917B003DCF52 /* CarsVariants.plist */; };
 		A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */; };
 		A56FB2352220630900EAFAA4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56FB2342220630900EAFAA4 /* AVFoundation.framework */; };
@@ -48,6 +49,8 @@
 
 /* Begin PBXFileReference section */
 		A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProcessViewController.swift; sourceTree = "<group>"; };
+		A527B0BB2280C1F000046C1F /* CarsList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsList.plist; sourceTree = "<group>"; };
+		A527B0BD2280C20700046C1F /* Cars.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cars.plist; sourceTree = "<group>"; };
 		A530CD192247AD5800AB256C /* Scores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Scores.plist; sourceTree = "<group>"; };
 		A53E76862237AC1100EFA42E /* Hue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hue.swift; sourceTree = "<group>"; };
 		A53F656E2247B6530080298F /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +61,6 @@
 		A551619E226B90BA00273E29 /* GuessTheCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheCarTests.swift; sourceTree = "<group>"; };
 		A55161A0226B90BA00273E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
-		A561B73C22738598003DCF52 /* CarsList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsList.plist; sourceTree = "<group>"; };
 		A561B73E2273917B003DCF52 /* CarsVariants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsVariants.plist; sourceTree = "<group>"; };
 		A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundSound.mp3; sourceTree = "<group>"; };
 		A56FB2342220630900EAFAA4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -175,8 +177,9 @@
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
 				A5830997220479CD00326ABB /* Info.plist */,
 				A530CD192247AD5800AB256C /* Scores.plist */,
-				A561B73C22738598003DCF52 /* CarsList.plist */,
 				A561B73E2273917B003DCF52 /* CarsVariants.plist */,
+				A527B0BB2280C1F000046C1F /* CarsList.plist */,
+				A527B0BD2280C20700046C1F /* Cars.plist */,
 			);
 			path = GuessTheCar;
 			sourceTree = "<group>";
@@ -302,12 +305,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */,
+				A527B0BC2280C1F000046C1F /* CarsList.plist in Resources */,
 				A561B73F2273917B003DCF52 /* CarsVariants.plist in Resources */,
 				A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */,
 				A5F8E775223D87CA005B06E2 /* Wrong.wav in Resources */,
-				A561B73D22738598003DCF52 /* CarsList.plist in Resources */,
 				A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */,
 				A530CD1A2247AD5900AB256C /* Scores.plist in Resources */,
+				A527B0BE2280C20700046C1F /* Cars.plist in Resources */,
 				A5830991220479CC00326ABB /* Main.storyboard in Resources */,
 				A5CF275222737AEE0055FAC5 /* Assets.xcassets in Resources */,
 				A5F8E774223D87CA005B06E2 /* Correct.wav in Resources */,

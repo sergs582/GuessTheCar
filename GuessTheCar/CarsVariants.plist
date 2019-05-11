@@ -1,51 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <array>
-        <string>Alfa-Romeo 8C</string>
-        <string>BMW X6 M</string>
-        <string>AUDI RS6</string>
-        <string>Rolls-Royce Ghost</string>
-        <string>Ferrari 488 Pista</string>
-        <string>Lamborghini Gallardo</string>
-        <string>Dodge Challenger Hellcat</string>
-        <string>Audi A5</string>
-        <string>BMW M5 F90</string>
-        <string>Chevrolete Corvete</string>
-        <string>Ford Focus RS</string>
-        <string>Mercedes-Benz C-Class</string>
-        <string>Volvo V40</string>
-        <string>Audi 80</string>
-        <string>Audi TT</string>
-        <string>BMW 3-series</string>
-        <string>Chevrolete Tahoe</string>
-        <string>Ferrari 488 GTB</string>
-        <string>Ford Fiesta</string>
-        <string>Ford GT</string>
-        <string>Infinity FX37</string>
-        <string>Infinity QX56</string>
-        <string>Kia Sportage</string>
-        <string>Lamborghini Aventador</string>
-        <string>Lamborghini Urus</string>
-        <string>McLaren 720s</string>
-        <string>Mercedes-AMG G63</string>
-        <string>Mercedes-Benz CLS-Class</string>
-        <string>Ford Focus</string>
-        <string>BMW M5 E60</string>
-        <string>Nissan GT-R</string>
-        <string>Porsche Macan</string>
-        <string>Fiat Punto</string>
-        <string>Mercedes-AMG GLS63</string>
-        <string>Mercedes-Benz CLS-Class</string>
-        <string>Lamborghini Gallardo</string>
-        <string>McLaren P1</string>
-        <string>McLaren 600LT</string>
-        <string>McLaren 570S</string>
-        <string>Dodge Charger Hellcat</string>
-        <string>Audi Q8</string>
-        <string>Audi A8</string>
-        <string>BMW i8</string>
-        <string>BMW i3</string>
-         
-    </array>
+<dict>
+	<key>Audi</key>
+	<array>
+		<string>RS6 Avant</string>
+		<string>80</string>
+		<string>TT</string>
+		<string>Q8</string>
+		<string>A8</string>
+		<string>A5</string>
+		<string>Q7</string>
+		<string>S4</string>
+		<string>Q3 RS</string>
+		<string>A1</string>
+		<string>A6</string>
+		<string>A6 Allroad</string>
+	</array>
+	<key>BMW</key>
+	<array>
+		<string>X6 M</string>
+		<string>3-Series</string>
+		<string>M5 F90</string>
+		<string>M5 E60</string>
+		<string>M4 GTS</string>
+		<string>M6 F12</string>
+		<string>M850i</string>
+		<string>X5</string>
+		<string>X5 M</string>
+		<string>X7</string>
+	</array>
+	<key>Alfa-Romeo</key>
+	<array>
+		<string>8C</string>
+		<string>Giulia</string>
+		<string>Stelvio</string>
+		<string>Brera</string>
+		<string>159</string>
+	</array>
+	<key>Rolls-Royce</key>
+	<array>
+		<string>Ghost</string>
+		<string>Phantom</string>
+		<string>Wraith</string>
+		<string>Dawn</string>
+		<string>Cullinan</string>
+	</array>
+	<key>Ferrari</key>
+	<array>
+		<string>488 Pista</string>
+		<string>488 GTB</string>
+		<string>458 Italia</string>
+		<string>F12 Berlinetta</string>
+		<string>812 Superfast</string>
+		<string>F430</string>
+		<string>GTC4Lucco</string>
+	</array>
+	<key>Lamborghini</key>
+	<array>
+		<string>Gallardo</string>
+		<string>Aventador</string>
+		<string>Urus</string>
+		<string>Huracan</string>
+		<string>Huracan Perfomante</string>
+	</array>
+	<key>Chevrolete</key>
+	<array>
+		<string>Tahoe</string>
+		<string>Corvette</string>
+		<string>Aveo</string>
+		<string>Captiva</string>
+		<string>Cruze</string>
+	</array>
+	<key>Volvo</key>
+	<array>
+		<string>V40</string>
+		<string>S60</string>
+		<string>S40</string>
+		<string>XC 90</string>
+		<string>XC 60</string>
+	</array>
+	<key>Ford</key>
+	<array>
+		<string>Fiesta</string>
+		<string>Focus RS</string>
+		<string>GT</string>
+		<string>Mustang GT</string>
+		<string>Fusion</string>
+	</array>
+	<key>Infinity</key>
+	<array>
+		<string>FX37</string>
+		<string>QX56</string>
+		<string>EX35</string>
+		<string>M30</string>
+	</array>
+	<key>Mercedes-Benz</key>
+	<array>
+		<string>C-Class</string>
+		<string>CLS-Class</string>
+		<string>E-Class</string>
+		<string>Ml-Class</string>
+		<string>GLE-Class</string>
+		<string>S-class</string>
+	</array>
+	<key>Mercedes-AMG</key>
+	<array>
+		<string>G63</string>
+		<string>S63</string>
+		<string>E63</string>
+		<string>GLS63</string>
+		<string>A45</string>
+	</array>
+	<key>Fiat</key>
+	<array>
+		<string>Punto</string>
+		<string>500</string>
+		<string>Panda</string>
+		<string>Stilo</string>
+	</array>
+	<key>McLaren</key>
+	<array>
+		<string>720S</string>
+		<string>675LT</string>
+		<string>570S</string>
+		<string>F1</string>
+		<string>Senna</string>
+	</array>
+	<key>Dodge</key>
+	<array>
+		<string>Challenger Hellcat</string>
+		<string>Challenger Demon</string>
+		<string>Charger</string>
+		<string>Grand Caravan</string>
+		<string>Neon</string>
+	</array>
+	<key>Kia</key>
+	<array>
+		<string>Sportage</string>
+		<string>Rio</string>
+		<string>Optima</string>
+		<string>Sorento</string>
+		<string>Ceed</string>
+		<string>Cerato</string>
+	</array>
+	<key>Porsche</key>
+	<array>
+		<string>Macan</string>
+		<string>Cayenne</string>
+		<string>911</string>
+		<string>Panamera</string>
+	</array>
+	<key>Nissan</key>
+	<array>
+		<string>GT-R</string>
+		<string>Juke</string>
+		<string>Quashkai</string>
+		<string>Murano</string>
+	</array>
+	<key>Other</key>
+	<array>
+		<string>Rimac C Two</string>
+		<string>Lada Kalina</string>
+		<string>Citroen Berlingo</string>
+		<string>SEAT Toledo</string>
+		<string>Skoda Roomster</string>
+	</array>
+</dict>
 </plist>
