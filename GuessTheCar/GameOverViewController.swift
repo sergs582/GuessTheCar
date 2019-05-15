@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
-class GameOverViewController: UIViewController {
+class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
+ 
 
     
+  
     var Sound : Bool = true
     var cars : Int = 0
     var score : Int = 0
@@ -22,6 +25,7 @@ class GameOverViewController: UIViewController {
     @IBOutlet weak var BackBtn: UIButton!
     @IBOutlet weak var RestartBtn: UIButton!
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,10 +34,25 @@ class GameOverViewController: UIViewController {
         
         BackBtn.corners()
         RestartBtn.corners()
+        
+        
+        GADRewardBasedVideoAd.sharedInstance().load(GADRequest(),
+                        withAdUnitID: "ca-app-pub-3940256099942544/1712485313")
+        GADRewardBasedVideoAd.sharedInstance().delegate = self
+        
+        
+      
     }
     
+  
+    
     @IBAction func BackToMenu(_ sender: Any) {
-        performSegue(withIdentifier: "BackToMenu", sender: self)
+        if GADRewardBasedVideoAd.sharedInstance().isReady{
+            GADRewardBasedVideoAd.sharedInstance().present(fromRootViewController: self)
+        }else{
+          performSegue(withIdentifier: "BackToMenu", sender: self)
+        }
+        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "BackToMenu"{
@@ -49,6 +68,16 @@ class GameOverViewController: UIViewController {
     @IBAction func Restart(_ sender: Any) {
         performSegue(withIdentifier: "Restart", sender: self)
     }
+    
+    func rewardBasedVideoAd(_ rewardBasedVideoAd: GADRewardBasedVideoAd,
+                            didRewardUserWith reward: GADAdReward) {
+        print("Reward received with currency: \(reward.type), amount \(reward.amount).")
+    }
+    
+    func rewardBasedVideoAdDidClose(_ rewardBasedVideoAd: GADRewardBasedVideoAd) {
+        performSegue(withIdentifier: "Restart", sender: self)
+    }
+    
     
 }
 

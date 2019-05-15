@@ -8,8 +8,9 @@
 
 import UIKit
 import AVFoundation
+import GoogleMobileAds
 
-class GameProcessViewController: UIViewController {
+class GameProcessViewController: UIViewController, GADBannerViewDelegate {
 
     //Кнопки
     @IBOutlet weak var FirstVariant: UIButton!
@@ -27,7 +28,9 @@ class GameProcessViewController: UIViewController {
     
     @IBOutlet weak var timeProgress: UIProgressView!
     
-   
+    @IBOutlet weak var AdBanner: GADBannerView!
+    @IBOutlet weak var AdBannerHeight: NSLayoutConstraint!
+    
     
     @IBOutlet weak var scores: UILabel!
     @IBOutlet weak var carsGuessed: UILabel!
@@ -76,7 +79,12 @@ class GameProcessViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        AdBanner.delegate = self
+        AdBanner.adSize = kGADAdSizeSmartBannerPortrait
+        AdBanner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        AdBanner.isHidden = true
+        AdBanner.rootViewController = self
+        AdBanner.load(GADRequest())
     
         FirstVariant.isExclusiveTouch = true
       SecondVariant.isExclusiveTouch = true
@@ -120,6 +128,15 @@ class GameProcessViewController: UIViewController {
         
     }
     
+    func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
+        AdBannerHeight.constant = 0
+        AdBanner.isHidden = true
+    }
+    
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        AdBannerHeight.constant = 50
+        AdBanner.isHidden = false
+    }
     
     func readPlist(name: String)->[String]?{
        if let path = Bundle.main.path(forResource: name, ofType: "plist"),

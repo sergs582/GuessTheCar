@@ -1,0 +1,6 @@
+framework module Pods_GuessTheCar {
+  umbrella header "Pods-GuessTheCar-umbrella.h"
+
+  export *
+  module * { export * }
+}

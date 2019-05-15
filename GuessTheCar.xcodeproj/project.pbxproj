@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0082BF849C473FC1C905B074 /* Pods_GuessTheCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96A2C27CD05CB477CA5652 /* Pods_GuessTheCar.framework */; };
+		3A250D9B08281E172A125B4C /* Pods_GuessTheCarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D1B1D4F066C0D0AC1B6917 /* Pods_GuessTheCarUITests.framework */; };
 		A5165C1022060CF0005CC20D /* GameProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */; };
 		A527B0BC2280C1F000046C1F /* CarsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BB2280C1F000046C1F /* CarsList.plist */; };
 		A527B0BE2280C20700046C1F /* Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BD2280C20700046C1F /* Cars.plist */; };
@@ -28,6 +30,7 @@
 		A5F8E774223D87CA005B06E2 /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5F8E772223D87C9005B06E2 /* Correct.wav */; };
 		A5F8E775223D87CA005B06E2 /* Wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5F8E773223D87CA005B06E2 /* Wrong.wav */; };
 		A5FB461722356E5500F038C4 /* ScoresAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB461622356E5500F038C4 /* ScoresAPI.swift */; };
+		FF4045A38568189BA5D1433F /* Pods_GuessTheCarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D75BB9902EDDF983924C1D8 /* Pods_GuessTheCarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CC21D7160A517ADB9D02435 /* Pods-GuessTheCarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCarTests.debug.xcconfig"; path = "Target Support Files/Pods-GuessTheCarTests/Pods-GuessTheCarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13D1B1D4F066C0D0AC1B6917 /* Pods_GuessTheCarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheCarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FFC71179DE265DE94AB8DF /* Pods-GuessTheCarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCarTests.release.xcconfig"; path = "Target Support Files/Pods-GuessTheCarTests/Pods-GuessTheCarTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D75BB9902EDDF983924C1D8 /* Pods_GuessTheCarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheCarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProcessViewController.swift; sourceTree = "<group>"; };
 		A527B0BB2280C1F000046C1F /* CarsList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsList.plist; sourceTree = "<group>"; };
 		A527B0BD2280C20700046C1F /* Cars.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cars.plist; sourceTree = "<group>"; };
@@ -75,6 +82,11 @@
 		A5F8E772223D87C9005B06E2 /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Correct.wav; sourceTree = "<group>"; };
 		A5F8E773223D87CA005B06E2 /* Wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Wrong.wav; sourceTree = "<group>"; };
 		A5FB461622356E5500F038C4 /* ScoresAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresAPI.swift; sourceTree = "<group>"; };
+		E12746B601C073FF0860D316 /* Pods-GuessTheCarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCarUITests.release.xcconfig"; path = "Target Support Files/Pods-GuessTheCarUITests/Pods-GuessTheCarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1A051B59AD9100564F3717D /* Pods-GuessTheCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCar.release.xcconfig"; path = "Target Support Files/Pods-GuessTheCar/Pods-GuessTheCar.release.xcconfig"; sourceTree = "<group>"; };
+		E8C4CA08D25B0F1F702002CB /* Pods-GuessTheCarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCarUITests.debug.xcconfig"; path = "Target Support Files/Pods-GuessTheCarUITests/Pods-GuessTheCarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF96A2C27CD05CB477CA5652 /* Pods_GuessTheCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F203CCAC6517ED1885A02FA5 /* Pods-GuessTheCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCar.debug.xcconfig"; path = "Target Support Files/Pods-GuessTheCar/Pods-GuessTheCar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A250D9B08281E172A125B4C /* Pods_GuessTheCarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4045A38568189BA5D1433F /* Pods_GuessTheCarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +111,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56FB2352220630900EAFAA4 /* AVFoundation.framework in Frameworks */,
+				0082BF849C473FC1C905B074 /* Pods_GuessTheCar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03D3287028ACEF055E1507CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F203CCAC6517ED1885A02FA5 /* Pods-GuessTheCar.debug.xcconfig */,
+				E1A051B59AD9100564F3717D /* Pods-GuessTheCar.release.xcconfig */,
+				0CC21D7160A517ADB9D02435 /* Pods-GuessTheCarTests.debug.xcconfig */,
+				54FFC71179DE265DE94AB8DF /* Pods-GuessTheCarTests.release.xcconfig */,
+				E8C4CA08D25B0F1F702002CB /* Pods-GuessTheCarUITests.debug.xcconfig */,
+				E12746B601C073FF0860D316 /* Pods-GuessTheCarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A551618F226B90AB00273E29 /* GuessTheCarUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +165,9 @@
 			isa = PBXGroup;
 			children = (
 				A56FB2342220630900EAFAA4 /* AVFoundation.framework */,
+				EF96A2C27CD05CB477CA5652 /* Pods_GuessTheCar.framework */,
+				9D75BB9902EDDF983924C1D8 /* Pods_GuessTheCarTests.framework */,
+				13D1B1D4F066C0D0AC1B6917 /* Pods_GuessTheCarUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +180,7 @@
 				A551619D226B90BA00273E29 /* GuessTheCarTests */,
 				A5830989220479CC00326ABB /* Products */,
 				A56FB2332220630900EAFAA4 /* Frameworks */,
+				03D3287028ACEF055E1507CB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5516197226B90AB00273E29 /* Build configuration list for PBXNativeTarget "GuessTheCarUITests" */;
 			buildPhases = (
+				0A5DA8F77B037CC8D04F09B1 /* [CP] Check Pods Manifest.lock */,
 				A551618A226B90AB00273E29 /* Sources */,
 				A551618B226B90AB00273E29 /* Frameworks */,
 				A551618C226B90AB00273E29 /* Resources */,
@@ -209,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A55161A3226B90BA00273E29 /* Build configuration list for PBXNativeTarget "GuessTheCarTests" */;
 			buildPhases = (
+				1A53A522D5C7CE82A4578577 /* [CP] Check Pods Manifest.lock */,
 				A5516198226B90BA00273E29 /* Sources */,
 				A5516199226B90BA00273E29 /* Frameworks */,
 				A551619A226B90BA00273E29 /* Resources */,
@@ -227,10 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A583099A220479CD00326ABB /* Build configuration list for PBXNativeTarget "GuessTheCar" */;
 			buildPhases = (
+				5845FB2B568D2E4632E2A446 /* [CP] Check Pods Manifest.lock */,
 				A5830984220479CC00326ABB /* Sources */,
 				A5830985220479CC00326ABB /* Frameworks */,
 				A5830986220479CC00326ABB /* Resources */,
 				A53AA2612227EF06006E047B /* ShellScript */,
+				9C7F7427A918E87411435D52 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -321,6 +358,96 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0A5DA8F77B037CC8D04F09B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessTheCarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A53A522D5C7CE82A4578577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessTheCarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5845FB2B568D2E4632E2A446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessTheCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7F7427A918E87411435D52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessTheCar/Pods-GuessTheCar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessTheCar/Pods-GuessTheCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A53AA2612227EF06006E047B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,6 +535,7 @@
 /* Begin XCBuildConfiguration section */
 		A5516195226B90AB00273E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C4CA08D25B0F1F702002CB /* Pods-GuessTheCarUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CSPGX38AJ;
@@ -428,6 +556,7 @@
 		};
 		A5516196226B90AB00273E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12746B601C073FF0860D316 /* Pods-GuessTheCarUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CSPGX38AJ;
@@ -448,6 +577,7 @@
 		};
 		A55161A4226B90BA00273E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC21D7160A517ADB9D02435 /* Pods-GuessTheCarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +599,7 @@
 		};
 		A55161A5226B90BA00273E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FFC71179DE265DE94AB8DF /* Pods-GuessTheCarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -606,6 +737,7 @@
 		};
 		A583099B220479CD00326ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F203CCAC6517ED1885A02FA5 /* Pods-GuessTheCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -625,6 +757,7 @@
 		};
 		A583099C220479CD00326ABB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A051B59AD9100564F3717D /* Pods-GuessTheCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
