@@ -106,8 +106,7 @@ class ViewController: UIViewController {
         
         switch segue.identifier {
             
-        case "vvediscores" :
-            let _ = segue.destination as! Hue
+       
         case "ScoresView":
             let _ = segue.destination as! ScoresViewController
         case "Game" :
@@ -122,7 +121,7 @@ class ViewController: UIViewController {
    
     
     @IBAction func HelpInfoBtn(_ sender: Any) {
-    performSegue(withIdentifier: "vvediscores", sender: self)
+   
     }
     
     

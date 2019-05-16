@@ -79,12 +79,16 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        //Loading Ads
         AdBanner.delegate = self
         AdBanner.adSize = kGADAdSizeSmartBannerPortrait
         AdBanner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         AdBanner.isHidden = true
         AdBanner.rootViewController = self
         AdBanner.load(GADRequest())
+        GADRewardBasedVideoAd.sharedInstance().load(GADRequest(),
+                                                    withAdUnitID: "ca-app-pub-3940256099942544/1712485313")//Loading Ad to use in GameOverVC
     
         FirstVariant.isExclusiveTouch = true
       SecondVariant.isExclusiveTouch = true
@@ -608,6 +612,8 @@ extension  UIButton {
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor(red: 193/255, green: 247/255, blue: 14/255, alpha: 0.8).cgColor
         self.title
+        
+        self.titleLabel?.adjustsFontSizeToFitWidth = true
     }
     func MakeBrighter(){
         self.alpha = 0.7

@@ -13,7 +13,6 @@
 		A527B0BC2280C1F000046C1F /* CarsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BB2280C1F000046C1F /* CarsList.plist */; };
 		A527B0BE2280C20700046C1F /* Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BD2280C20700046C1F /* Cars.plist */; };
 		A530CD1A2247AD5900AB256C /* Scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = A530CD192247AD5800AB256C /* Scores.plist */; };
-		A53E76872237AC1100EFA42E /* Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53E76862237AC1100EFA42E /* Hue.swift */; };
 		A53F656F2247B6530080298F /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F656E2247B6530080298F /* ScoresViewController.swift */; };
 		A5516191226B90AB00273E29 /* GuessTheCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5516190226B90AB00273E29 /* GuessTheCarUITests.swift */; };
 		A551619F226B90BA00273E29 /* GuessTheCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551619E226B90BA00273E29 /* GuessTheCarTests.swift */; };
@@ -59,7 +58,6 @@
 		A527B0BB2280C1F000046C1F /* CarsList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsList.plist; sourceTree = "<group>"; };
 		A527B0BD2280C20700046C1F /* Cars.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cars.plist; sourceTree = "<group>"; };
 		A530CD192247AD5800AB256C /* Scores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Scores.plist; sourceTree = "<group>"; };
-		A53E76862237AC1100EFA42E /* Hue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hue.swift; sourceTree = "<group>"; };
 		A53F656E2247B6530080298F /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
 		A551618E226B90AB00273E29 /* GuessTheCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5516190226B90AB00273E29 /* GuessTheCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheCarUITests.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				E8C4CA08D25B0F1F702002CB /* Pods-GuessTheCarUITests.debug.xcconfig */,
 				E12746B601C073FF0860D316 /* Pods-GuessTheCarUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,7 +201,6 @@
 				A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */,
 				A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */,
 				A53F656E2247B6530080298F /* ScoresViewController.swift */,
-				A53E76862237AC1100EFA42E /* Hue.swift */,
 				A5FB461622356E5500F038C4 /* ScoresAPI.swift */,
 				A583098F220479CC00326ABB /* Main.storyboard */,
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
@@ -491,7 +487,6 @@
 				A557C6FF2219CBFC00E6BBA8 /* GameOverViewController.swift in Sources */,
 				A5FB461722356E5500F038C4 /* ScoresAPI.swift in Sources */,
 				A53F656F2247B6530080298F /* ScoresViewController.swift in Sources */,
-				A53E76872237AC1100EFA42E /* Hue.swift in Sources */,
 				A5165C1022060CF0005CC20D /* GameProcessViewController.swift in Sources */,
 				A583098E220479CC00326ABB /* ViewController.swift in Sources */,
 				A583098C220479CC00326ABB /* AppDelegate.swift in Sources */,

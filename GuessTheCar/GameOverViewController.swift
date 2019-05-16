@@ -36,8 +36,7 @@ class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
         RestartBtn.corners()
         
         
-        GADRewardBasedVideoAd.sharedInstance().load(GADRequest(),
-                        withAdUnitID: "ca-app-pub-3940256099942544/1712485313")
+      //Video Add is loaded in GameProcessViewController.swift, here we set delegate
         GADRewardBasedVideoAd.sharedInstance().delegate = self
         
         
@@ -47,11 +46,9 @@ class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
   
     
     @IBAction func BackToMenu(_ sender: Any) {
-        if GADRewardBasedVideoAd.sharedInstance().isReady{
-            GADRewardBasedVideoAd.sharedInstance().present(fromRootViewController: self)
-        }else{
+        
           performSegue(withIdentifier: "BackToMenu", sender: self)
-        }
+        
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -66,7 +63,11 @@ class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
         }
     }
     @IBAction func Restart(_ sender: Any) {
+        if GADRewardBasedVideoAd.sharedInstance().isReady{
+            GADRewardBasedVideoAd.sharedInstance().present(fromRootViewController: self)
+        }else{
         performSegue(withIdentifier: "Restart", sender: self)
+        }
     }
     
     func rewardBasedVideoAd(_ rewardBasedVideoAd: GADRewardBasedVideoAd,
