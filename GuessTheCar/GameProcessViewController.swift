@@ -46,6 +46,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     var UpdTimer = Timer()
     var showHealth = Timer()
     var closeHelp = Timer()
+    var BlinkingButtonTimer = Timer()
     
     var score : Int = 0
     var seconds : Int = 0
@@ -53,6 +54,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     var health : Int = 3
     
     var Sound : Bool = true
+    var IsFullPurchased: Bool = true
     
     var randomNum: Int = 0
     var randomHintNumber: Int = 0
@@ -80,16 +82,23 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         super.viewDidLoad()
         
         
+        
         //Loading Ads
+        if !IsFullPurchased{
         AdBanner.delegate = self
         AdBanner.adSize = kGADAdSizeSmartBannerPortrait
         AdBanner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         AdBanner.isHidden = true
         AdBanner.rootViewController = self
         AdBanner.load(GADRequest())
-        GADRewardBasedVideoAd.sharedInstance().load(GADRequest(),
-                                                    withAdUnitID: "ca-app-pub-3940256099942544/1712485313")//Loading Ad to use in GameOverVC
-    
+        GADRewardBasedVideoAd.sharedInstance().load(GADRequest(), withAdUnitID: "ca-app-pub-3940256099942544/1712485313")//Loading Ad to use in GameOverVC
+        }else{
+            AdBannerHeight.constant = 0
+            AdBanner.isHidden = true
+        }
+        
+        
+        
         FirstVariant.isExclusiveTouch = true
       SecondVariant.isExclusiveTouch = true
         ThirdVariant.isExclusiveTouch = true
@@ -117,8 +126,6 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         HealthImage.image = UIImage(named: "\(health)Health")
         HealthImage.alpha = 0
         HealthImage.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.6)
-        update()
-        
         let HornSoundPath = Bundle.main.path(forResource: "Horn", ofType: "wav")
         let CorrectSoundPath = Bundle.main.path(forResource: "Correct", ofType: "wav")
         let WrongSoundPath = Bundle.main.path(forResource: "Wrong", ofType: "wav")
@@ -129,6 +136,9 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         }catch{
             print(error)
         }
+        update()
+        
+       
         
     }
     
@@ -360,19 +370,28 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
             timer.invalidate()
             scoreTimer.invalidate()
             button.layer.backgroundColor = UIColor.red.cgColor
+            
+            //make as InApp Purchase
+             if IsFullPurchased{
+            BlinkingButtonTimer = Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(showAnswer), userInfo: nil, repeats: false)
+             }
             if Sound{
             WrongAnswer.play()
             }
             if health != 0 {
-                 UpdTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: false)
+                 UpdTimer = Timer.scheduledTimer(timeInterval: 1.3, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: false)
             }else{
-                 UpdTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(gameOverTimer), userInfo: nil, repeats: false)
+                 UpdTimer = Timer.scheduledTimer(timeInterval: 1.3, target: self, selector: #selector(gameOverTimer), userInfo: nil, repeats: false)
             }
         }
         
        
     }
     
+    
+    @objc func showAnswer(){
+        ShowAnswer()
+    }
     
     
     //Функция которая показывает кол-во хп в верху изображения и прячет кнопки подсказок если они включены
@@ -397,6 +416,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     }
     
     @objc func updateTimer(){
+        
         update()
     }
    
@@ -475,6 +495,12 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         
         
         GetCar()
+        
+       
+        CorrectAnswer.stop()
+        CorrectAnswer.currentTime = 0
+            
+    
         
         
        
@@ -602,6 +628,24 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         if randomHintNumber == randomNum{
             RandomHintButtonGenerator()
         }
+    }
+  
+    func ShowAnswer(){
+        switch randomNum {
+        case 1:
+            FirstVariant.layer.backgroundColor = UIColor.green.cgColor
+        case 2:
+            SecondVariant.layer.backgroundColor = UIColor.green.cgColor
+        case 3:
+            ThirdVariant.layer.backgroundColor = UIColor.green.cgColor
+        case 4:
+            FourthVariant.layer.backgroundColor = UIColor.green.cgColor
+        default:
+            return
+        }
+        
+        
+        
     }
     
 }

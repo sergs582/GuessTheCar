@@ -166,5 +166,9 @@
 		<string>SEAT Toledo</string>
 		<string>Skoda Roomster</string>
 	</array>
+	<key>Bugatti</key>
+	<array>
+		<string>Chiron</string>
+	</array>
 </dict>
 </plist>

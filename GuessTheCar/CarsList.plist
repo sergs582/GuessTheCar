@@ -97,5 +97,9 @@
 		<string>Hyundai Solaris</string>
 		<string>Saab 9-5</string>
 	</array>
+	<key>Bugatti</key>
+	<array>
+		<string>Veyron</string>
+	</array>
 </dict>
 </plist>

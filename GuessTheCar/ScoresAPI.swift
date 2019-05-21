@@ -36,7 +36,6 @@ class ScoresAPI {
         if fileManager.fileExists(atPath: path){
             if  let ScoresBD = FileManager.default.contents(atPath: path),
                 let Scores = try? PropertyListDecoder.init().decode(ScoresStruct.self, from: ScoresBD){
-                print("scoresPath ---- \(path)")
                 return Scores
             }else{
                 print("error reading scores file")
@@ -124,8 +123,7 @@ class ScoresAPI {
         }catch{
             print(error)
         }
-        print(GetScoresList())
-        print("\n \(GetCarsList())")
+      
     }
 }
 
