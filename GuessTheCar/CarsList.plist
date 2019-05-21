@@ -101,5 +101,21 @@
 	<array>
 		<string>Veyron</string>
 	</array>
+	<key>Easy</key>
+	<array>
+		<string>Opel Astra</string>
+		<string>BMW 5-Series E34</string>
+		<string>Audi A6</string>
+		<string>Honda Accord</string>
+		<string>Opel Insignia</string>
+		<string>Suzuki Swift</string>
+		<string>Subaru Outback</string>
+		<string>Renault Logan</string>
+		<string>Daewoo Matiz</string>
+		<string>Aston Martin DBS</string>
+		<string>Maserati Ghibli</string>
+		<string>Hummer H2</string>
+		<string>Ferrari 360 Modena</string>
+	</array>
 </dict>
 </plist>

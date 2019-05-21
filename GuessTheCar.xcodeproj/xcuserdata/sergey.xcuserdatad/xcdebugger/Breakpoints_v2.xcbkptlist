@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/GameProcessViewController.swift"
-            timestampString = "580123613.839519"
+            timestampString = "580148196.949214"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "444"
-            endingLineNumber = "444"
+            startingLineNumber = "445"
+            endingLineNumber = "445"
             landmarkName = "GameOver()"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/ScoresAPI.swift"
-            timestampString = "580123613.8396111"
+            timestampString = "580148196.94967"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "117"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/ScoresAPI.swift"
-            timestampString = "580123613.839699"
+            timestampString = "580148196.949735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/ScoresAPI.swift"
-            timestampString = "580123613.839783"
+            timestampString = "580148196.949793"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/ScoresAPI.swift"
-            timestampString = "580123613.83986"
+            timestampString = "580148196.949849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/GameProcessViewController.swift"
-            timestampString = "580123613.839931"
+            timestampString = "580148196.949906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/GameProcessViewController.swift"
-            timestampString = "580123613.8400331"
+            timestampString = "580148196.950388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "488"
-            endingLineNumber = "488"
+            startingLineNumber = "495"
+            endingLineNumber = "495"
             landmarkName = "GetCar()"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,7 +282,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/GameProcessViewController.swift"
-            timestampString = "580123613.840111"
+            timestampString = "580148196.9508539"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "473"
+            endingLineNumber = "473"
+            landmarkName = "GetCar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GuessTheCar/GameProcessViewController.swift"
+            timestampString = "580148196.951285"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "470"
@@ -298,27 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/GameProcessViewController.swift"
-            timestampString = "580123613.840188"
+            timestampString = "580148196.951723"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "469"
-            endingLineNumber = "469"
-            landmarkName = "GetCar()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GuessTheCar/GameProcessViewController.swift"
-            timestampString = "580123613.840263"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "467"
-            endingLineNumber = "467"
+            startingLineNumber = "468"
+            endingLineNumber = "468"
             landmarkName = "GameProcessViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuessTheCar/GameProcessViewController.swift"
-            timestampString = "580123613.84034"
+            timestampString = "580148196.952158"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "468"
-            endingLineNumber = "468"
+            startingLineNumber = "469"
+            endingLineNumber = "469"
             landmarkName = "GetCar()"
             landmarkType = "7">
          </BreakpointContent>

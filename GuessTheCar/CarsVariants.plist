@@ -170,5 +170,19 @@
 	<array>
 		<string>Chiron</string>
 	</array>
+	<key>Easy</key>
+	<array>
+		<string>Opel Omega</string>
+		<string>Opel Corsa</string>
+		<string>Dacia Sandero</string>
+		<string>Lotus Evora</string>
+		<string>Bentley Bentayga</string>
+		<string>Renault Duster</string>
+		<string>Volvo XC90</string>
+		<string>Audi A8</string>
+		<string>Dodge Neon</string>
+		<string>Ferrari F430</string>
+		<string>BMW X6</string>
+	</array>
 </dict>
 </plist>

@@ -52,9 +52,10 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     var seconds : Int = 0
     var cars : Int = 0
     var health : Int = 3
+    var EasyCarsShownCount : Int = 0
     
     var Sound : Bool = true
-    var IsFullPurchased: Bool = true
+    var IsFullPurchased: Bool = false
     
     var randomNum: Int = 0
     var randomHintNumber: Int = 0
@@ -466,19 +467,27 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     
     
     func GetCar(){
-     let RandomCarNameNum = Int.random(in: 0 ..< CarNamesArray.count)
-     CarName = CarNamesArray[RandomCarNameNum]
         
-        if let ModelsArray = UnusedCars[CarName], ModelsArray.count != 0{
+        let RandomCarNameNum = Int.random(in: 0 ..< CarNamesArray.count)
+        
+        if UnusedCars["Easy"]?.count != 0 && EasyCarsShownCount < 6 {
+            CarName = "Easy"
+            EasyCarsShownCount += 1
+        }else{
+        CarName = CarNamesArray[RandomCarNameNum]
+        }
+        
+        if let ModelsArray = UnusedCars[CarName], ModelsArray.count != 0 {
             let randomCarCount = Int.random(in: 0 ..< ModelsArray.count)
-            if CarName == "Other"{
+            
+            if CarName == "Other" || CarName == "Easy"{
                 CurrentCar = ModelsArray[randomCarCount]
             }else{
               CurrentCar = CarName + " " + ModelsArray[randomCarCount]
             }
             
             UnusedCars[CarName]!.remove(at: randomCarCount)
-            if UnusedCars[CarName]!.count == 0{
+            if UnusedCars[CarName]!.count == 0 && CarName != "Easy"{
                 UnusedCars.removeValue(forKey: CarName)
                 CarNamesArray.remove(at: RandomCarNameNum)
             }
@@ -496,7 +505,6 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         
         GetCar()
         
-       
         CorrectAnswer.stop()
         CorrectAnswer.currentTime = 0
             
@@ -605,7 +613,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         }                                         // чтобы следующие значение брались из массива дополнительных авто
         
         let randomExtraCar = Int.random(in: 0 ..< VariantsForButtons[Car]!.count)
-        if Car == "Other"{
+        if Car == "Other" || Car == "Easy"{
             titleButton = VariantsForButtons[Car]![randomExtraCar]   // чтобы не отображать слово 'Other' в названии авто на кнопке
         }else{
         titleButton = CarName + " " + VariantsForButtons[Car]![randomExtraCar]
