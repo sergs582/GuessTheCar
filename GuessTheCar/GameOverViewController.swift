@@ -9,7 +9,7 @@
 import UIKit
 import GoogleMobileAds
 
-class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
+class GameOverViewController: UIViewController, GADInterstitialDelegate {
  
 
     
@@ -18,6 +18,7 @@ class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
     var cars : Int = 0
     var score : Int = 0
     
+    var interstitial: GADInterstitial!
     
     @IBOutlet weak var carsGuessed: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
@@ -35,14 +36,22 @@ class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
         BackBtn.corners()
         RestartBtn.corners()
         
+        Sound = Preferences().getSoundState()
+       
+        interstitial = createAndLoadInterstitial()
         
-      //Video Add is loaded in GameProcessViewController.swift, here we set delegate
-        GADRewardBasedVideoAd.sharedInstance().delegate = self
-        
-        
-      
     }
     
+    func createAndLoadInterstitial()->GADInterstitial{
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-3940256099942544/4411468910")
+        interstitial.delegate = self
+        interstitial.load(GADRequest())
+        return interstitial
+    }
+    
+    func interstitialDidDismissScreen(_ ad: GADInterstitial) {
+        performSegue(withIdentifier: "Restart", sender: self)
+    }
   
     
     @IBAction func BackToMenu(_ sender: Any) {
@@ -51,33 +60,15 @@ class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
         
         
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "BackToMenu"{
-            
-        
-        let MenuVC = segue.destination as! ViewController
-        MenuVC.Sound = Sound
-        }else if segue.identifier == "Restart"{
-        let GameVC = segue.destination as! GameProcessViewController
-        GameVC.Sound = Sound
-        }
-    }
     @IBAction func Restart(_ sender: Any) {
-        if GADRewardBasedVideoAd.sharedInstance().isReady{
-            GADRewardBasedVideoAd.sharedInstance().present(fromRootViewController: self)
+        if interstitial.isReady{
+           interstitial.present(fromRootViewController: self)
         }else{
         performSegue(withIdentifier: "Restart", sender: self)
         }
     }
     
-    func rewardBasedVideoAd(_ rewardBasedVideoAd: GADRewardBasedVideoAd,
-                            didRewardUserWith reward: GADAdReward) {
-        print("Reward received with currency: \(reward.type), amount \(reward.amount).")
-    }
-    
-    func rewardBasedVideoAdDidClose(_ rewardBasedVideoAd: GADRewardBasedVideoAd) {
-        performSegue(withIdentifier: "Restart", sender: self)
-    }
+   
     
     
 }
@@ -86,7 +77,7 @@ class GameOverViewController: UIViewController, GADRewardBasedVideoAdDelegate {
 extension UIButton{
     
     func corners(){
-        self.layer.cornerRadius = 5
+        self.layer.cornerRadius = self.bounds.height/2
     }
     
 }

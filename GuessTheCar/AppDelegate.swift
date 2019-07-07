@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let save = UserDefaults.standard
+        save.set(true, forKey: "Sound")
+        if  save.value(forKey: "ProVersion") == nil {
+            
+            save.setValue(false, forKey: "ProVersion")
+            
+        }
         
         return true
     }

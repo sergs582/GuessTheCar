@@ -82,7 +82,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        IsFullPurchased = Preferences().getProVersionState()
         
         //Loading Ads
         if !IsFullPurchased{
@@ -92,18 +92,19 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         AdBanner.isHidden = true
         AdBanner.rootViewController = self
         AdBanner.load(GADRequest())
-        GADRewardBasedVideoAd.sharedInstance().load(GADRequest(), withAdUnitID: "ca-app-pub-3940256099942544/1712485313")//Loading Ad to use in GameOverVC
+       
         }else{
             AdBannerHeight.constant = 0
             AdBanner.isHidden = true
         }
         
+    
         
         
         FirstVariant.isExclusiveTouch = true
-      SecondVariant.isExclusiveTouch = true
+        SecondVariant.isExclusiveTouch = true
         ThirdVariant.isExclusiveTouch = true
-       FourthVariant.isExclusiveTouch = true
+        FourthVariant.isExclusiveTouch = true
         
         CarNamesArray = readPlist(name: "Cars")!
         UnusedCars = readPlist2(name: "CarsList")!
@@ -115,8 +116,9 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         SecondVariant.customCorner()
         ThirdVariant.customCorner()
         FourthVariant.customCorner()
-        ContinueBtn.layer.cornerRadius = 7
-        MainMenuBtn.layer.cornerRadius = 7
+        ContinueBtn.layer.cornerRadius = ContinueBtn.bounds.height/2
+        MainMenuBtn.layer.cornerRadius = MainMenuBtn.bounds.height/2
+        Sound = Preferences().getSoundState()
         if Sound {
             SoundBtn.setImage(UIImage(named: "SoundOn"), for: .normal)
         }else{
@@ -203,11 +205,11 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     @IBAction func Sound(_ sender: Any) {
         switch Sound {
         case true:
-            Sound = false
+            Sound = Preferences().setSoundState(state: false)
             SoundBtn.setImage(UIImage(named: "SoundOff"), for: .normal)
             break
         case false:
-            Sound = true
+            Sound = Preferences().setSoundState(state: true)
             SoundBtn.setImage(UIImage(named: "SoundOn"), for: .normal)
         break
         }
@@ -349,6 +351,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         ThirdVariant.isEnabled = false
         FourthVariant.isEnabled = false
         Help.isEnabled = false
+        Pause.isEnabled = false
         
         if check(name: button.title(for: .normal)!) == true{
             cars += 1
@@ -443,9 +446,18 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     
     func GameOver(){
         ScoresAPI().SaveNewScore(score: score, cars: cars)
+        
         performSegue(withIdentifier: "GameOver", sender: self)
+       
     }
-    
+    override func viewDidDisappear(_ animated: Bool) {
+         timer.invalidate()
+         scoreTimer.invalidate()
+         UpdTimer.invalidate()
+         showHealth.invalidate()
+         closeHelp.invalidate()
+         BlinkingButtonTimer.invalidate()
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
         case "GameOver":
@@ -498,10 +510,10 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         }
     }
     
-    
+    var i = 0
     func update(){
         
-        
+      
         
         GetCar()
         
@@ -511,15 +523,21 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     
         
         
-       
-        CarImage.image = UIImage(named: CurrentCar)
+        var path = Bundle.main.path(forResource: CurrentCar, ofType: "png")
+        if path == nil {
+            path = Bundle.main.path(forResource: CurrentCar, ofType: "jpg")
+        }
+        if path == nil{
+              path = Bundle.main.path(forResource: CurrentCar, ofType: "jpeg")
+        }
+        CarImage.image = UIImage(contentsOfFile: path!)
        
         FirstVariant.isEnabled = true
         SecondVariant.isEnabled = true
         ThirdVariant.isEnabled = true
         FourthVariant.isEnabled = true
         Help.isEnabled = true
-        
+        Pause.isEnabled = true
         
         randomNum = Int.random(in: 1 ... 4)
         
@@ -572,6 +590,9 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         FourthVariant.backgroundColor = UIColor(red: 208/255, green: 255/255, blue: 108/255, alpha: 1.0)
         
         
+        UpdTimer.invalidate()
+       
+        BlinkingButtonTimer.invalidate()
 
         VariantsForButtons = readPlist2(name: "CarsVariants")!
     }
@@ -606,22 +627,27 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
      
      */
     func ExtraButtonTitle(){
+       
+        repeat{
         var Car = CarName //строковая переменная с названием ключа в словаре VariantsForButtons
-        
+
         if VariantsForButtons[Car]!.count <= 0{   // проверка на количество элементов массива с автомобилями данной марки
         Car = "Other"                             // если элементы закончились, то переменной Car присваиваем значение "Other",
         }                                         // чтобы следующие значение брались из массива дополнительных авто
-        
+
         let randomExtraCar = Int.random(in: 0 ..< VariantsForButtons[Car]!.count)
         if Car == "Other" || Car == "Easy"{
             titleButton = VariantsForButtons[Car]![randomExtraCar]   // чтобы не отображать слово 'Other' в названии авто на кнопке
         }else{
         titleButton = CarName + " " + VariantsForButtons[Car]![randomExtraCar]
         }
-        VariantsForButtons[Car]!.remove(at: randomExtraCar) // удаляем этот элемент из массива, чтобы несколько раз им не заполнить кнопки
-        if titleButton == CurrentCar{   // если подобранный вариант совпадает с title кнопки то функция срабатывает заново
-            ExtraButtonTitle()
-        }
+        VariantsForButtons[Car]!.remove(at: randomExtraCar)
+        }while titleButton == CurrentCar// удаляем этот элемент из массива, чтобы несколько раз им не заполнить кнопки
+//        if titleButton == CurrentCar{   // если подобранный вариант совпадает с title кнопки то функция срабатывает заново
+//            ExtraButtonTitle()
+//        }
+        
+        
     }
     
     /** Function that generates random number for lefting two buttons enabled
@@ -663,8 +689,6 @@ extension  UIButton {
         self.layer.cornerRadius = 8
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor(red: 193/255, green: 247/255, blue: 14/255, alpha: 0.8).cgColor
-        self.title
-        
         self.titleLabel?.adjustsFontSizeToFitWidth = true
     }
     func MakeBrighter(){

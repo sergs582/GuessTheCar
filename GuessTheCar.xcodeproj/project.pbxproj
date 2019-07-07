@@ -3,12 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0082BF849C473FC1C905B074 /* Pods_GuessTheCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96A2C27CD05CB477CA5652 /* Pods_GuessTheCar.framework */; };
 		3A250D9B08281E172A125B4C /* Pods_GuessTheCarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D1B1D4F066C0D0AC1B6917 /* Pods_GuessTheCarUITests.framework */; };
+		874DD8D622D22C4D004AF43B /* CustomChalkduster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 874DD8D522D22C4D004AF43B /* CustomChalkduster.ttf */; };
+		87517A3F22CE034F00D5B0E4 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87517A3E22CE034F00D5B0E4 /* Preferences.swift */; };
+		876691A622CF40E6008F8A7F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876691A522CF40E6008F8A7F /* StoreKit.framework */; };
+		87F8697722D0E90A00D76566 /* Audi 80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694322D0E90400D76566 /* Audi 80.jpg */; };
+		87F8697822D0E90A00D76566 /* Hyundai Solaris.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694422D0E90400D76566 /* Hyundai Solaris.jpeg */; };
+		87F8697922D0E90A00D76566 /* Dodge Challenger Hellcat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694522D0E90400D76566 /* Dodge Challenger Hellcat.jpeg */; };
+		87F8697A22D0E90A00D76566 /* Audi A6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694622D0E90400D76566 /* Audi A6.jpeg */; };
+		87F8697B22D0E90A00D76566 /* Saab 9-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694722D0E90400D76566 /* Saab 9-5.jpeg */; };
+		87F8697C22D0E90A00D76566 /* Cherry Tiggo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694822D0E90400D76566 /* Cherry Tiggo.jpeg */; };
+		87F8697D22D0E90A00D76566 /* Bugatti Veyron.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694922D0E90500D76566 /* Bugatti Veyron.jpeg */; };
+		87F8697E22D0E90A00D76566 /* Maserati Ghibli.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694A22D0E90500D76566 /* Maserati Ghibli.jpeg */; };
+		87F8697F22D0E90A00D76566 /* Ferrari 360 Modena.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694B22D0E90500D76566 /* Ferrari 360 Modena.jpeg */; };
+		87F8698022D0E90A00D76566 /* Infinity FX37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694C22D0E90500D76566 /* Infinity FX37.jpg */; };
+		87F8698122D0E90A00D76566 /* McLaren 720S.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694D22D0E90500D76566 /* McLaren 720S.jpg */; };
+		87F8698222D0E90A00D76566 /* Kia Sportage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694E22D0E90500D76566 /* Kia Sportage.jpg */; };
+		87F8698322D0E90A00D76566 /* Rolls-Royce Ghost.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8694F22D0E90500D76566 /* Rolls-Royce Ghost.jpeg */; };
+		87F8698422D0E90A00D76566 /* Hummer H2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695022D0E90500D76566 /* Hummer H2.jpeg */; };
+		87F8698522D0E90A00D76566 /* BMW 3-Series.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695122D0E90500D76566 /* BMW 3-Series.jpg */; };
+		87F8698622D0E90A00D76566 /* Porsche Macan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695222D0E90500D76566 /* Porsche Macan.jpeg */; };
+		87F8698722D0E90A00D76566 /* Audi A5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695322D0E90500D76566 /* Audi A5.jpeg */; };
+		87F8698822D0E90A00D76566 /* Mercedes-Benz CLS-Class.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695422D0E90500D76566 /* Mercedes-Benz CLS-Class.jpg */; };
+		87F8698922D0E90A00D76566 /* Renault Logan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695522D0E90600D76566 /* Renault Logan.jpeg */; };
+		87F8698A22D0E90A00D76566 /* Mercedes-Benz C-Class.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695622D0E90600D76566 /* Mercedes-Benz C-Class.jpeg */; };
+		87F8698B22D0E90A00D76566 /* Chevrolete Tahoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695722D0E90600D76566 /* Chevrolete Tahoe.jpg */; };
+		87F8698C22D0E90A00D76566 /* Audi A8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695822D0E90600D76566 /* Audi A8.jpeg */; };
+		87F8698D22D0E90A00D76566 /* BMW X6 M.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695922D0E90600D76566 /* BMW X6 M.jpeg */; };
+		87F8698E22D0E90A00D76566 /* Daewoo Matiz.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695A22D0E90600D76566 /* Daewoo Matiz.jpeg */; };
+		87F8698F22D0E90A00D76566 /* Lamborghini Aventador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695B22D0E90600D76566 /* Lamborghini Aventador.jpg */; };
+		87F8699022D0E90A00D76566 /* Mercedes-AMG G63.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695C22D0E90600D76566 /* Mercedes-AMG G63.jpg */; };
+		87F8699122D0E90A00D76566 /* Nissan GT-R.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695D22D0E90600D76566 /* Nissan GT-R.jpeg */; };
+		87F8699222D0E90A00D76566 /* Ferrari 488 GTB.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695E22D0E90600D76566 /* Ferrari 488 GTB.jpeg */; };
+		87F8699322D0E90A00D76566 /* Lada Vesta.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8695F22D0E90600D76566 /* Lada Vesta.jpeg */; };
+		87F8699422D0E90A00D76566 /* Fiat Punto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696022D0E90700D76566 /* Fiat Punto.jpeg */; };
+		87F8699522D0E90A00D76566 /* Lamborghini Urus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696122D0E90700D76566 /* Lamborghini Urus.jpg */; };
+		87F8699622D0E90A00D76566 /* BMW M5 F90.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696222D0E90700D76566 /* BMW M5 F90.jpeg */; };
+		87F8699722D0E90A00D76566 /* Audi Q8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696322D0E90700D76566 /* Audi Q8.jpeg */; };
+		87F8699822D0E90A00D76566 /* Ford GT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696422D0E90700D76566 /* Ford GT.jpg */; };
+		87F8699922D0E90A00D76566 /* Opel Astra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696522D0E90700D76566 /* Opel Astra.jpeg */; };
+		87F8699A22D0E90A00D76566 /* BMW 5-Series E34.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696622D0E90800D76566 /* BMW 5-Series E34.jpeg */; };
+		87F8699B22D0E90A00D76566 /* Subaru Outback.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696722D0E90800D76566 /* Subaru Outback.jpeg */; };
+		87F8699C22D0E90A00D76566 /* Aston Martin DBS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696822D0E90800D76566 /* Aston Martin DBS.jpeg */; };
+		87F8699D22D0E90A00D76566 /* Audi TT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696922D0E90800D76566 /* Audi TT.jpg */; };
+		87F8699E22D0E90A00D76566 /* Audi RS6 Avant.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696A22D0E90800D76566 /* Audi RS6 Avant.jpeg */; };
+		87F8699F22D0E90A00D76566 /* Alfa-Romeo 8C.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696B22D0E90800D76566 /* Alfa-Romeo 8C.jpeg */; };
+		87F869A022D0E90A00D76566 /* Chevrolete Corvette.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696C22D0E90800D76566 /* Chevrolete Corvette.jpeg */; };
+		87F869A122D0E90A00D76566 /* Volvo V40.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696D22D0E90800D76566 /* Volvo V40.jpeg */; };
+		87F869A222D0E90A00D76566 /* Ford Fiesta.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696E22D0E90900D76566 /* Ford Fiesta.jpeg */; };
+		87F869A322D0E90A00D76566 /* Honda Accord.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8696F22D0E90900D76566 /* Honda Accord.jpeg */; };
+		87F869A422D0E90A00D76566 /* Ferrari 488 Pista.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8697022D0E90900D76566 /* Ferrari 488 Pista.jpg */; };
+		87F869A522D0E90A00D76566 /* Suzuki Swift.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8697122D0E90900D76566 /* Suzuki Swift.jpeg */; };
+		87F869A622D0E90A00D76566 /* Lamborghini Gallardo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8697222D0E90900D76566 /* Lamborghini Gallardo.jpeg */; };
+		87F869A722D0E90A00D76566 /* Opel Insignia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8697322D0E90900D76566 /* Opel Insignia.jpeg */; };
+		87F869A822D0E90A00D76566 /* BMW M5 E60.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8697422D0E90900D76566 /* BMW M5 E60.jpeg */; };
+		87F869A922D0E90A00D76566 /* Infinity QX56.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8697522D0E90900D76566 /* Infinity QX56.jpg */; };
+		87F869AA22D0E90A00D76566 /* Ford Focus RS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 87F8697622D0E90A00D76566 /* Ford Focus RS.jpeg */; };
 		A5165C1022060CF0005CC20D /* GameProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */; };
 		A527B0BC2280C1F000046C1F /* CarsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BB2280C1F000046C1F /* CarsList.plist */; };
 		A527B0BE2280C20700046C1F /* Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BD2280C20700046C1F /* Cars.plist */; };
@@ -53,6 +108,61 @@
 		0CC21D7160A517ADB9D02435 /* Pods-GuessTheCarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCarTests.debug.xcconfig"; path = "Target Support Files/Pods-GuessTheCarTests/Pods-GuessTheCarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13D1B1D4F066C0D0AC1B6917 /* Pods_GuessTheCarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheCarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FFC71179DE265DE94AB8DF /* Pods-GuessTheCarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCarTests.release.xcconfig"; path = "Target Support Files/Pods-GuessTheCarTests/Pods-GuessTheCarTests.release.xcconfig"; sourceTree = "<group>"; };
+		874DD8D522D22C4D004AF43B /* CustomChalkduster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CustomChalkduster.ttf; sourceTree = "<group>"; };
+		87517A3E22CE034F00D5B0E4 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		876691A522CF40E6008F8A7F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		87F8694322D0E90400D76566 /* Audi 80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi 80.jpg"; sourceTree = "<group>"; };
+		87F8694422D0E90400D76566 /* Hyundai Solaris.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hyundai Solaris.jpeg"; sourceTree = "<group>"; };
+		87F8694522D0E90400D76566 /* Dodge Challenger Hellcat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Challenger Hellcat.jpeg"; sourceTree = "<group>"; };
+		87F8694622D0E90400D76566 /* Audi A6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi A6.jpeg"; sourceTree = "<group>"; };
+		87F8694722D0E90400D76566 /* Saab 9-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Saab 9-5.jpeg"; sourceTree = "<group>"; };
+		87F8694822D0E90400D76566 /* Cherry Tiggo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cherry Tiggo.jpeg"; sourceTree = "<group>"; };
+		87F8694922D0E90500D76566 /* Bugatti Veyron.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bugatti Veyron.jpeg"; sourceTree = "<group>"; };
+		87F8694A22D0E90500D76566 /* Maserati Ghibli.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Maserati Ghibli.jpeg"; sourceTree = "<group>"; };
+		87F8694B22D0E90500D76566 /* Ferrari 360 Modena.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari 360 Modena.jpeg"; sourceTree = "<group>"; };
+		87F8694C22D0E90500D76566 /* Infinity FX37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity FX37.jpg"; sourceTree = "<group>"; };
+		87F8694D22D0E90500D76566 /* McLaren 720S.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren 720S.jpg"; sourceTree = "<group>"; };
+		87F8694E22D0E90500D76566 /* Kia Sportage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kia Sportage.jpg"; sourceTree = "<group>"; };
+		87F8694F22D0E90500D76566 /* Rolls-Royce Ghost.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rolls-Royce Ghost.jpeg"; sourceTree = "<group>"; };
+		87F8695022D0E90500D76566 /* Hummer H2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hummer H2.jpeg"; sourceTree = "<group>"; };
+		87F8695122D0E90500D76566 /* BMW 3-Series.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW 3-Series.jpg"; sourceTree = "<group>"; };
+		87F8695222D0E90500D76566 /* Porsche Macan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche Macan.jpeg"; sourceTree = "<group>"; };
+		87F8695322D0E90500D76566 /* Audi A5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi A5.jpeg"; sourceTree = "<group>"; };
+		87F8695422D0E90500D76566 /* Mercedes-Benz CLS-Class.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercedes-Benz CLS-Class.jpg"; sourceTree = "<group>"; };
+		87F8695522D0E90600D76566 /* Renault Logan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Renault Logan.jpeg"; sourceTree = "<group>"; };
+		87F8695622D0E90600D76566 /* Mercedes-Benz C-Class.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercedes-Benz C-Class.jpeg"; sourceTree = "<group>"; };
+		87F8695722D0E90600D76566 /* Chevrolete Tahoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolete Tahoe.jpg"; sourceTree = "<group>"; };
+		87F8695822D0E90600D76566 /* Audi A8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi A8.jpeg"; sourceTree = "<group>"; };
+		87F8695922D0E90600D76566 /* BMW X6 M.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW X6 M.jpeg"; sourceTree = "<group>"; };
+		87F8695A22D0E90600D76566 /* Daewoo Matiz.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Daewoo Matiz.jpeg"; sourceTree = "<group>"; };
+		87F8695B22D0E90600D76566 /* Lamborghini Aventador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Aventador.jpg"; sourceTree = "<group>"; };
+		87F8695C22D0E90600D76566 /* Mercedes-AMG G63.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercedes-AMG G63.jpg"; sourceTree = "<group>"; };
+		87F8695D22D0E90600D76566 /* Nissan GT-R.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan GT-R.jpeg"; sourceTree = "<group>"; };
+		87F8695E22D0E90600D76566 /* Ferrari 488 GTB.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari 488 GTB.jpeg"; sourceTree = "<group>"; };
+		87F8695F22D0E90600D76566 /* Lada Vesta.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lada Vesta.jpeg"; sourceTree = "<group>"; };
+		87F8696022D0E90700D76566 /* Fiat Punto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fiat Punto.jpeg"; sourceTree = "<group>"; };
+		87F8696122D0E90700D76566 /* Lamborghini Urus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Urus.jpg"; sourceTree = "<group>"; };
+		87F8696222D0E90700D76566 /* BMW M5 F90.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW M5 F90.jpeg"; sourceTree = "<group>"; };
+		87F8696322D0E90700D76566 /* Audi Q8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi Q8.jpeg"; sourceTree = "<group>"; };
+		87F8696422D0E90700D76566 /* Ford GT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford GT.jpg"; sourceTree = "<group>"; };
+		87F8696522D0E90700D76566 /* Opel Astra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Opel Astra.jpeg"; sourceTree = "<group>"; };
+		87F8696622D0E90800D76566 /* BMW 5-Series E34.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW 5-Series E34.jpeg"; sourceTree = "<group>"; };
+		87F8696722D0E90800D76566 /* Subaru Outback.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Subaru Outback.jpeg"; sourceTree = "<group>"; };
+		87F8696822D0E90800D76566 /* Aston Martin DBS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aston Martin DBS.jpeg"; sourceTree = "<group>"; };
+		87F8696922D0E90800D76566 /* Audi TT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi TT.jpg"; sourceTree = "<group>"; };
+		87F8696A22D0E90800D76566 /* Audi RS6 Avant.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi RS6 Avant.jpeg"; sourceTree = "<group>"; };
+		87F8696B22D0E90800D76566 /* Alfa-Romeo 8C.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alfa-Romeo 8C.jpeg"; sourceTree = "<group>"; };
+		87F8696C22D0E90800D76566 /* Chevrolete Corvette.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolete Corvette.jpeg"; sourceTree = "<group>"; };
+		87F8696D22D0E90800D76566 /* Volvo V40.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Volvo V40.jpeg"; sourceTree = "<group>"; };
+		87F8696E22D0E90900D76566 /* Ford Fiesta.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Fiesta.jpeg"; sourceTree = "<group>"; };
+		87F8696F22D0E90900D76566 /* Honda Accord.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Honda Accord.jpeg"; sourceTree = "<group>"; };
+		87F8697022D0E90900D76566 /* Ferrari 488 Pista.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari 488 Pista.jpg"; sourceTree = "<group>"; };
+		87F8697122D0E90900D76566 /* Suzuki Swift.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Suzuki Swift.jpeg"; sourceTree = "<group>"; };
+		87F8697222D0E90900D76566 /* Lamborghini Gallardo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Gallardo.jpeg"; sourceTree = "<group>"; };
+		87F8697322D0E90900D76566 /* Opel Insignia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Opel Insignia.jpeg"; sourceTree = "<group>"; };
+		87F8697422D0E90900D76566 /* BMW M5 E60.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW M5 E60.jpeg"; sourceTree = "<group>"; };
+		87F8697522D0E90900D76566 /* Infinity QX56.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity QX56.jpg"; sourceTree = "<group>"; };
+		87F8697622D0E90A00D76566 /* Ford Focus RS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Focus RS.jpeg"; sourceTree = "<group>"; };
 		9D75BB9902EDDF983924C1D8 /* Pods_GuessTheCarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheCarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProcessViewController.swift; sourceTree = "<group>"; };
 		A527B0BB2280C1F000046C1F /* CarsList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsList.plist; sourceTree = "<group>"; };
@@ -108,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876691A622CF40E6008F8A7F /* StoreKit.framework in Frameworks */,
 				A56FB2352220630900EAFAA4 /* AVFoundation.framework in Frameworks */,
 				0082BF849C473FC1C905B074 /* Pods_GuessTheCar.framework in Frameworks */,
 			);
@@ -127,6 +238,73 @@
 				E12746B601C073FF0860D316 /* Pods-GuessTheCarUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		874DD8D422D22C3E004AF43B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				874DD8D522D22C4D004AF43B /* CustomChalkduster.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		87F8694222D0E8ED00D76566 /* cars */ = {
+			isa = PBXGroup;
+			children = (
+				87F8696B22D0E90800D76566 /* Alfa-Romeo 8C.jpeg */,
+				87F8696822D0E90800D76566 /* Aston Martin DBS.jpeg */,
+				87F8694322D0E90400D76566 /* Audi 80.jpg */,
+				87F8695322D0E90500D76566 /* Audi A5.jpeg */,
+				87F8694622D0E90400D76566 /* Audi A6.jpeg */,
+				87F8695822D0E90600D76566 /* Audi A8.jpeg */,
+				87F8696322D0E90700D76566 /* Audi Q8.jpeg */,
+				87F8696A22D0E90800D76566 /* Audi RS6 Avant.jpeg */,
+				87F8696922D0E90800D76566 /* Audi TT.jpg */,
+				87F8695122D0E90500D76566 /* BMW 3-Series.jpg */,
+				87F8696622D0E90800D76566 /* BMW 5-Series E34.jpeg */,
+				87F8697422D0E90900D76566 /* BMW M5 E60.jpeg */,
+				87F8696222D0E90700D76566 /* BMW M5 F90.jpeg */,
+				87F8695922D0E90600D76566 /* BMW X6 M.jpeg */,
+				87F8694922D0E90500D76566 /* Bugatti Veyron.jpeg */,
+				87F8694822D0E90400D76566 /* Cherry Tiggo.jpeg */,
+				87F8696C22D0E90800D76566 /* Chevrolete Corvette.jpeg */,
+				87F8695722D0E90600D76566 /* Chevrolete Tahoe.jpg */,
+				87F8695A22D0E90600D76566 /* Daewoo Matiz.jpeg */,
+				87F8694522D0E90400D76566 /* Dodge Challenger Hellcat.jpeg */,
+				87F8694B22D0E90500D76566 /* Ferrari 360 Modena.jpeg */,
+				87F8695E22D0E90600D76566 /* Ferrari 488 GTB.jpeg */,
+				87F8697022D0E90900D76566 /* Ferrari 488 Pista.jpg */,
+				87F8696022D0E90700D76566 /* Fiat Punto.jpeg */,
+				87F8696E22D0E90900D76566 /* Ford Fiesta.jpeg */,
+				87F8697622D0E90A00D76566 /* Ford Focus RS.jpeg */,
+				87F8696422D0E90700D76566 /* Ford GT.jpg */,
+				87F8696F22D0E90900D76566 /* Honda Accord.jpeg */,
+				87F8695022D0E90500D76566 /* Hummer H2.jpeg */,
+				87F8694422D0E90400D76566 /* Hyundai Solaris.jpeg */,
+				87F8694C22D0E90500D76566 /* Infinity FX37.jpg */,
+				87F8697522D0E90900D76566 /* Infinity QX56.jpg */,
+				87F8694E22D0E90500D76566 /* Kia Sportage.jpg */,
+				87F8695F22D0E90600D76566 /* Lada Vesta.jpeg */,
+				87F8695B22D0E90600D76566 /* Lamborghini Aventador.jpg */,
+				87F8697222D0E90900D76566 /* Lamborghini Gallardo.jpeg */,
+				87F8696122D0E90700D76566 /* Lamborghini Urus.jpg */,
+				87F8694A22D0E90500D76566 /* Maserati Ghibli.jpeg */,
+				87F8694D22D0E90500D76566 /* McLaren 720S.jpg */,
+				87F8695C22D0E90600D76566 /* Mercedes-AMG G63.jpg */,
+				87F8695622D0E90600D76566 /* Mercedes-Benz C-Class.jpeg */,
+				87F8695422D0E90500D76566 /* Mercedes-Benz CLS-Class.jpg */,
+				87F8695D22D0E90600D76566 /* Nissan GT-R.jpeg */,
+				87F8696522D0E90700D76566 /* Opel Astra.jpeg */,
+				87F8697322D0E90900D76566 /* Opel Insignia.jpeg */,
+				87F8695222D0E90500D76566 /* Porsche Macan.jpeg */,
+				87F8695522D0E90600D76566 /* Renault Logan.jpeg */,
+				87F8694F22D0E90500D76566 /* Rolls-Royce Ghost.jpeg */,
+				87F8694722D0E90400D76566 /* Saab 9-5.jpeg */,
+				87F8696722D0E90800D76566 /* Subaru Outback.jpeg */,
+				87F8697122D0E90900D76566 /* Suzuki Swift.jpeg */,
+				87F8696D22D0E90800D76566 /* Volvo V40.jpeg */,
+			);
+			path = cars;
 			sourceTree = "<group>";
 		};
 		A551618F226B90AB00273E29 /* GuessTheCarUITests */ = {
@@ -161,6 +339,7 @@
 		A56FB2332220630900EAFAA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				876691A522CF40E6008F8A7F /* StoreKit.framework */,
 				A56FB2342220630900EAFAA4 /* AVFoundation.framework */,
 				EF96A2C27CD05CB477CA5652 /* Pods_GuessTheCar.framework */,
 				9D75BB9902EDDF983924C1D8 /* Pods_GuessTheCarTests.framework */,
@@ -194,14 +373,17 @@
 		A583098A220479CC00326ABB /* GuessTheCar */ = {
 			isa = PBXGroup;
 			children = (
+				87F8694222D0E8ED00D76566 /* cars */,
 				A561B739227383C9003DCF52 /* Sounds */,
 				A5CF275122737AED0055FAC5 /* Assets.xcassets */,
 				A583098B220479CC00326ABB /* AppDelegate.swift */,
+				874DD8D422D22C3E004AF43B /* Fonts */,
 				A583098D220479CC00326ABB /* ViewController.swift */,
 				A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */,
 				A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */,
 				A53F656E2247B6530080298F /* ScoresViewController.swift */,
 				A5FB461622356E5500F038C4 /* ScoresAPI.swift */,
+				87517A3E22CE034F00D5B0E4 /* Preferences.swift */,
 				A583098F220479CC00326ABB /* Main.storyboard */,
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
 				A5830997220479CD00326ABB /* Info.plist */,
@@ -295,6 +477,11 @@
 					A5830987220479CC00326ABB = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -337,17 +524,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F8698F22D0E90A00D76566 /* Lamborghini Aventador.jpg in Resources */,
 				A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */,
+				87F8699722D0E90A00D76566 /* Audi Q8.jpeg in Resources */,
+				87F8699122D0E90A00D76566 /* Nissan GT-R.jpeg in Resources */,
+				87F8699522D0E90A00D76566 /* Lamborghini Urus.jpg in Resources */,
+				874DD8D622D22C4D004AF43B /* CustomChalkduster.ttf in Resources */,
+				87F8697E22D0E90A00D76566 /* Maserati Ghibli.jpeg in Resources */,
+				87F869A822D0E90A00D76566 /* BMW M5 E60.jpeg in Resources */,
+				87F8697822D0E90A00D76566 /* Hyundai Solaris.jpeg in Resources */,
+				87F869A622D0E90A00D76566 /* Lamborghini Gallardo.jpeg in Resources */,
 				A527B0BC2280C1F000046C1F /* CarsList.plist in Resources */,
+				87F8698022D0E90A00D76566 /* Infinity FX37.jpg in Resources */,
+				87F869A022D0E90A00D76566 /* Chevrolete Corvette.jpeg in Resources */,
+				87F8697D22D0E90A00D76566 /* Bugatti Veyron.jpeg in Resources */,
 				A561B73F2273917B003DCF52 /* CarsVariants.plist in Resources */,
+				87F8697F22D0E90A00D76566 /* Ferrari 360 Modena.jpeg in Resources */,
+				87F869A322D0E90A00D76566 /* Honda Accord.jpeg in Resources */,
+				87F8699022D0E90A00D76566 /* Mercedes-AMG G63.jpg in Resources */,
 				A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */,
+				87F8699822D0E90A00D76566 /* Ford GT.jpg in Resources */,
+				87F8699E22D0E90A00D76566 /* Audi RS6 Avant.jpeg in Resources */,
 				A5F8E775223D87CA005B06E2 /* Wrong.wav in Resources */,
+				87F8698922D0E90A00D76566 /* Renault Logan.jpeg in Resources */,
+				87F869AA22D0E90A00D76566 /* Ford Focus RS.jpeg in Resources */,
+				87F8697C22D0E90A00D76566 /* Cherry Tiggo.jpeg in Resources */,
+				87F8698822D0E90A00D76566 /* Mercedes-Benz CLS-Class.jpg in Resources */,
+				87F8699F22D0E90A00D76566 /* Alfa-Romeo 8C.jpeg in Resources */,
+				87F8698B22D0E90A00D76566 /* Chevrolete Tahoe.jpg in Resources */,
+				87F8699322D0E90A00D76566 /* Lada Vesta.jpeg in Resources */,
+				87F869A922D0E90A00D76566 /* Infinity QX56.jpg in Resources */,
+				87F869A522D0E90A00D76566 /* Suzuki Swift.jpeg in Resources */,
 				A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */,
+				87F8697722D0E90A00D76566 /* Audi 80.jpg in Resources */,
+				87F869A222D0E90A00D76566 /* Ford Fiesta.jpeg in Resources */,
+				87F8699A22D0E90A00D76566 /* BMW 5-Series E34.jpeg in Resources */,
+				87F869A722D0E90A00D76566 /* Opel Insignia.jpeg in Resources */,
+				87F8699222D0E90A00D76566 /* Ferrari 488 GTB.jpeg in Resources */,
+				87F8698E22D0E90A00D76566 /* Daewoo Matiz.jpeg in Resources */,
+				87F8698422D0E90A00D76566 /* Hummer H2.jpeg in Resources */,
 				A530CD1A2247AD5900AB256C /* Scores.plist in Resources */,
+				87F8697A22D0E90A00D76566 /* Audi A6.jpeg in Resources */,
 				A527B0BE2280C20700046C1F /* Cars.plist in Resources */,
+				87F8698222D0E90A00D76566 /* Kia Sportage.jpg in Resources */,
 				A5830991220479CC00326ABB /* Main.storyboard in Resources */,
+				87F8698322D0E90A00D76566 /* Rolls-Royce Ghost.jpeg in Resources */,
 				A5CF275222737AEE0055FAC5 /* Assets.xcassets in Resources */,
+				87F8698A22D0E90A00D76566 /* Mercedes-Benz C-Class.jpeg in Resources */,
+				87F8699922D0E90A00D76566 /* Opel Astra.jpeg in Resources */,
+				87F8697922D0E90A00D76566 /* Dodge Challenger Hellcat.jpeg in Resources */,
+				87F8699422D0E90A00D76566 /* Fiat Punto.jpeg in Resources */,
+				87F869A422D0E90A00D76566 /* Ferrari 488 Pista.jpg in Resources */,
+				87F8698522D0E90A00D76566 /* BMW 3-Series.jpg in Resources */,
 				A5F8E774223D87CA005B06E2 /* Correct.wav in Resources */,
+				87F8698722D0E90A00D76566 /* Audi A5.jpeg in Resources */,
+				87F8698122D0E90A00D76566 /* McLaren 720S.jpg in Resources */,
+				87F8698622D0E90A00D76566 /* Porsche Macan.jpeg in Resources */,
+				87F8698C22D0E90A00D76566 /* Audi A8.jpeg in Resources */,
+				87F869A122D0E90A00D76566 /* Volvo V40.jpeg in Resources */,
+				87F8698D22D0E90A00D76566 /* BMW X6 M.jpeg in Resources */,
+				87F8699622D0E90A00D76566 /* BMW M5 F90.jpeg in Resources */,
+				87F8697B22D0E90A00D76566 /* Saab 9-5.jpeg in Resources */,
+				87F8699C22D0E90A00D76566 /* Aston Martin DBS.jpeg in Resources */,
+				87F8699D22D0E90A00D76566 /* Audi TT.jpg in Resources */,
+				87F8699B22D0E90A00D76566 /* Subaru Outback.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +718,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A557C6FF2219CBFC00E6BBA8 /* GameOverViewController.swift in Sources */,
+				87517A3F22CE034F00D5B0E4 /* Preferences.swift in Sources */,
 				A5FB461722356E5500F038C4 /* ScoresAPI.swift in Sources */,
 				A53F656F2247B6530080298F /* ScoresViewController.swift in Sources */,
 				A5165C1022060CF0005CC20D /* GameProcessViewController.swift in Sources */,
@@ -729,14 +970,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CSPGX38AJ;
+				DEVELOPMENT_TEAM = S2R484H276;
 				INFOPLIST_FILE = GuessTheCar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test..GuessTheCar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorsoftcorp.guessthecar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -749,14 +990,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CSPGX38AJ;
+				DEVELOPMENT_TEAM = S2R484H276;
 				INFOPLIST_FILE = GuessTheCar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test..GuessTheCar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorsoftcorp.guessthecar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
