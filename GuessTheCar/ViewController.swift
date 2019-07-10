@@ -77,7 +77,7 @@ class ViewController: UIViewController, SKPaymentTransactionObserver, SKProducts
         }
         
         Button1.layer.backgroundColor = UIColor.red.cgColor
-        Button2.layer.backgroundColor = UIColor(red: 219/255, green: 208/255, blue: 0/255, alpha: 1).cgColor
+        Button2.layer.backgroundColor = UIColor(red: 189/255, green: 179/255, blue: 2/255, alpha: 1).cgColor
         Button3.layer.backgroundColor = UIColor(red: 40/255, green: 132/255, blue: 11/255, alpha: 1).cgColor
         
         timer = Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(lights), userInfo: nil, repeats: true)
@@ -241,7 +241,7 @@ class ViewController: UIViewController, SKPaymentTransactionObserver, SKProducts
             Button2.layer.backgroundColor = UIColor.yellow.cgColor
         case 3:
              Button3.layer.backgroundColor = UIColor.green.cgColor
-              Button2.layer.backgroundColor = UIColor(red: 219/255, green: 208/255, blue: 0/255, alpha: 1).cgColor
+              Button2.layer.backgroundColor = UIColor(red: 189/255, green: 179/255, blue: 2/255, alpha: 1).cgColor
         default:
             break
         }

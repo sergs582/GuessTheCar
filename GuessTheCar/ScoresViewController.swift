@@ -45,11 +45,11 @@ class ScoresViewController: UIViewController {
             CarLabelArray[i]!.text = String(CarsArray[i])
         }
 
-        if #available(iOS 13.0, *) {
-            self.isModalInPresentation = true
-        } else {
-            
-        }
+//        if #available(iOS 13.0, *) {
+//            self.isModalInPresentation = true
+//        } else {
+//
+//        }
     
     }
     

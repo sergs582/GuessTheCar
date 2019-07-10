@@ -3,24 +3,52 @@
 <plist version="1.0">
 <array>
 	<string>Audi</string>
+	<string>Acura</string>
 	<string>BMW</string>
-	<string>Alfa-Romeo</string>
-	<string>Rolls-Royce</string>
+	<string>Alfa Romeo</string>
+	<string>Aston Martin</string>
+	<string>Bentley</string>
+	<string>Bugatti</string>
+	<string>Cadillac</string>
+	<string>Chevrolet</string>
+	<string>Chrysler</string>
+	<string>Citroen</string>
+	<string>Dodge</string>
 	<string>Ferrari</string>
-	<string>Lamborghini</string>
-	<string>Chevrolete</string>
-	<string>Volvo</string>
+	<string>Fiat</string>
 	<string>Ford</string>
+	<string>GMC</string>
+	<string>Honda</string>
+	<string>Hummer</string>
+	<string>Hyundai</string>
 	<string>Infinity</string>
+	<string>Jaguar</string>
+	<string>Jeep</string>
+	<string>KIA</string>
+	<string>Koenigsegg</string>
+	<string>Lamborghini</string>
+	<string>Land Rover</string>
+	<string>Lexus</string>
+	<string>Lincoln</string>
+	<string>Maserati</string>
+	<string>Mazda</string>
+	<string>McLaren</string>
 	<string>Mercedes-Benz</string>
 	<string>Mercedes-AMG</string>
-	<string>Fiat</string>
-	<string>McLaren</string>
-	<string>Dodge</string>
-	<string>Kia</string>
-	<string>Porsche</string>
+	<string>Mini</string>
+	<string>Mitsubishi</string>
 	<string>Nissan</string>
+	<string>Opel</string>
+	<string>Peugeot</string>
+	<string>Porsche</string>
+	<string>Renault</string>
+	<string>Rolls-Royce</string>
+	<string>Skoda</string>
+	<string>Subaru</string>
+	<string>Tesla</string>
+	<string>Toyota</string>
+	<string>VW</string>
+	<string>Volvo</string>
 	<string>Other</string>
-	<string>Bugatti</string>
 </array>
 </plist>
