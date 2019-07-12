@@ -222,6 +222,11 @@ class ViewController: UIViewController, SKPaymentTransactionObserver, SKProducts
                                             The rules are simple!
                                             Guess what car is on the
                                             image before time is over!
+                                            Don't forget about tips at the top.
+                                            If you want to add your favourite
+                                            car, send it to our e-mail
+                                            juniorsoftcorp@gmail.com or leave
+                                            in AppStore review!
                                             """, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default
             , handler: nil))

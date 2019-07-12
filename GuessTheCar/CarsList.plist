@@ -159,7 +159,7 @@
 		<string>i30</string>
 		<string>Tycson</string>
 	</array>
-	<key>Infinity</key>
+	<key>Infiniti</key>
 	<array>
 		<string>EX</string>
 		<string>G</string>
@@ -272,12 +272,12 @@
 		<string>B-Class</string>
 		<string>C-Class</string>
 		<string>CLA-Class</string>
-		<string>E-CLass</string>
+		<string>E-Class</string>
 		<string>EQC</string>
 		<string>G-Class</string>
 		<string>GLC Coupe</string>
 		<string>Maybach S500</string>
-		<string>S-CLass</string>
+		<string>S-Class</string>
 		<string>SLR McLaren</string>
 		<string>V-Class</string>
 		<string>X-Class</string>
@@ -525,7 +525,7 @@
 		<string>Ferrari 599 GTB</string>
 		<string>Volvo S40</string>
 		<string>Volvo XC60</string>
-		<string>Infinity FX</string>
+		<string>Infiniti FX</string>
 		<string>Jaguar XE</string>
 	</array>
 </dict>

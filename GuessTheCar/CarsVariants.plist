@@ -223,7 +223,7 @@
 		<string>Terracan</string>
 		<string>i10</string>
 	</array>
-	<key>Infinity</key>
+	<key>Infiniti</key>
 	<array>
 		<string>EX</string>
 		<string>G</string>
@@ -362,12 +362,12 @@
 		<string>B-Class</string>
 		<string>C-Class</string>
 		<string>CLA-Class</string>
-		<string>E-CLass</string>
+		<string>E-Class</string>
 		<string>EQC</string>
 		<string>G-Class</string>
 		<string>GLC Coupe</string>
 		<string>Maybach S500</string>
-		<string>S-CLass</string>
+		<string>S-Class</string>
 		<string>SLR McLaren</string>
 		<string>V-Class</string>
 		<string>X-Class</string>
@@ -607,61 +607,60 @@
 		<string>Toyota Fortuner</string>
 		<string>Toyota Hilux</string>
 		<string>Toyota RAV4</string>
-		
 	</array>
-    <key>Easy</key>
-    <array>
-        <string>BMW 5-Series E34</string>
-        <string>Audi A6</string>
-        <string>Honda Accord</string>
-        <string>Lamborghini Veneno</string>
-        <string>Daewoo Matiz</string>
-        <string>Aston Martin DBS</string>
-        <string>Mercedes-Benz GLA-Class</string>
-        <string>Maserati Ghibli</string>
-        <string>Toyota Auris</string>
-        <string>Toyota Prius</string>
-        <string>Toyota Yaris</string>
-        <string>Ferrari 360 Modena</string>
-        <string>BMW i3</string>
-        <string>BMW X5</string>
-        <string>VW Golf</string>
-        <string>VW New Beetle</string>
-        <string>VW Scirocco</string>
-        <string>Saab 9-5</string>
-        <string>Acura TLX</string>
-        <string>Mazda CX-7</string>
-        <string>Renault Kaptur</string>
-        <string>Renault Logan</string>
-        <string>Renault Sandero</string>
-        <string>Bentley Continental GT V8s</string>
-        <string>Cadillac SRX</string>
-        <string>Nissan Note</string>
-        <string>Nissan 350Z</string>
-        <string>Chevrolet Malibu</string>
-        <string>KIA Sportage</string>
-        <string>Citroen C8</string>
-        <string>Dacia Logan</string>
-        <string>Mitsubishi Pajero Sport</string>
-        <string>Dacia Dokker</string>
-        <string>Dodge Challenger</string>
-        <string>KIA Ceed</string>
-        <string>Hyundai Veloster</string>
-        <string>Porsche 911</string>
-        <string>Porsche Boxter</string>
-        <string>Skoda Rapid</string>
-        <string>Skoda Yeti</string>
-        <string>Subaru Impreza</string>
-        <string>Porsche Cayman</string>
-        <string>Peugeot 407</string>
-        <string>Peugeot 307</string>
-        <string>Tesla Roadster</string>
-        <string>Mini Cooper 5-Door</string>
-        <string>Ferrari 599 GTB</string>
-        <string>Volvo S40</string>
-        <string>Volvo XC60</string>
-        <string>Infinity FX</string>
-        <string>Jaguar XE</string>
-        </array>
+	<key>Easy</key>
+	<array>
+		<string>BMW 5-Series E34</string>
+		<string>Audi A6</string>
+		<string>Honda Accord</string>
+		<string>Lamborghini Veneno</string>
+		<string>Daewoo Matiz</string>
+		<string>Aston Martin DBS</string>
+		<string>Mercedes-Benz GLA-Class</string>
+		<string>Maserati Ghibli</string>
+		<string>Toyota Auris</string>
+		<string>Toyota Prius</string>
+		<string>Toyota Yaris</string>
+		<string>Ferrari 360 Modena</string>
+		<string>BMW i3</string>
+		<string>BMW X5</string>
+		<string>VW Golf</string>
+		<string>VW New Beetle</string>
+		<string>VW Scirocco</string>
+		<string>Saab 9-5</string>
+		<string>Acura TLX</string>
+		<string>Mazda CX-7</string>
+		<string>Renault Kaptur</string>
+		<string>Renault Logan</string>
+		<string>Renault Sandero</string>
+		<string>Bentley Continental GT V8s</string>
+		<string>Cadillac SRX</string>
+		<string>Nissan Note</string>
+		<string>Nissan 350Z</string>
+		<string>Chevrolet Malibu</string>
+		<string>KIA Sportage</string>
+		<string>Citroen C8</string>
+		<string>Dacia Logan</string>
+		<string>Mitsubishi Pajero Sport</string>
+		<string>Dacia Dokker</string>
+		<string>Dodge Challenger</string>
+		<string>KIA Ceed</string>
+		<string>Hyundai Veloster</string>
+		<string>Porsche 911</string>
+		<string>Porsche Boxter</string>
+		<string>Skoda Rapid</string>
+		<string>Skoda Yeti</string>
+		<string>Subaru Impreza</string>
+		<string>Porsche Cayman</string>
+		<string>Peugeot 407</string>
+		<string>Peugeot 307</string>
+		<string>Tesla Roadster</string>
+		<string>Mini Cooper 5-Door</string>
+		<string>Ferrari 599 GTB</string>
+		<string>Volvo S40</string>
+		<string>Volvo XC60</string>
+		<string>Infinity FX</string>
+		<string>Jaguar XE</string>
+	</array>
 </dict>
 </plist>

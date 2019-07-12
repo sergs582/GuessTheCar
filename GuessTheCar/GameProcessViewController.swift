@@ -53,9 +53,12 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     var cars : Int = 0
     var health : Int = 3
     var EasyCarsShownCount : Int = 0
+    var CarsLeft: Int = 0
     
     var Sound : Bool = true
     var IsFullPurchased: Bool = false
+    var NoCarsLeft: Bool = false
+    var AllCarsGuessed : Bool = false
     
     var randomNum: Int = 0
     var randomHintNumber: Int = 0
@@ -88,7 +91,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         if !IsFullPurchased{
         AdBanner.delegate = self
         AdBanner.adSize = kGADAdSizeSmartBannerPortrait
-        AdBanner.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        AdBanner.adUnitID = "ca-app-pub-5510822664979086/8661554770"
         AdBanner.isHidden = true
         AdBanner.rootViewController = self
         AdBanner.load(GADRequest())
@@ -107,6 +110,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         FourthVariant.isExclusiveTouch = true
         
         CarNamesArray = readPlist(name: "Cars")!
+        CarsLeft = CarNamesArray.count
         UnusedCars = readPlist2(name: "CarsList")!
         VariantsForButtons = readPlist2(name: "CarsVariants")!
         
@@ -465,6 +469,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
             vc.Sound = Sound
             vc.cars = cars
             vc.score = score
+            vc.AllCarsGuessed = AllCarsGuessed
             
         case "MainMenu":
             let vc = segue.destination as! ViewController
@@ -480,14 +485,24 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     
     func GetCar(){
         
+        if CarsLeft == 0{
+            NoCarsLeft = true
+        }
+        if NoCarsLeft{
+            AllCarsGuessed = true
+            GameOver()
+            
+        }else{
+        
         let RandomCarNameNum = Int.random(in: 0 ..< CarNamesArray.count)
         
-        if UnusedCars["Easy"]?.count != 0 && EasyCarsShownCount < 6 {
+        if UnusedCars["Easy"]?.count != 0 && EasyCarsShownCount < 8  {
             CarName = "Easy"
             EasyCarsShownCount += 1
         }else{
         CarName = CarNamesArray[RandomCarNameNum]
         }
+        
         
         if let ModelsArray = UnusedCars[CarName], ModelsArray.count != 0 {
             let randomCarCount = Int.random(in: 0 ..< ModelsArray.count)
@@ -502,12 +517,14 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
             if UnusedCars[CarName]!.count == 0 && CarName != "Easy"{
                 UnusedCars.removeValue(forKey: CarName)
                 CarNamesArray.remove(at: RandomCarNameNum)
+                CarsLeft = CarsLeft - 1
             }
             
         }else{
             
             GetCar()
         }
+    }
     }
     
     var i = 0
@@ -530,6 +547,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         if path == nil{
               path = Bundle.main.path(forResource: CurrentCar, ofType: "jpeg")
         }
+        
         CarImage.image = UIImage(contentsOfFile: path!)
        
         FirstVariant.isEnabled = true

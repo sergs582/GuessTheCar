@@ -65,7 +65,7 @@
 		871493A822D6182000402A25 /* Chevrolet Corvette.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A222D6182000402A25 /* Chevrolet Corvette.jpg */; };
 		871493A922D6182000402A25 /* Chevrolet Camaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A322D6182000402A25 /* Chevrolet Camaro.jpg */; };
 		871493AA22D6182000402A25 /* Chevrolet Tahoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A422D6182000402A25 /* Chevrolet Tahoe.jpg */; };
-		871493AF22D6183800402A25 /* Chrylser 300C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493AC22D6183700402A25 /* Chrylser 300C.jpg */; };
+		871493AF22D6183800402A25 /* Chrysler 300C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493AC22D6183700402A25 /* Chrysler 300C.jpg */; };
 		871493B022D6183800402A25 /* Chrysler Pacifica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493AD22D6183700402A25 /* Chrysler Pacifica.jpg */; };
 		871493B122D6183800402A25 /* Chrysler PT Cruiser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493AE22D6183800402A25 /* Chrysler PT Cruiser.jpg */; };
 		871493B722D6185200402A25 /* Citroen C2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493B322D6185200402A25 /* Citroen C2.jpg */; };
@@ -128,14 +128,14 @@
 		8714943022D6194500402A25 /* Hyundai Veloster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714942622D6194500402A25 /* Hyundai Veloster.jpg */; };
 		8714943122D6194500402A25 /* Hyundai Tycson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714942722D6194500402A25 /* Hyundai Tycson.jpg */; };
 		8714943222D6194500402A25 /* Hyundai Solaris.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8714942822D6194500402A25 /* Hyundai Solaris.jpeg */; };
-		8714943E22D6195E00402A25 /* Infinity G.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943422D6195E00402A25 /* Infinity G.jpg */; };
-		8714943F22D6195E00402A25 /* Infinity QX30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943522D6195E00402A25 /* Infinity QX30.jpg */; };
-		8714944022D6195E00402A25 /* Infinity QX50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943622D6195E00402A25 /* Infinity QX50.jpg */; };
-		8714944122D6195E00402A25 /* Infinity Q30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943722D6195E00402A25 /* Infinity Q30.jpg */; };
-		8714944222D6195E00402A25 /* Infinity EX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943822D6195E00402A25 /* Infinity EX.jpg */; };
-		8714944322D6195E00402A25 /* Infinity Q60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943922D6195E00402A25 /* Infinity Q60.jpg */; };
-		8714944422D6195E00402A25 /* Infinity QX56.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943A22D6195E00402A25 /* Infinity QX56.jpg */; };
-		8714944522D6195E00402A25 /* Infinity Q50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943B22D6195E00402A25 /* Infinity Q50.jpg */; };
+		8714943E22D6195E00402A25 /* Infiniti G.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943422D6195E00402A25 /* Infiniti G.jpg */; };
+		8714943F22D6195E00402A25 /* Infiniti QX30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943522D6195E00402A25 /* Infiniti QX30.jpg */; };
+		8714944022D6195E00402A25 /* Infiniti QX50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943622D6195E00402A25 /* Infiniti QX50.jpg */; };
+		8714944122D6195E00402A25 /* Infiniti Q30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943722D6195E00402A25 /* Infiniti Q30.jpg */; };
+		8714944222D6195E00402A25 /* Infiniti EX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943822D6195E00402A25 /* Infiniti EX.jpg */; };
+		8714944322D6195E00402A25 /* Infiniti Q60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943922D6195E00402A25 /* Infiniti Q60.jpg */; };
+		8714944422D6195E00402A25 /* Infiniti QX56.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943A22D6195E00402A25 /* Infiniti QX56.jpg */; };
+		8714944522D6195E00402A25 /* Infiniti Q50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943B22D6195E00402A25 /* Infiniti Q50.jpg */; };
 		8714944622D6195E00402A25 /* Infiniti JX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943C22D6195E00402A25 /* Infiniti JX.jpg */; };
 		8714944722D6195E00402A25 /* Infiniti FX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714943D22D6195E00402A25 /* Infiniti FX.jpg */; };
 		8714945022D6197400402A25 /* Jaguar I-Pace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714944922D6197400402A25 /* Jaguar I-Pace.jpg */; };
@@ -263,7 +263,7 @@
 		8714955822D61B7400402A25 /* Nissan Qashqai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714954922D61B7400402A25 /* Nissan Qashqai.jpg */; };
 		8714955922D61B7400402A25 /* Nissan Leaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714954A22D61B7400402A25 /* Nissan Leaf.jpg */; };
 		8714955A22D61B7400402A25 /* Nissan Note.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714954B22D61B7400402A25 /* Nissan Note.jpg */; };
-		8714955B22D61B7400402A25 /* NIssan GT-R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714954C22D61B7400402A25 /* NIssan GT-R.jpg */; };
+		8714955B22D61B7400402A25 /* Nissan GT-R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714954C22D61B7400402A25 /* Nissan GT-R.jpg */; };
 		8714955C22D61B7400402A25 /* Nissan 350Z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714954D22D61B7400402A25 /* Nissan 350Z.jpg */; };
 		8714955D22D61B7400402A25 /* Nissan Juke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714954E22D61B7400402A25 /* Nissan Juke.jpg */; };
 		8714955E22D61B7400402A25 /* Nissan X-Trail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714954F22D61B7400402A25 /* Nissan X-Trail.jpg */; };
@@ -312,7 +312,7 @@
 		8714960C22D61BF100402A25 /* Tesla Roadster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495A722D61BF000402A25 /* Tesla Roadster.jpg */; };
 		8714960D22D61BF100402A25 /* Tesla Model 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495A822D61BF000402A25 /* Tesla Model 3.jpg */; };
 		8714960E22D61BF100402A25 /* Tesla Model S.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495A922D61BF000402A25 /* Tesla Model S.jpg */; };
-		8714960F22D61BF100402A25 /* VW Jetta.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 871495AB22D61BF000402A25 /* VW Jetta.JPG */; };
+		8714960F22D61BF100402A25 /* VW Jetta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495AB22D61BF000402A25 /* VW Jetta.jpg */; };
 		8714961022D61BF100402A25 /* VW Golf R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495AC22D61BF000402A25 /* VW Golf R.jpg */; };
 		8714961122D61BF100402A25 /* VW Scirocco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495AD22D61BF000402A25 /* VW Scirocco.jpg */; };
 		8714961222D61BF100402A25 /* VW Phaeton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495AE22D61BF000402A25 /* VW Phaeton.jpg */; };
@@ -494,7 +494,7 @@
 		871493A222D6182000402A25 /* Chevrolet Corvette.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Corvette.jpg"; sourceTree = "<group>"; };
 		871493A322D6182000402A25 /* Chevrolet Camaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Camaro.jpg"; sourceTree = "<group>"; };
 		871493A422D6182000402A25 /* Chevrolet Tahoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Tahoe.jpg"; sourceTree = "<group>"; };
-		871493AC22D6183700402A25 /* Chrylser 300C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrylser 300C.jpg"; sourceTree = "<group>"; };
+		871493AC22D6183700402A25 /* Chrysler 300C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler 300C.jpg"; sourceTree = "<group>"; };
 		871493AD22D6183700402A25 /* Chrysler Pacifica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler Pacifica.jpg"; sourceTree = "<group>"; };
 		871493AE22D6183800402A25 /* Chrysler PT Cruiser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler PT Cruiser.jpg"; sourceTree = "<group>"; };
 		871493B322D6185200402A25 /* Citroen C2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Citroen C2.jpg"; sourceTree = "<group>"; };
@@ -557,14 +557,14 @@
 		8714942622D6194500402A25 /* Hyundai Veloster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hyundai Veloster.jpg"; sourceTree = "<group>"; };
 		8714942722D6194500402A25 /* Hyundai Tycson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hyundai Tycson.jpg"; sourceTree = "<group>"; };
 		8714942822D6194500402A25 /* Hyundai Solaris.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hyundai Solaris.jpeg"; sourceTree = "<group>"; };
-		8714943422D6195E00402A25 /* Infinity G.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity G.jpg"; sourceTree = "<group>"; };
-		8714943522D6195E00402A25 /* Infinity QX30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity QX30.jpg"; sourceTree = "<group>"; };
-		8714943622D6195E00402A25 /* Infinity QX50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity QX50.jpg"; sourceTree = "<group>"; };
-		8714943722D6195E00402A25 /* Infinity Q30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity Q30.jpg"; sourceTree = "<group>"; };
-		8714943822D6195E00402A25 /* Infinity EX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity EX.jpg"; sourceTree = "<group>"; };
-		8714943922D6195E00402A25 /* Infinity Q60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity Q60.jpg"; sourceTree = "<group>"; };
-		8714943A22D6195E00402A25 /* Infinity QX56.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity QX56.jpg"; sourceTree = "<group>"; };
-		8714943B22D6195E00402A25 /* Infinity Q50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infinity Q50.jpg"; sourceTree = "<group>"; };
+		8714943422D6195E00402A25 /* Infiniti G.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti G.jpg"; sourceTree = "<group>"; };
+		8714943522D6195E00402A25 /* Infiniti QX30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti QX30.jpg"; sourceTree = "<group>"; };
+		8714943622D6195E00402A25 /* Infiniti QX50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti QX50.jpg"; sourceTree = "<group>"; };
+		8714943722D6195E00402A25 /* Infiniti Q30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti Q30.jpg"; sourceTree = "<group>"; };
+		8714943822D6195E00402A25 /* Infiniti EX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti EX.jpg"; sourceTree = "<group>"; };
+		8714943922D6195E00402A25 /* Infiniti Q60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti Q60.jpg"; sourceTree = "<group>"; };
+		8714943A22D6195E00402A25 /* Infiniti QX56.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti QX56.jpg"; sourceTree = "<group>"; };
+		8714943B22D6195E00402A25 /* Infiniti Q50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti Q50.jpg"; sourceTree = "<group>"; };
 		8714943C22D6195E00402A25 /* Infiniti JX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti JX.jpg"; sourceTree = "<group>"; };
 		8714943D22D6195E00402A25 /* Infiniti FX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Infiniti FX.jpg"; sourceTree = "<group>"; };
 		8714944922D6197400402A25 /* Jaguar I-Pace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jaguar I-Pace.jpg"; sourceTree = "<group>"; };
@@ -692,7 +692,7 @@
 		8714954922D61B7400402A25 /* Nissan Qashqai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan Qashqai.jpg"; sourceTree = "<group>"; };
 		8714954A22D61B7400402A25 /* Nissan Leaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan Leaf.jpg"; sourceTree = "<group>"; };
 		8714954B22D61B7400402A25 /* Nissan Note.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan Note.jpg"; sourceTree = "<group>"; };
-		8714954C22D61B7400402A25 /* NIssan GT-R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "NIssan GT-R.jpg"; sourceTree = "<group>"; };
+		8714954C22D61B7400402A25 /* Nissan GT-R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan GT-R.jpg"; sourceTree = "<group>"; };
 		8714954D22D61B7400402A25 /* Nissan 350Z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan 350Z.jpg"; sourceTree = "<group>"; };
 		8714954E22D61B7400402A25 /* Nissan Juke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan Juke.jpg"; sourceTree = "<group>"; };
 		8714954F22D61B7400402A25 /* Nissan X-Trail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan X-Trail.jpg"; sourceTree = "<group>"; };
@@ -741,7 +741,7 @@
 		871495A722D61BF000402A25 /* Tesla Roadster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tesla Roadster.jpg"; sourceTree = "<group>"; };
 		871495A822D61BF000402A25 /* Tesla Model 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tesla Model 3.jpg"; sourceTree = "<group>"; };
 		871495A922D61BF000402A25 /* Tesla Model S.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tesla Model S.jpg"; sourceTree = "<group>"; };
-		871495AB22D61BF000402A25 /* VW Jetta.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VW Jetta.JPG"; sourceTree = "<group>"; };
+		871495AB22D61BF000402A25 /* VW Jetta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VW Jetta.jpg"; sourceTree = "<group>"; };
 		871495AC22D61BF000402A25 /* VW Golf R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VW Golf R.jpg"; sourceTree = "<group>"; };
 		871495AD22D61BF000402A25 /* VW Scirocco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VW Scirocco.jpg"; sourceTree = "<group>"; };
 		871495AE22D61BF000402A25 /* VW Phaeton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VW Phaeton.jpg"; sourceTree = "<group>"; };
@@ -1077,7 +1077,7 @@
 		871493AB22D6182B00402A25 /* Chrysler */ = {
 			isa = PBXGroup;
 			children = (
-				871493AC22D6183700402A25 /* Chrylser 300C.jpg */,
+				871493AC22D6183700402A25 /* Chrysler 300C.jpg */,
 				871493AD22D6183700402A25 /* Chrysler Pacifica.jpg */,
 				871493AE22D6183800402A25 /* Chrysler PT Cruiser.jpg */,
 			);
@@ -1212,14 +1212,14 @@
 			children = (
 				8714943D22D6195E00402A25 /* Infiniti FX.jpg */,
 				8714943C22D6195E00402A25 /* Infiniti JX.jpg */,
-				8714943822D6195E00402A25 /* Infinity EX.jpg */,
-				8714943422D6195E00402A25 /* Infinity G.jpg */,
-				8714943722D6195E00402A25 /* Infinity Q30.jpg */,
-				8714943B22D6195E00402A25 /* Infinity Q50.jpg */,
-				8714943922D6195E00402A25 /* Infinity Q60.jpg */,
-				8714943522D6195E00402A25 /* Infinity QX30.jpg */,
-				8714943622D6195E00402A25 /* Infinity QX50.jpg */,
-				8714943A22D6195E00402A25 /* Infinity QX56.jpg */,
+				8714943822D6195E00402A25 /* Infiniti EX.jpg */,
+				8714943422D6195E00402A25 /* Infiniti G.jpg */,
+				8714943722D6195E00402A25 /* Infiniti Q30.jpg */,
+				8714943B22D6195E00402A25 /* Infiniti Q50.jpg */,
+				8714943922D6195E00402A25 /* Infiniti Q60.jpg */,
+				8714943522D6195E00402A25 /* Infiniti QX30.jpg */,
+				8714943622D6195E00402A25 /* Infiniti QX50.jpg */,
+				8714943A22D6195E00402A25 /* Infiniti QX56.jpg */,
 			);
 			path = Infinity;
 			sourceTree = "<group>";
@@ -1454,7 +1454,7 @@
 				8714954D22D61B7400402A25 /* Nissan 350Z.jpg */,
 				8714955222D61B7400402A25 /* Nissan 370Z.jpg */,
 				8714954722D61B7400402A25 /* Nissan Almera.jpg */,
-				8714954C22D61B7400402A25 /* NIssan GT-R.jpg */,
+				8714954C22D61B7400402A25 /* Nissan GT-R.jpg */,
 				8714954E22D61B7400402A25 /* Nissan Juke.jpg */,
 				8714954A22D61B7400402A25 /* Nissan Leaf.jpg */,
 				8714954822D61B7400402A25 /* Nissan Maxima.jpg */,
@@ -1541,7 +1541,7 @@
 		871495AA22D61BF000402A25 /* Volkswagen */ = {
 			isa = PBXGroup;
 			children = (
-				871495AB22D61BF000402A25 /* VW Jetta.JPG */,
+				871495AB22D61BF000402A25 /* VW Jetta.jpg */,
 				871495AC22D61BF000402A25 /* VW Golf R.jpg */,
 				871495AD22D61BF000402A25 /* VW Scirocco.jpg */,
 				871495AE22D61BF000402A25 /* VW Phaeton.jpg */,
@@ -1904,7 +1904,7 @@
 				871494E222D61AF500402A25 /* McLaren MP4-12C.jpg in Resources */,
 				871494AD22D61A3B00402A25 /* Lexus LX.jpg in Resources */,
 				8714963822D61BF100402A25 /* Toyota GT 86.jpg in Resources */,
-				8714960F22D61BF100402A25 /* VW Jetta.JPG in Resources */,
+				8714960F22D61BF100402A25 /* VW Jetta.jpg in Resources */,
 				8714959622D61BE400402A25 /* Suzuki Grand Vitara.jpg in Resources */,
 				8714961922D61BF100402A25 /* VW Amarok.jpg in Resources */,
 				8714959322D61BE400402A25 /* Suzuki Swift.jpg in Resources */,
@@ -2034,7 +2034,7 @@
 				8714938922D6168C00402A25 /* BMW 5-Series E34.jpeg in Resources */,
 				871494E422D61AF500402A25 /* McLaren P1.jpg in Resources */,
 				871494C922D61A9F00402A25 /* Maserati GranTurismo.jpg in Resources */,
-				8714944222D6195E00402A25 /* Infinity EX.jpg in Resources */,
+				8714944222D6195E00402A25 /* Infiniti EX.jpg in Resources */,
 				8714959722D61BE400402A25 /* Smart Forfour.jpg in Resources */,
 				8714961D22D61BF100402A25 /* Skoda Yeti.jpg in Resources */,
 				8714946E22D619B100402A25 /* KIA Sorento.jpg in Resources */,
@@ -2047,14 +2047,14 @@
 				8714947622D619B100402A25 /* KIA Stinger.jpg in Resources */,
 				871493F822D618D000402A25 /* Ford Mondeo.jpg in Resources */,
 				871494B822D61A5E00402A25 /* Lincoln Aviator.jpg in Resources */,
-				8714944322D6195E00402A25 /* Infinity Q60.jpg in Resources */,
+				8714944322D6195E00402A25 /* Infiniti Q60.jpg in Resources */,
 				8714958722D61BE400402A25 /* Haval H8.jpg in Resources */,
 				8714951122D61B1600402A25 /* Mercedes-AMG C63.jpg in Resources */,
 				8714938322D6168C00402A25 /* BMW M5 F90.jpeg in Resources */,
 				8714960E22D61BF100402A25 /* Tesla Model S.jpg in Resources */,
 				8714953A22D61B5400402A25 /* Mitsubishi ASX.jpg in Resources */,
 				8714961022D61BF100402A25 /* VW Golf R.jpg in Resources */,
-				8714944522D6195E00402A25 /* Infinity Q50.jpg in Resources */,
+				8714944522D6195E00402A25 /* Infiniti Q50.jpg in Resources */,
 				8714940022D618D000402A25 /* Ford S-MAX.jpg in Resources */,
 				8714962622D61BF100402A25 /* Porsche 911 Targa 4.jpg in Resources */,
 				8714948B22D619E900402A25 /* Lamborghini Huracan.jpg in Resources */,
@@ -2071,8 +2071,8 @@
 				8714937F22D6168C00402A25 /* BMW i3.jpg in Resources */,
 				8714950B22D61B1600402A25 /* Mercedes-AMG CLS63.jpg in Resources */,
 				8714938A22D6168C00402A25 /* BMW i8.jpg in Resources */,
-				8714944022D6195E00402A25 /* Infinity QX50.jpg in Resources */,
-				8714955B22D61B7400402A25 /* NIssan GT-R.jpg in Resources */,
+				8714944022D6195E00402A25 /* Infiniti QX50.jpg in Resources */,
+				8714955B22D61B7400402A25 /* Nissan GT-R.jpg in Resources */,
 				871493D622D618A100402A25 /* Ferrari 458 Italia.jpg in Resources */,
 				8714963B22D61BF100402A25 /* Toyota Prius.jpg in Resources */,
 				A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */,
@@ -2172,21 +2172,21 @@
 				8714942D22D6194500402A25 /* Hyundai i30.jpg in Resources */,
 				8714951722D61B1600402A25 /* Mercedes-AMG E63.jpg in Resources */,
 				8714962022D61BF100402A25 /* Skoda Octavia.jpg in Resources */,
-				8714944422D6195E00402A25 /* Infinity QX56.jpg in Resources */,
+				8714944422D6195E00402A25 /* Infiniti QX56.jpg in Resources */,
 				8714947C22D619CA00402A25 /* Koenigsegg Agera R.jpg in Resources */,
 				A5CF275222737AEE0055FAC5 /* Assets.xcassets in Resources */,
 				8714965A22D61BF100402A25 /* Volvo XC40.jpg in Resources */,
 				8714952C22D61B2B00402A25 /* Mini John Cooper Works.jpg in Resources */,
 				8714964A22D61BF100402A25 /* Rolls-Royce Cullinan.jpg in Resources */,
 				8714948922D619E900402A25 /* Lamborghini Centenario.jpg in Resources */,
-				8714943F22D6195E00402A25 /* Infinity QX30.jpg in Resources */,
+				8714943F22D6195E00402A25 /* Infiniti QX30.jpg in Resources */,
 				871493C622D6188A00402A25 /* Dodge Challenger SRT Demon.jpg in Resources */,
 				8714941522D6190D00402A25 /* Honda Insight.jpg in Resources */,
 				8714946022D6198400402A25 /* Jeep Compass.jpg in Resources */,
 				871494C022D61A6F00402A25 /* Lotus Evora.jpg in Resources */,
 				871493C422D6188A00402A25 /* Dodge Charger SRT Hellcat.jpg in Resources */,
 				871493FE22D618D000402A25 /* Ford Crown Victoria.jpg in Resources */,
-				871493AF22D6183800402A25 /* Chrylser 300C.jpg in Resources */,
+				871493AF22D6183800402A25 /* Chrysler 300C.jpg in Resources */,
 				8714935F22D6164800402A25 /* Audi 80.jpg in Resources */,
 				871493F622D618D000402A25 /* Ford F150.jpg in Resources */,
 				871494B122D61A3B00402A25 /* Lexus LS.jpg in Resources */,
@@ -2219,7 +2219,7 @@
 				8714955E22D61B7400402A25 /* Nissan X-Trail.jpg in Resources */,
 				8714960822D61BF100402A25 /* Peugeot 107.jpg in Resources */,
 				8714941422D6190D00402A25 /* Honda Civic.jpg in Resources */,
-				8714943E22D6195E00402A25 /* Infinity G.jpg in Resources */,
+				8714943E22D6195E00402A25 /* Infiniti G.jpg in Resources */,
 				8714963722D61BF100402A25 /* Toyota Land Cruiser Prado.jpg in Resources */,
 				8714945022D6197400402A25 /* Jaguar I-Pace.jpg in Resources */,
 				8714952222D61B1600402A25 /* Mercedes-AMG G63.jpg in Resources */,
@@ -2258,7 +2258,7 @@
 				8714953C22D61B5400402A25 /* Mitsubishi Eclipse.jpg in Resources */,
 				8714951522D61B1600402A25 /* Mercedes-Benz E-Class.jpg in Resources */,
 				8714938B22D6168C00402A25 /* BMW 3-Series.jpg in Resources */,
-				8714944122D6195E00402A25 /* Infinity Q30.jpg in Resources */,
+				8714944122D6195E00402A25 /* Infiniti Q30.jpg in Resources */,
 				8714938822D6168C00402A25 /* BMW 1-Series.jpg in Resources */,
 				871493C522D6188A00402A25 /* Dodge Dart.jpg in Resources */,
 				871494D722D61AAE00402A25 /* Mazda RX-8.jpg in Resources */,
