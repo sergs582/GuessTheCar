@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 import GoogleMobileAds
 
-class GameProcessViewController: UIViewController, GADBannerViewDelegate {
+class GameProcessViewController: UIViewController, GADBannerViewDelegate, UIApplicationDelegate {
 
     //Кнопки
     @IBOutlet weak var FirstVariant: UIButton!
@@ -31,6 +31,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet weak var AdBanner: GADBannerView!
     @IBOutlet weak var AdBannerHeight: NSLayoutConstraint!
     
+    var interstitial: GADInterstitial!
     
     @IBOutlet weak var scores: UILabel!
     @IBOutlet weak var carsGuessed: UILabel!
@@ -66,8 +67,12 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
     var UnusedCars : [String:[String]] = [String:[String]]()
     var VariantsForButtons : [String:[String]] = [String:[String]]()
     var CarNamesArray : [String] = [String]()
-    var CarName : String = ""
+   
+    let NC = NotificationCenter.default
     
+    var mode = String()
+    
+    var CarName : String = ""
     var CurrentCar : String = ""
     var titleButton : String = ""
     
@@ -95,7 +100,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         AdBanner.isHidden = true
         AdBanner.rootViewController = self
         AdBanner.load(GADRequest())
-       
+        interstitial = createAndLoadInterstitial()
         }else{
             AdBannerHeight.constant = 0
             AdBanner.isHidden = true
@@ -109,10 +114,11 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         ThirdVariant.isExclusiveTouch = true
         FourthVariant.isExclusiveTouch = true
         
-        CarNamesArray = readPlist(name: "Cars")!
+        mode = UserDefaults.standard.string(forKey: "mode")!
+        CarNamesArray = readPlist(name: mode + "Names")!
         CarsLeft = CarNamesArray.count
-        UnusedCars = readPlist2(name: "CarsList")!
-        VariantsForButtons = readPlist2(name: "CarsVariants")!
+        UnusedCars = readPlist2(name: mode)!
+        VariantsForButtons = readPlist2(name: mode + "Variants")!
         
         VariantsButtonsArray = [FirstVariant,SecondVariant,ThirdVariant,FourthVariant]
 
@@ -143,10 +149,32 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         }catch{
             print(error)
         }
+        
+        NC.addObserver(self, selector: #selector(EnterBackground), name: UIApplication.didEnterBackgroundNotification, object: nil)
+        NC.addObserver(self, selector: #selector(EnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
         update()
         
        
         
+    }
+    
+    @objc func EnterBackground(){
+        timer.invalidate()
+        scoreTimer.invalidate()
+        print("app enters background")
+    }
+    
+    @objc func EnterForeground(){
+        timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(timeLeft), userInfo: nil, repeats: true)
+        scoreTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(scoreCounter), userInfo: nil, repeats: true)
+        print("app enters foreground")
+    }
+    
+    func createAndLoadInterstitial()->GADInterstitial{
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-5510822664979086/9681468261")
+        
+        interstitial.load(GADRequest())
+        return interstitial
     }
     
     func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
@@ -447,7 +475,8 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         }
     }
     
-    
+
+   
     func GameOver(){
         ScoresAPI().SaveNewScore(score: score, cars: cars)
         
@@ -461,6 +490,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
          showHealth.invalidate()
          closeHelp.invalidate()
          BlinkingButtonTimer.invalidate()
+        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
@@ -469,6 +499,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
             vc.Sound = Sound
             vc.cars = cars
             vc.score = score
+            vc.interstitial = interstitial
             vc.AllCarsGuessed = AllCarsGuessed
             
         case "MainMenu":
@@ -496,7 +527,20 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         
         let RandomCarNameNum = Int.random(in: 0 ..< CarNamesArray.count)
         
-        if UnusedCars["Easy"]?.count != 0 && EasyCarsShownCount < 8  {
+        var EasyNum = 10;
+            switch mode{
+            case "AllCars":
+                EasyNum = 10;
+            case "SportCars":
+                EasyNum = 6;
+            case "4x4Cars":
+                EasyNum = 5;
+            case "Classic":
+                EasyNum = 8;
+            default:
+                break
+            }
+        if UnusedCars["Easy"]?.count != 0 && EasyCarsShownCount < EasyNum  {
             CarName = "Easy"
             EasyCarsShownCount += 1
         }else{
@@ -612,7 +656,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
        
         BlinkingButtonTimer.invalidate()
 
-        VariantsForButtons = readPlist2(name: "CarsVariants")!
+        VariantsForButtons = readPlist2(name: mode + "Variants")!
     }
     
     @objc func scoreCounter(){
@@ -661,9 +705,7 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate {
         }
         VariantsForButtons[Car]!.remove(at: randomExtraCar)
         }while titleButton == CurrentCar// удаляем этот элемент из массива, чтобы несколько раз им не заполнить кнопки
-//        if titleButton == CurrentCar{   // если подобранный вариант совпадает с title кнопки то функция срабатывает заново
-//            ExtraButtonTitle()
-//        }
+
         
         
     }

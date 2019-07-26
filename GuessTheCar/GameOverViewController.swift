@@ -41,9 +41,9 @@ class GameOverViewController: UIViewController, GADInterstitialDelegate {
         RestartBtn.corners()
         
         Sound = Preferences().getSoundState()
-       
-        interstitial = createAndLoadInterstitial()
-        
+        if interstitial != nil{
+        interstitial.delegate = self
+        }
         if AllCarsGuessed{
             
             timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ShowAlert), userInfo: nil, repeats: false)
@@ -58,12 +58,12 @@ class GameOverViewController: UIViewController, GADInterstitialDelegate {
         self.present(alert, animated: true, completion: nil)
     }
     
-    func createAndLoadInterstitial()->GADInterstitial{
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-5510822664979086/9681468261")
-        interstitial.delegate = self
-        interstitial.load(GADRequest())
-        return interstitial
-    }
+//    func createAndLoadInterstitial()->GADInterstitial{
+//        interstitial = GADInterstitial(adUnitID: "ca-app-pub-5510822664979086/9681468261")
+//        interstitial.delegate = self
+//        interstitial.load(GADRequest())
+//        return interstitial
+//    }
     
     func interstitialDidDismissScreen(_ ad: GADInterstitial) {
         performSegue(withIdentifier: "Restart", sender: self)
@@ -77,13 +77,16 @@ class GameOverViewController: UIViewController, GADInterstitialDelegate {
         
     }
     @IBAction func Restart(_ sender: Any) {
-        if interstitial.isReady{
+        if interstitial != nil && interstitial.isReady{
            interstitial.present(fromRootViewController: self)
         }else{
         performSegue(withIdentifier: "Restart", sender: self)
         }
     }
     
+   override func viewDidDisappear(_ animated: Bool) {
+        timer.invalidate()
+    }
    
     
     

@@ -20,9 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let save = UserDefaults.standard
         save.set(true, forKey: "Sound")
         if  save.value(forKey: "ProVersion") == nil {
-            
             save.setValue(false, forKey: "ProVersion")
-            
+        }
+        if save.value(forKey: "ReviewLeft") == nil{
+            save.setValue(false, forKey: "ReviewLeft")
         }
         
         return true

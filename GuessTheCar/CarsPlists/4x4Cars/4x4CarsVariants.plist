@@ -192,7 +192,6 @@
 	</array>
 	<key>Honda</key>
 	<array>
-		<string>Jazz</string>
 		<string>Pilot</string>
 		<string>Civic Type R</string>
 		<string>HR-V</string>
@@ -552,16 +551,10 @@
 	</array>
 	<key>Other</key>
 	<array>
-		<string>Fiat Tipo</string>
-		<string>Honda Civic</string>
 		<string>Cherry Tiggo</string>
 		<string>Lada Vesta</string>
-		<string>Hyundai Solaris</string>
-		<string>Nissan Maxima</string>
 		<string>Tesla Model Y</string>
-		<string>Maserati MC12</string>
 		<string>Skoda Kodiaq</string>
-		<string>Skoda Superb</string>
 		<string>Mitsubishi Grandis</string>
 		<string>Opel Combo</string>
 		<string>Mitsubishi Lancer</string>
@@ -577,10 +570,8 @@
 		<string>Ford Kuga</string>
 		<string>Marussia B2</string>
 		<string>Lotus Evora</string>
-		<string>Lotus Exige</string>
 		<string>Nissan Pathfinder</string>
 		<string>Nissan Qashqai</string>
-		<string>Lexus LFA</string>
 		<string>Ford Fusion</string>
 		<string>Geely Atlas</string>
 		<string>Geely Emgrand GT</string>
@@ -612,11 +603,7 @@
 	<array>
 		<string>BMW 5-Series E34</string>
 		<string>Audi A6</string>
-		<string>Honda Accord</string>
-		<string>Lamborghini Veneno</string>
-		<string>Daewoo Matiz</string>
 		<string>Aston Martin DBS</string>
-		<string>Mercedes-Benz GLA-Class</string>
 		<string>Maserati Ghibli</string>
 		<string>Toyota Auris</string>
 		<string>Toyota Prius</string>
@@ -631,23 +618,16 @@
 		<string>Acura TLX</string>
 		<string>Mazda CX-7</string>
 		<string>Renault Kaptur</string>
-		<string>Renault Logan</string>
 		<string>Renault Sandero</string>
 		<string>Bentley Continental GT V8s</string>
 		<string>Cadillac SRX</string>
 		<string>Nissan Note</string>
-		<string>Nissan 350Z</string>
 		<string>Chevrolet Malibu</string>
 		<string>KIA Sportage</string>
 		<string>Citroen C8</string>
-		<string>Dacia Logan</string>
 		<string>Mitsubishi Pajero Sport</string>
 		<string>Dacia Dokker</string>
 		<string>Dodge Challenger</string>
-		<string>KIA Ceed</string>
-		<string>Hyundai Veloster</string>
-		<string>Porsche 911</string>
-		<string>Porsche Boxter</string>
 		<string>Skoda Rapid</string>
 		<string>Skoda Yeti</string>
 		<string>Subaru Impreza</string>
@@ -657,9 +637,8 @@
 		<string>Tesla Roadster</string>
 		<string>Mini Cooper 5-Door</string>
 		<string>Ferrari 599 GTB</string>
-		<string>Volvo S40</string>
 		<string>Volvo XC60</string>
-		<string>Infinity FX</string>
+		<string>Infiniti FX</string>
 		<string>Jaguar XE</string>
 	</array>
 </dict>

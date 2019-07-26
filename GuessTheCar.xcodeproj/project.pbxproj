@@ -9,6 +9,130 @@
 /* Begin PBXBuildFile section */
 		0082BF849C473FC1C905B074 /* Pods_GuessTheCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF96A2C27CD05CB477CA5652 /* Pods_GuessTheCar.framework */; };
 		3A250D9B08281E172A125B4C /* Pods_GuessTheCarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D1B1D4F066C0D0AC1B6917 /* Pods_GuessTheCarUITests.framework */; };
+		8702657022E4DB940033C92A /* Acura NSX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702656F22E4DB940033C92A /* Acura NSX.jpg */; };
+		8702657422E4DBA30033C92A /* Aston Martin Valkyrie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657122E4DBA20033C92A /* Aston Martin Valkyrie.jpg */; };
+		8702657522E4DBA30033C92A /* Aston Martin Vulcan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657222E4DBA20033C92A /* Aston Martin Vulcan.jpg */; };
+		8702657622E4DBA30033C92A /* Aston Martin One-77.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657322E4DBA20033C92A /* Aston Martin One-77.jpg */; };
+		8702657922E4DBB60033C92A /* Bugatti Divo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657722E4DBB60033C92A /* Bugatti Divo.jpg */; };
+		8702657A22E4DBB60033C92A /* Bugatti Vision GT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657822E4DBB60033C92A /* Bugatti Vision GT.jpg */; };
+		8702658122E4DBC80033C92A /* Ferrari F12berlinetta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657B22E4DBC70033C92A /* Ferrari F12berlinetta.jpg */; };
+		8702658222E4DBC80033C92A /* Ferrari F50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657C22E4DBC70033C92A /* Ferrari F50.jpg */; };
+		8702658322E4DBC80033C92A /* Ferrari SF90 Stradale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657D22E4DBC80033C92A /* Ferrari SF90 Stradale.jpg */; };
+		8702658422E4DBC80033C92A /* Ferrari Testarossa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657E22E4DBC80033C92A /* Ferrari Testarossa.jpg */; };
+		8702658522E4DBC80033C92A /* Ferrari FF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702657F22E4DBC80033C92A /* Ferrari FF.jpg */; };
+		8702658622E4DBC80033C92A /* Ferrari F40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702658022E4DBC80033C92A /* Ferrari F40.jpg */; };
+		8702658922E4DBDA0033C92A /* McLaren 570S.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702658722E4DBDA0033C92A /* McLaren 570S.jpg */; };
+		8702658A22E4DBDA0033C92A /* McLaren 650S.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702658822E4DBDA0033C92A /* McLaren 650S.jpg */; };
+		8702658C22E4DBE40033C92A /* Honda NSX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702658B22E4DBE30033C92A /* Honda NSX.jpg */; };
+		8702659022E4DBED0033C92A /* Koenigsegg Jesko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702658D22E4DBEC0033C92A /* Koenigsegg Jesko.jpg */; };
+		8702659122E4DBED0033C92A /* Koenigsegg CCX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702658E22E4DBED0033C92A /* Koenigsegg CCX.jpg */; };
+		8702659222E4DBED0033C92A /* Koenigsegg CCXR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702658F22E4DBED0033C92A /* Koenigsegg CCXR.jpg */; };
+		8702659422E4DBF50033C92A /* Chevrolet Corvette C8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702659322E4DBF50033C92A /* Chevrolet Corvette C8.jpg */; };
+		8702659A22E4DC110033C92A /* Lamborghini Reventon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702659522E4DC110033C92A /* Lamborghini Reventon.jpg */; };
+		8702659B22E4DC110033C92A /* Lamborghini Countach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702659622E4DC110033C92A /* Lamborghini Countach.jpg */; };
+		8702659C22E4DC110033C92A /* Lamborghini Miura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702659722E4DC110033C92A /* Lamborghini Miura.jpg */; };
+		8702659D22E4DC110033C92A /* Lamborghini Diablo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702659822E4DC110033C92A /* Lamborghini Diablo.jpg */; };
+		8702659E22E4DC110033C92A /* Lamborghini Sesto Elemento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702659922E4DC110033C92A /* Lamborghini Sesto Elemento.jpg */; };
+		870265A022E4DC1F0033C92A /* Lotus Evija.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702659F22E4DC1F0033C92A /* Lotus Evija.jpg */; };
+		870265A222E4DC260033C92A /* Mazda RX-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265A122E4DC260033C92A /* Mazda RX-7.jpg */; };
+		870265A422E4DC310033C92A /* SRT Viper GTS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265A322E4DC310033C92A /* SRT Viper GTS.jpg */; };
+		870265A622E4DC4B0033C92A /* Porsche 911 R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265A522E4DC4B0033C92A /* Porsche 911 R.jpg */; };
+		870265A822E4DC510033C92A /* Pontiac Firebird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265A722E4DC510033C92A /* Pontiac Firebird.jpg */; };
+		870265AA22E4DC9F0033C92A /* Gumpert Apollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265A922E4DC9F0033C92A /* Gumpert Apollo.jpg */; };
+		870265AC22E4E50D0033C92A /* Dodge Viper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265AB22E4E50C0033C92A /* Dodge Viper.jpg */; };
+		870265AE22E4E9390033C92A /* 4x4Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = 870265AD22E4E9390033C92A /* 4x4Cars.plist */; };
+		870265B022E4EC3D0033C92A /* Audi A6 Allroad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265AF22E4EC3D0033C92A /* Audi A6 Allroad.jpg */; };
+		870265B222E4EC460033C92A /* Buick Enclave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265B122E4EC460033C92A /* Buick Enclave.jpg */; };
+		870265B522E4EC570033C92A /* Chevrolet Silverado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265B322E4EC570033C92A /* Chevrolet Silverado.jpg */; };
+		870265B622E4EC570033C92A /* Chevrolet Suburban.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265B422E4EC570033C92A /* Chevrolet Suburban.jpg */; };
+		870265B822E4EC610033C92A /* Chrysler Aspen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265B722E4EC610033C92A /* Chrysler Aspen.jpg */; };
+		870265BA22E4EC6F0033C92A /* Dodge Ram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265B922E4EC6F0033C92A /* Dodge Ram.jpg */; };
+		870265BC22E4EC780033C92A /* Ford F-250.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265BB22E4EC780033C92A /* Ford F-250.jpg */; };
+		870265BE22E4EC880033C92A /* GMC Sierra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265BD22E4EC880033C92A /* GMC Sierra.jpg */; };
+		870265C022E4EC960033C92A /* Toyota Tundra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265BF22E4EC960033C92A /* Toyota Tundra.jpg */; };
+		870265C222E4ECA30033C92A /* Mercedes-AMG G63 6x6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265C122E4ECA30033C92A /* Mercedes-AMG G63 6x6.jpg */; };
+		8702661422E5CDEC0033C92A /* Dodge Charger Daytona 1969.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265C422E5CDEC0033C92A /* Dodge Charger Daytona 1969.jpg */; };
+		8702661522E5CDEC0033C92A /* Mercury Montego GT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265C522E5CDEC0033C92A /* Mercury Montego GT.jpg */; };
+		8702661622E5CDEC0033C92A /* Chrysler Windsor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265C622E5CDEC0033C92A /* Chrysler Windsor.jpg */; };
+		8702661722E5CDEC0033C92A /* Toyota 2000GT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265C722E5CDEC0033C92A /* Toyota 2000GT.jpg */; };
+		8702661822E5CDEC0033C92A /* VW Beetle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265C822E5CDEC0033C92A /* VW Beetle.jpg */; };
+		8702661922E5CDEC0033C92A /* Aston Martin Lagonda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265C922E5CDEC0033C92A /* Aston Martin Lagonda.jpg */; };
+		8702661A22E5CDEC0033C92A /* Porsche 959.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265CA22E5CDEC0033C92A /* Porsche 959.jpg */; };
+		8702661B22E5CDEC0033C92A /* Audi Quattro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265CB22E5CDEC0033C92A /* Audi Quattro.jpg */; };
+		8702661C22E5CDEC0033C92A /* Nissan 240SX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265CC22E5CDEC0033C92A /* Nissan 240SX.jpg */; };
+		8702661D22E5CDEC0033C92A /* Cadillac Fleetwood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265CD22E5CDEC0033C92A /* Cadillac Fleetwood.jpg */; };
+		8702661E22E5CDEC0033C92A /* BMW Z8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265CE22E5CDEC0033C92A /* BMW Z8.jpg */; };
+		8702661F22E5CDEC0033C92A /* Ford Thunderbird 1970.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265CF22E5CDEC0033C92A /* Ford Thunderbird 1970.jpg */; };
+		8702662022E5CDEC0033C92A /* Ford Capri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D022E5CDEC0033C92A /* Ford Capri.jpg */; };
+		8702662122E5CDEC0033C92A /* Chevrolet Chevelle SS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D122E5CDEC0033C92A /* Chevrolet Chevelle SS.jpg */; };
+		8702662222E5CDEC0033C92A /* Chrysler Saratoga 1957.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D222E5CDEC0033C92A /* Chrysler Saratoga 1957.jpg */; };
+		8702662322E5CDEC0033C92A /* Lamborghini Jalpa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D322E5CDEC0033C92A /* Lamborghini Jalpa.jpg */; };
+		8702662422E5CDEC0033C92A /* Chevrolet Caprice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D422E5CDEC0033C92A /* Chevrolet Caprice.jpg */; };
+		8702662522E5CDEC0033C92A /* Toyota Mark II.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D522E5CDEC0033C92A /* Toyota Mark II.jpg */; };
+		8702662622E5CDEC0033C92A /* Maserati Bora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D622E5CDEC0033C92A /* Maserati Bora.jpg */; };
+		8702662722E5CDEC0033C92A /* Cadillac Brougham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D722E5CDEC0033C92A /* Cadillac Brougham.jpg */; };
+		8702662822E5CDEC0033C92A /* Ford Mustang 1969.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D822E5CDEC0033C92A /* Ford Mustang 1969.jpg */; };
+		8702662922E5CDEC0033C92A /* Dodge Charger RT Hemi 1971.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265D922E5CDEC0033C92A /* Dodge Charger RT Hemi 1971.jpg */; };
+		8702662A22E5CDEC0033C92A /* Chevrolet Impala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265DA22E5CDEC0033C92A /* Chevrolet Impala.jpg */; };
+		8702662B22E5CDEC0033C92A /* Ferrari Mondial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265DB22E5CDEC0033C92A /* Ferrari Mondial.jpg */; };
+		8702662C22E5CDEC0033C92A /* Alfa Romeo 1750 Spider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265DC22E5CDEC0033C92A /* Alfa Romeo 1750 Spider.jpg */; };
+		8702662D22E5CDEC0033C92A /* BMW 507.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265DD22E5CDEC0033C92A /* BMW 507.jpg */; };
+		8702662E22E5CDEC0033C92A /* Porsche 356A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265DE22E5CDEC0033C92A /* Porsche 356A.jpg */; };
+		8702662F22E5CDEC0033C92A /* Chevrolet Monte Carlo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265DF22E5CDEC0033C92A /* Chevrolet Monte Carlo.jpg */; };
+		8702663022E5CDEC0033C92A /* Cadillac Eldorado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E022E5CDEC0033C92A /* Cadillac Eldorado.jpg */; };
+		8702663122E5CDEC0033C92A /* Pontiac Grand Am.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E122E5CDEC0033C92A /* Pontiac Grand Am.jpg */; };
+		8702663222E5CDEC0033C92A /* Porsche 911 1964.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E222E5CDEC0033C92A /* Porsche 911 1964.jpg */; };
+		8702663322E5CDEC0033C92A /* Dodge Challenger RT 1970.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E322E5CDEC0033C92A /* Dodge Challenger RT 1970.jpg */; };
+		8702663422E5CDEC0033C92A /* Mercedes-Benz 190 SL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E422E5CDEC0033C92A /* Mercedes-Benz 190 SL.jpg */; };
+		8702663522E5CDEC0033C92A /* Mercedes-Benz 220 SE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E522E5CDEC0033C92A /* Mercedes-Benz 220 SE.jpg */; };
+		8702663622E5CDEC0033C92A /* Pontiac Sunbird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E622E5CDEC0033C92A /* Pontiac Sunbird.jpg */; };
+		8702663722E5CDEC0033C92A /* Aston Martin DB4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E722E5CDEC0033C92A /* Aston Martin DB4.jpg */; };
+		8702663822E5CDEC0033C92A /* Chevrolet Monza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E822E5CDEC0033C92A /* Chevrolet Monza.jpg */; };
+		8702663922E5CDEC0033C92A /* Chevrolet Corvette Stingray.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265E922E5CDEC0033C92A /* Chevrolet Corvette Stingray.jpg */; };
+		8702663A22E5CDEC0033C92A /* Jaguar E-Type.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265EA22E5CDEC0033C92A /* Jaguar E-Type.jpg */; };
+		8702663B22E5CDEC0033C92A /* VW Typ 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265EB22E5CDEC0033C92A /* VW Typ 2.jpg */; };
+		8702663C22E5CDEC0033C92A /* Chevrolet Camaro 1969.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265EC22E5CDEC0033C92A /* Chevrolet Camaro 1969.jpg */; };
+		8702663D22E5CDEC0033C92A /* Aston Martin DB5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265ED22E5CDEC0033C92A /* Aston Martin DB5.jpg */; };
+		8702663E22E5CDEC0033C92A /* Porsche 928.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265EE22E5CDEC0033C92A /* Porsche 928.jpg */; };
+		8702663F22E5CDEC0033C92A /* Saab 99.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265EF22E5CDEC0033C92A /* Saab 99.jpg */; };
+		8702664022E5CDEC0033C92A /* Cadillac DeVille.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F022E5CDEC0033C92A /* Cadillac DeVille.jpg */; };
+		8702664122E5CDEC0033C92A /* Ferrari 250 GTO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F122E5CDEC0033C92A /* Ferrari 250 GTO.jpg */; };
+		8702664222E5CDEC0033C92A /* Chevrolet Blazer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F222E5CDEC0033C92A /* Chevrolet Blazer.jpg */; };
+		8702664322E5CDEC0033C92A /* Ferrari 328 GTB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F322E5CDEC0033C92A /* Ferrari 328 GTB.jpg */; };
+		8702664422E5CDEC0033C92A /* Saab 900.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F422E5CDEC0033C92A /* Saab 900.jpg */; };
+		8702664522E5CDEC0033C92A /* Dodge 600 1985.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F522E5CDEC0033C92A /* Dodge 600 1985.jpg */; };
+		8702664622E5CDEC0033C92A /* Chrysler New Yorker 1958.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F622E5CDEC0033C92A /* Chrysler New Yorker 1958.jpg */; };
+		8702664722E5CDEC0033C92A /* Mercury Eight Club Coupe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F722E5CDEC0033C92A /* Mercury Eight Club Coupe.jpg */; };
+		8702664822E5CDEC0033C92A /* Mercury Montclair Convertible.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F822E5CDEC0033C92A /* Mercury Montclair Convertible.jpg */; };
+		8702664922E5CDEC0033C92A /* Nissan Skyline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265F922E5CDEC0033C92A /* Nissan Skyline.jpg */; };
+		8702664A22E5CDEC0033C92A /* Ford Maverick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265FA22E5CDEC0033C92A /* Ford Maverick.jpg */; };
+		8702664B22E5CDEC0033C92A /* Ford GT40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265FB22E5CDEC0033C92A /* Ford GT40.jpg */; };
+		8702664C22E5CDEC0033C92A /* Ford Torino Cobra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265FC22E5CDEC0033C92A /* Ford Torino Cobra.jpg */; };
+		8702664D22E5CDEC0033C92A /* Chrysler Imperial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265FD22E5CDEC0033C92A /* Chrysler Imperial.jpg */; };
+		8702664E22E5CDEC0033C92A /* BMW 8-Series.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265FE22E5CDEC0033C92A /* BMW 8-Series.jpg */; };
+		8702664F22E5CDEC0033C92A /* Lamborghini Islero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 870265FF22E5CDEC0033C92A /* Lamborghini Islero.jpg */; };
+		8702665022E5CDEC0033C92A /* Chevrolet Camaro 1971.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660022E5CDEC0033C92A /* Chevrolet Camaro 1971.jpg */; };
+		8702665122E5CDEC0033C92A /* Rolls-Royce Silver Cloud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660122E5CDEC0033C92A /* Rolls-Royce Silver Cloud.jpg */; };
+		8702665222E5CDEC0033C92A /* Mercury Monarch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660222E5CDEC0033C92A /* Mercury Monarch.jpg */; };
+		8702665322E5CDEC0033C92A /* Ford Consul GT 1972.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660322E5CDEC0033C92A /* Ford Consul GT 1972.jpg */; };
+		8702665422E5CDEC0033C92A /* Ford Crown Victoria 1955.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660422E5CDEC0033C92A /* Ford Crown Victoria 1955.jpg */; };
+		8702665522E5CDEC0033C92A /* Dodge Monaco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660522E5CDEC0033C92A /* Dodge Monaco.jpg */; };
+		8702665622E5CDEC0033C92A /* Rolls-Royce Camargue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660622E5CDEC0033C92A /* Rolls-Royce Camargue.jpg */; };
+		8702665722E5CDEC0033C92A /* Ferrari 512 BB 1976.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660722E5CDEC0033C92A /* Ferrari 512 BB 1976.jpg */; };
+		8702665822E5CDEC0033C92A /* Pontiac GTO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660822E5CDEC0033C92A /* Pontiac GTO.jpg */; };
+		8702665922E5CDEC0033C92A /* Chrysler 180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660922E5CDEC0033C92A /* Chrysler 180.jpg */; };
+		8702665A22E5CDEC0033C92A /* BMW 3200 CS Coupe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660A22E5CDEC0033C92A /* BMW 3200 CS Coupe.jpg */; };
+		8702665B22E5CDEC0033C92A /* Audi 50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660B22E5CDEC0033C92A /* Audi 50.jpg */; };
+		8702665C22E5CDEC0033C92A /* Ford Fairlane 1966.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660C22E5CDEC0033C92A /* Ford Fairlane 1966.jpg */; };
+		8702665D22E5CDEC0033C92A /* Jaguar XJ220.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660D22E5CDEC0033C92A /* Jaguar XJ220.jpg */; };
+		8702665E22E5CDEC0033C92A /* Chevrolet C10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660E22E5CDEC0033C92A /* Chevrolet C10.jpg */; };
+		8702665F22E5CDEC0033C92A /* Ford LTD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702660F22E5CDEC0033C92A /* Ford LTD.jpg */; };
+		8702666022E5CDEC0033C92A /* BMW 2000 CS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702661022E5CDEC0033C92A /* BMW 2000 CS.jpg */; };
+		8702666122E5CDEC0033C92A /* Porsche 968.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702661122E5CDEC0033C92A /* Porsche 968.jpg */; };
+		8702666222E5CDEC0033C92A /* Pontiac LeMans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702661222E5CDEC0033C92A /* Pontiac LeMans.jpg */; };
+		8702666322E5CDEC0033C92A /* Rolls-Royce Corniche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8702661322E5CDEC0033C92A /* Rolls-Royce Corniche.jpg */; };
+		8702666622E5CE1A0033C92A /* ClassicCars.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8702666422E5CE190033C92A /* ClassicCars.plist */; };
+		8702666722E5CE1A0033C92A /* ClassicCarsVariants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8702666522E5CE190033C92A /* ClassicCarsVariants.plist */; };
 		8714933522D6159800402A25 /* Acura MDX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714933322D6159800402A25 /* Acura MDX.jpg */; };
 		8714933622D6159800402A25 /* Acura TLX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714933422D6159800402A25 /* Acura TLX.jpg */; };
 		8714933B22D615E900402A25 /* Alfa Romeo Giulia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714933822D615E900402A25 /* Alfa Romeo Giulia.jpg */; };
@@ -62,7 +186,7 @@
 		871493A522D6182000402A25 /* Chevrolet Cruze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714939F22D6181F00402A25 /* Chevrolet Cruze.jpg */; };
 		871493A622D6182000402A25 /* Chevrolet Malibu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A022D6181F00402A25 /* Chevrolet Malibu.jpg */; };
 		871493A722D6182000402A25 /* Chevrolet Volt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A122D6181F00402A25 /* Chevrolet Volt.jpg */; };
-		871493A822D6182000402A25 /* Chevrolet Corvette.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A222D6182000402A25 /* Chevrolet Corvette.jpg */; };
+		871493A822D6182000402A25 /* Chevrolet Corvette C6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A222D6182000402A25 /* Chevrolet Corvette C6.jpg */; };
 		871493A922D6182000402A25 /* Chevrolet Camaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A322D6182000402A25 /* Chevrolet Camaro.jpg */; };
 		871493AA22D6182000402A25 /* Chevrolet Tahoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493A422D6182000402A25 /* Chevrolet Tahoe.jpg */; };
 		871493AF22D6183800402A25 /* Chrysler 300C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493AC22D6183700402A25 /* Chrysler 300C.jpg */; };
@@ -73,7 +197,6 @@
 		871493B922D6185200402A25 /* Citroen C8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493B522D6185200402A25 /* Citroen C8.jpg */; };
 		871493BA22D6185200402A25 /* Citroen C4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493B622D6185200402A25 /* Citroen C4.jpg */; };
 		871493C222D6188A00402A25 /* Dodge Challenger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493BC22D6188900402A25 /* Dodge Challenger.jpg */; };
-		871493C322D6188A00402A25 /* Dodge Viper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493BD22D6188900402A25 /* Dodge Viper.jpg */; };
 		871493C422D6188A00402A25 /* Dodge Charger SRT Hellcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493BE22D6188900402A25 /* Dodge Charger SRT Hellcat.jpg */; };
 		871493C522D6188A00402A25 /* Dodge Dart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493BF22D6188900402A25 /* Dodge Dart.jpg */; };
 		871493C622D6188A00402A25 /* Dodge Challenger SRT Demon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871493C022D6188A00402A25 /* Dodge Challenger SRT Demon.jpg */; };
@@ -391,18 +514,24 @@
 		8714965B22D61BF100402A25 /* Volvo V60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495FE22D61BF100402A25 /* Volvo V60.jpg */; };
 		8714965C22D61BF100402A25 /* Volvo XC90.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 871495FF22D61BF100402A25 /* Volvo XC90.jpg */; };
 		8714965D22D61BF100402A25 /* Volvo S60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8714960022D61BF100402A25 /* Volvo S60.jpg */; };
+		8733E3D622E4B514004323A0 /* SportCarsNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8733E3D322E4B514004323A0 /* SportCarsNames.plist */; };
+		8733E3D722E4B514004323A0 /* SportCars.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8733E3D422E4B514004323A0 /* SportCars.plist */; };
+		8733E3D822E4B514004323A0 /* SportCarsVariants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8733E3D522E4B514004323A0 /* SportCarsVariants.plist */; };
+		8733E3DC22E4B580004323A0 /* ClassicCarsNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8733E3D922E4B57F004323A0 /* ClassicCarsNames.plist */; };
+		8733E3E222E4B5A0004323A0 /* 4x4CarsNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8733E3DF22E4B5A0004323A0 /* 4x4CarsNames.plist */; };
+		8733E3E322E4B5A0004323A0 /* 4x4CarsVariants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8733E3E022E4B5A0004323A0 /* 4x4CarsVariants.plist */; };
 		874DD8D622D22C4D004AF43B /* CustomChalkduster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 874DD8D522D22C4D004AF43B /* CustomChalkduster.ttf */; };
 		87517A3F22CE034F00D5B0E4 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87517A3E22CE034F00D5B0E4 /* Preferences.swift */; };
 		876691A622CF40E6008F8A7F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876691A522CF40E6008F8A7F /* StoreKit.framework */; };
 		A5165C1022060CF0005CC20D /* GameProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */; };
-		A527B0BC2280C1F000046C1F /* CarsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BB2280C1F000046C1F /* CarsList.plist */; };
-		A527B0BE2280C20700046C1F /* Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BD2280C20700046C1F /* Cars.plist */; };
+		A527B0BC2280C1F000046C1F /* AllCars.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BB2280C1F000046C1F /* AllCars.plist */; };
+		A527B0BE2280C20700046C1F /* AllCarsNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = A527B0BD2280C20700046C1F /* AllCarsNames.plist */; };
 		A530CD1A2247AD5900AB256C /* Scores.plist in Resources */ = {isa = PBXBuildFile; fileRef = A530CD192247AD5800AB256C /* Scores.plist */; };
 		A53F656F2247B6530080298F /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F656E2247B6530080298F /* ScoresViewController.swift */; };
 		A5516191226B90AB00273E29 /* GuessTheCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5516190226B90AB00273E29 /* GuessTheCarUITests.swift */; };
 		A551619F226B90BA00273E29 /* GuessTheCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551619E226B90BA00273E29 /* GuessTheCarTests.swift */; };
 		A557C6FF2219CBFC00E6BBA8 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */; };
-		A561B73F2273917B003DCF52 /* CarsVariants.plist in Resources */ = {isa = PBXBuildFile; fileRef = A561B73E2273917B003DCF52 /* CarsVariants.plist */; };
+		A561B73F2273917B003DCF52 /* AllCarsVariants.plist in Resources */ = {isa = PBXBuildFile; fileRef = A561B73E2273917B003DCF52 /* AllCarsVariants.plist */; };
 		A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */; };
 		A56FB2352220630900EAFAA4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56FB2342220630900EAFAA4 /* AVFoundation.framework */; };
 		A56FB23922206ED700EAFAA4 /* Horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A56FB23822206ED700EAFAA4 /* Horn.wav */; };
@@ -438,6 +567,130 @@
 		0CC21D7160A517ADB9D02435 /* Pods-GuessTheCarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCarTests.debug.xcconfig"; path = "Target Support Files/Pods-GuessTheCarTests/Pods-GuessTheCarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13D1B1D4F066C0D0AC1B6917 /* Pods_GuessTheCarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheCarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FFC71179DE265DE94AB8DF /* Pods-GuessTheCarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessTheCarTests.release.xcconfig"; path = "Target Support Files/Pods-GuessTheCarTests/Pods-GuessTheCarTests.release.xcconfig"; sourceTree = "<group>"; };
+		8702656F22E4DB940033C92A /* Acura NSX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acura NSX.jpg"; sourceTree = "<group>"; };
+		8702657122E4DBA20033C92A /* Aston Martin Valkyrie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aston Martin Valkyrie.jpg"; sourceTree = "<group>"; };
+		8702657222E4DBA20033C92A /* Aston Martin Vulcan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aston Martin Vulcan.jpg"; sourceTree = "<group>"; };
+		8702657322E4DBA20033C92A /* Aston Martin One-77.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aston Martin One-77.jpg"; sourceTree = "<group>"; };
+		8702657722E4DBB60033C92A /* Bugatti Divo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bugatti Divo.jpg"; sourceTree = "<group>"; };
+		8702657822E4DBB60033C92A /* Bugatti Vision GT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bugatti Vision GT.jpg"; sourceTree = "<group>"; };
+		8702657B22E4DBC70033C92A /* Ferrari F12berlinetta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari F12berlinetta.jpg"; sourceTree = "<group>"; };
+		8702657C22E4DBC70033C92A /* Ferrari F50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari F50.jpg"; sourceTree = "<group>"; };
+		8702657D22E4DBC80033C92A /* Ferrari SF90 Stradale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari SF90 Stradale.jpg"; sourceTree = "<group>"; };
+		8702657E22E4DBC80033C92A /* Ferrari Testarossa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari Testarossa.jpg"; sourceTree = "<group>"; };
+		8702657F22E4DBC80033C92A /* Ferrari FF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari FF.jpg"; sourceTree = "<group>"; };
+		8702658022E4DBC80033C92A /* Ferrari F40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari F40.jpg"; sourceTree = "<group>"; };
+		8702658722E4DBDA0033C92A /* McLaren 570S.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren 570S.jpg"; sourceTree = "<group>"; };
+		8702658822E4DBDA0033C92A /* McLaren 650S.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren 650S.jpg"; sourceTree = "<group>"; };
+		8702658B22E4DBE30033C92A /* Honda NSX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Honda NSX.jpg"; sourceTree = "<group>"; };
+		8702658D22E4DBEC0033C92A /* Koenigsegg Jesko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Koenigsegg Jesko.jpg"; sourceTree = "<group>"; };
+		8702658E22E4DBED0033C92A /* Koenigsegg CCX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Koenigsegg CCX.jpg"; sourceTree = "<group>"; };
+		8702658F22E4DBED0033C92A /* Koenigsegg CCXR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Koenigsegg CCXR.jpg"; sourceTree = "<group>"; };
+		8702659322E4DBF50033C92A /* Chevrolet Corvette C8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Corvette C8.jpg"; sourceTree = "<group>"; };
+		8702659522E4DC110033C92A /* Lamborghini Reventon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Reventon.jpg"; sourceTree = "<group>"; };
+		8702659622E4DC110033C92A /* Lamborghini Countach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Countach.jpg"; sourceTree = "<group>"; };
+		8702659722E4DC110033C92A /* Lamborghini Miura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Miura.jpg"; sourceTree = "<group>"; };
+		8702659822E4DC110033C92A /* Lamborghini Diablo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Diablo.jpg"; sourceTree = "<group>"; };
+		8702659922E4DC110033C92A /* Lamborghini Sesto Elemento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Sesto Elemento.jpg"; sourceTree = "<group>"; };
+		8702659F22E4DC1F0033C92A /* Lotus Evija.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lotus Evija.jpg"; sourceTree = "<group>"; };
+		870265A122E4DC260033C92A /* Mazda RX-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mazda RX-7.jpg"; sourceTree = "<group>"; };
+		870265A322E4DC310033C92A /* SRT Viper GTS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SRT Viper GTS.jpg"; sourceTree = "<group>"; };
+		870265A522E4DC4B0033C92A /* Porsche 911 R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche 911 R.jpg"; sourceTree = "<group>"; };
+		870265A722E4DC510033C92A /* Pontiac Firebird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pontiac Firebird.jpg"; sourceTree = "<group>"; };
+		870265A922E4DC9F0033C92A /* Gumpert Apollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gumpert Apollo.jpg"; sourceTree = "<group>"; };
+		870265AB22E4E50C0033C92A /* Dodge Viper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Viper.jpg"; sourceTree = "<group>"; };
+		870265AD22E4E9390033C92A /* 4x4Cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 4x4Cars.plist; sourceTree = "<group>"; };
+		870265AF22E4EC3D0033C92A /* Audi A6 Allroad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi A6 Allroad.jpg"; sourceTree = "<group>"; };
+		870265B122E4EC460033C92A /* Buick Enclave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buick Enclave.jpg"; sourceTree = "<group>"; };
+		870265B322E4EC570033C92A /* Chevrolet Silverado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Silverado.jpg"; sourceTree = "<group>"; };
+		870265B422E4EC570033C92A /* Chevrolet Suburban.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Suburban.jpg"; sourceTree = "<group>"; };
+		870265B722E4EC610033C92A /* Chrysler Aspen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler Aspen.jpg"; sourceTree = "<group>"; };
+		870265B922E4EC6F0033C92A /* Dodge Ram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Ram.jpg"; sourceTree = "<group>"; };
+		870265BB22E4EC780033C92A /* Ford F-250.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford F-250.jpg"; sourceTree = "<group>"; };
+		870265BD22E4EC880033C92A /* GMC Sierra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GMC Sierra.jpg"; sourceTree = "<group>"; };
+		870265BF22E4EC960033C92A /* Toyota Tundra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toyota Tundra.jpg"; sourceTree = "<group>"; };
+		870265C122E4ECA30033C92A /* Mercedes-AMG G63 6x6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercedes-AMG G63 6x6.jpg"; sourceTree = "<group>"; };
+		870265C422E5CDEC0033C92A /* Dodge Charger Daytona 1969.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Charger Daytona 1969.jpg"; sourceTree = "<group>"; };
+		870265C522E5CDEC0033C92A /* Mercury Montego GT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercury Montego GT.jpg"; sourceTree = "<group>"; };
+		870265C622E5CDEC0033C92A /* Chrysler Windsor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler Windsor.jpg"; sourceTree = "<group>"; };
+		870265C722E5CDEC0033C92A /* Toyota 2000GT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toyota 2000GT.jpg"; sourceTree = "<group>"; };
+		870265C822E5CDEC0033C92A /* VW Beetle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VW Beetle.jpg"; sourceTree = "<group>"; };
+		870265C922E5CDEC0033C92A /* Aston Martin Lagonda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aston Martin Lagonda.jpg"; sourceTree = "<group>"; };
+		870265CA22E5CDEC0033C92A /* Porsche 959.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche 959.jpg"; sourceTree = "<group>"; };
+		870265CB22E5CDEC0033C92A /* Audi Quattro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi Quattro.jpg"; sourceTree = "<group>"; };
+		870265CC22E5CDEC0033C92A /* Nissan 240SX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan 240SX.jpg"; sourceTree = "<group>"; };
+		870265CD22E5CDEC0033C92A /* Cadillac Fleetwood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cadillac Fleetwood.jpg"; sourceTree = "<group>"; };
+		870265CE22E5CDEC0033C92A /* BMW Z8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW Z8.jpg"; sourceTree = "<group>"; };
+		870265CF22E5CDEC0033C92A /* Ford Thunderbird 1970.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Thunderbird 1970.jpg"; sourceTree = "<group>"; };
+		870265D022E5CDEC0033C92A /* Ford Capri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Capri.jpg"; sourceTree = "<group>"; };
+		870265D122E5CDEC0033C92A /* Chevrolet Chevelle SS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Chevelle SS.jpg"; sourceTree = "<group>"; };
+		870265D222E5CDEC0033C92A /* Chrysler Saratoga 1957.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler Saratoga 1957.jpg"; sourceTree = "<group>"; };
+		870265D322E5CDEC0033C92A /* Lamborghini Jalpa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Jalpa.jpg"; sourceTree = "<group>"; };
+		870265D422E5CDEC0033C92A /* Chevrolet Caprice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Caprice.jpg"; sourceTree = "<group>"; };
+		870265D522E5CDEC0033C92A /* Toyota Mark II.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toyota Mark II.jpg"; sourceTree = "<group>"; };
+		870265D622E5CDEC0033C92A /* Maserati Bora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Maserati Bora.jpg"; sourceTree = "<group>"; };
+		870265D722E5CDEC0033C92A /* Cadillac Brougham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cadillac Brougham.jpg"; sourceTree = "<group>"; };
+		870265D822E5CDEC0033C92A /* Ford Mustang 1969.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Mustang 1969.jpg"; sourceTree = "<group>"; };
+		870265D922E5CDEC0033C92A /* Dodge Charger RT Hemi 1971.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Charger RT Hemi 1971.jpg"; sourceTree = "<group>"; };
+		870265DA22E5CDEC0033C92A /* Chevrolet Impala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Impala.jpg"; sourceTree = "<group>"; };
+		870265DB22E5CDEC0033C92A /* Ferrari Mondial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari Mondial.jpg"; sourceTree = "<group>"; };
+		870265DC22E5CDEC0033C92A /* Alfa Romeo 1750 Spider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alfa Romeo 1750 Spider.jpg"; sourceTree = "<group>"; };
+		870265DD22E5CDEC0033C92A /* BMW 507.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW 507.jpg"; sourceTree = "<group>"; };
+		870265DE22E5CDEC0033C92A /* Porsche 356A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche 356A.jpg"; sourceTree = "<group>"; };
+		870265DF22E5CDEC0033C92A /* Chevrolet Monte Carlo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Monte Carlo.jpg"; sourceTree = "<group>"; };
+		870265E022E5CDEC0033C92A /* Cadillac Eldorado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cadillac Eldorado.jpg"; sourceTree = "<group>"; };
+		870265E122E5CDEC0033C92A /* Pontiac Grand Am.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pontiac Grand Am.jpg"; sourceTree = "<group>"; };
+		870265E222E5CDEC0033C92A /* Porsche 911 1964.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche 911 1964.jpg"; sourceTree = "<group>"; };
+		870265E322E5CDEC0033C92A /* Dodge Challenger RT 1970.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Challenger RT 1970.jpg"; sourceTree = "<group>"; };
+		870265E422E5CDEC0033C92A /* Mercedes-Benz 190 SL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercedes-Benz 190 SL.jpg"; sourceTree = "<group>"; };
+		870265E522E5CDEC0033C92A /* Mercedes-Benz 220 SE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercedes-Benz 220 SE.jpg"; sourceTree = "<group>"; };
+		870265E622E5CDEC0033C92A /* Pontiac Sunbird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pontiac Sunbird.jpg"; sourceTree = "<group>"; };
+		870265E722E5CDEC0033C92A /* Aston Martin DB4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aston Martin DB4.jpg"; sourceTree = "<group>"; };
+		870265E822E5CDEC0033C92A /* Chevrolet Monza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Monza.jpg"; sourceTree = "<group>"; };
+		870265E922E5CDEC0033C92A /* Chevrolet Corvette Stingray.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Corvette Stingray.jpg"; sourceTree = "<group>"; };
+		870265EA22E5CDEC0033C92A /* Jaguar E-Type.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jaguar E-Type.jpg"; sourceTree = "<group>"; };
+		870265EB22E5CDEC0033C92A /* VW Typ 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VW Typ 2.jpg"; sourceTree = "<group>"; };
+		870265EC22E5CDEC0033C92A /* Chevrolet Camaro 1969.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Camaro 1969.jpg"; sourceTree = "<group>"; };
+		870265ED22E5CDEC0033C92A /* Aston Martin DB5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aston Martin DB5.jpg"; sourceTree = "<group>"; };
+		870265EE22E5CDEC0033C92A /* Porsche 928.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche 928.jpg"; sourceTree = "<group>"; };
+		870265EF22E5CDEC0033C92A /* Saab 99.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Saab 99.jpg"; sourceTree = "<group>"; };
+		870265F022E5CDEC0033C92A /* Cadillac DeVille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cadillac DeVille.jpg"; sourceTree = "<group>"; };
+		870265F122E5CDEC0033C92A /* Ferrari 250 GTO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari 250 GTO.jpg"; sourceTree = "<group>"; };
+		870265F222E5CDEC0033C92A /* Chevrolet Blazer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Blazer.jpg"; sourceTree = "<group>"; };
+		870265F322E5CDEC0033C92A /* Ferrari 328 GTB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari 328 GTB.jpg"; sourceTree = "<group>"; };
+		870265F422E5CDEC0033C92A /* Saab 900.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Saab 900.jpg"; sourceTree = "<group>"; };
+		870265F522E5CDEC0033C92A /* Dodge 600 1985.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge 600 1985.jpg"; sourceTree = "<group>"; };
+		870265F622E5CDEC0033C92A /* Chrysler New Yorker 1958.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler New Yorker 1958.jpg"; sourceTree = "<group>"; };
+		870265F722E5CDEC0033C92A /* Mercury Eight Club Coupe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercury Eight Club Coupe.jpg"; sourceTree = "<group>"; };
+		870265F822E5CDEC0033C92A /* Mercury Montclair Convertible.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercury Montclair Convertible.jpg"; sourceTree = "<group>"; };
+		870265F922E5CDEC0033C92A /* Nissan Skyline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan Skyline.jpg"; sourceTree = "<group>"; };
+		870265FA22E5CDEC0033C92A /* Ford Maverick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Maverick.jpg"; sourceTree = "<group>"; };
+		870265FB22E5CDEC0033C92A /* Ford GT40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford GT40.jpg"; sourceTree = "<group>"; };
+		870265FC22E5CDEC0033C92A /* Ford Torino Cobra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Torino Cobra.jpg"; sourceTree = "<group>"; };
+		870265FD22E5CDEC0033C92A /* Chrysler Imperial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler Imperial.jpg"; sourceTree = "<group>"; };
+		870265FE22E5CDEC0033C92A /* BMW 8-Series.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW 8-Series.jpg"; sourceTree = "<group>"; };
+		870265FF22E5CDEC0033C92A /* Lamborghini Islero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini Islero.jpg"; sourceTree = "<group>"; };
+		8702660022E5CDEC0033C92A /* Chevrolet Camaro 1971.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Camaro 1971.jpg"; sourceTree = "<group>"; };
+		8702660122E5CDEC0033C92A /* Rolls-Royce Silver Cloud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rolls-Royce Silver Cloud.jpg"; sourceTree = "<group>"; };
+		8702660222E5CDEC0033C92A /* Mercury Monarch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercury Monarch.jpg"; sourceTree = "<group>"; };
+		8702660322E5CDEC0033C92A /* Ford Consul GT 1972.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Consul GT 1972.jpg"; sourceTree = "<group>"; };
+		8702660422E5CDEC0033C92A /* Ford Crown Victoria 1955.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Crown Victoria 1955.jpg"; sourceTree = "<group>"; };
+		8702660522E5CDEC0033C92A /* Dodge Monaco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Monaco.jpg"; sourceTree = "<group>"; };
+		8702660622E5CDEC0033C92A /* Rolls-Royce Camargue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rolls-Royce Camargue.jpg"; sourceTree = "<group>"; };
+		8702660722E5CDEC0033C92A /* Ferrari 512 BB 1976.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari 512 BB 1976.jpg"; sourceTree = "<group>"; };
+		8702660822E5CDEC0033C92A /* Pontiac GTO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pontiac GTO.jpg"; sourceTree = "<group>"; };
+		8702660922E5CDEC0033C92A /* Chrysler 180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler 180.jpg"; sourceTree = "<group>"; };
+		8702660A22E5CDEC0033C92A /* BMW 3200 CS Coupe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW 3200 CS Coupe.jpg"; sourceTree = "<group>"; };
+		8702660B22E5CDEC0033C92A /* Audi 50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Audi 50.jpg"; sourceTree = "<group>"; };
+		8702660C22E5CDEC0033C92A /* Ford Fairlane 1966.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford Fairlane 1966.jpg"; sourceTree = "<group>"; };
+		8702660D22E5CDEC0033C92A /* Jaguar XJ220.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jaguar XJ220.jpg"; sourceTree = "<group>"; };
+		8702660E22E5CDEC0033C92A /* Chevrolet C10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet C10.jpg"; sourceTree = "<group>"; };
+		8702660F22E5CDEC0033C92A /* Ford LTD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ford LTD.jpg"; sourceTree = "<group>"; };
+		8702661022E5CDEC0033C92A /* BMW 2000 CS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW 2000 CS.jpg"; sourceTree = "<group>"; };
+		8702661122E5CDEC0033C92A /* Porsche 968.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porsche 968.jpg"; sourceTree = "<group>"; };
+		8702661222E5CDEC0033C92A /* Pontiac LeMans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pontiac LeMans.jpg"; sourceTree = "<group>"; };
+		8702661322E5CDEC0033C92A /* Rolls-Royce Corniche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rolls-Royce Corniche.jpg"; sourceTree = "<group>"; };
+		8702666422E5CE190033C92A /* ClassicCars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassicCars.plist; sourceTree = "<group>"; };
+		8702666522E5CE190033C92A /* ClassicCarsVariants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassicCarsVariants.plist; sourceTree = "<group>"; };
 		8714933322D6159800402A25 /* Acura MDX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acura MDX.jpg"; sourceTree = "<group>"; };
 		8714933422D6159800402A25 /* Acura TLX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acura TLX.jpg"; sourceTree = "<group>"; };
 		8714933822D615E900402A25 /* Alfa Romeo Giulia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alfa Romeo Giulia.jpg"; sourceTree = "<group>"; };
@@ -491,7 +744,7 @@
 		8714939F22D6181F00402A25 /* Chevrolet Cruze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Cruze.jpg"; sourceTree = "<group>"; };
 		871493A022D6181F00402A25 /* Chevrolet Malibu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Malibu.jpg"; sourceTree = "<group>"; };
 		871493A122D6181F00402A25 /* Chevrolet Volt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Volt.jpg"; sourceTree = "<group>"; };
-		871493A222D6182000402A25 /* Chevrolet Corvette.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Corvette.jpg"; sourceTree = "<group>"; };
+		871493A222D6182000402A25 /* Chevrolet Corvette C6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Corvette C6.jpg"; sourceTree = "<group>"; };
 		871493A322D6182000402A25 /* Chevrolet Camaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Camaro.jpg"; sourceTree = "<group>"; };
 		871493A422D6182000402A25 /* Chevrolet Tahoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chevrolet Tahoe.jpg"; sourceTree = "<group>"; };
 		871493AC22D6183700402A25 /* Chrysler 300C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrysler 300C.jpg"; sourceTree = "<group>"; };
@@ -502,7 +755,6 @@
 		871493B522D6185200402A25 /* Citroen C8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Citroen C8.jpg"; sourceTree = "<group>"; };
 		871493B622D6185200402A25 /* Citroen C4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Citroen C4.jpg"; sourceTree = "<group>"; };
 		871493BC22D6188900402A25 /* Dodge Challenger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Challenger.jpg"; sourceTree = "<group>"; };
-		871493BD22D6188900402A25 /* Dodge Viper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Viper.jpg"; sourceTree = "<group>"; };
 		871493BE22D6188900402A25 /* Dodge Charger SRT Hellcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Charger SRT Hellcat.jpg"; sourceTree = "<group>"; };
 		871493BF22D6188900402A25 /* Dodge Dart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Dart.jpg"; sourceTree = "<group>"; };
 		871493C022D6188A00402A25 /* Dodge Challenger SRT Demon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dodge Challenger SRT Demon.jpg"; sourceTree = "<group>"; };
@@ -820,13 +1072,19 @@
 		871495FE22D61BF100402A25 /* Volvo V60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Volvo V60.jpg"; sourceTree = "<group>"; };
 		871495FF22D61BF100402A25 /* Volvo XC90.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Volvo XC90.jpg"; sourceTree = "<group>"; };
 		8714960022D61BF100402A25 /* Volvo S60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Volvo S60.jpg"; sourceTree = "<group>"; };
+		8733E3D322E4B514004323A0 /* SportCarsNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SportCarsNames.plist; sourceTree = "<group>"; };
+		8733E3D422E4B514004323A0 /* SportCars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SportCars.plist; sourceTree = "<group>"; };
+		8733E3D522E4B514004323A0 /* SportCarsVariants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SportCarsVariants.plist; sourceTree = "<group>"; };
+		8733E3D922E4B57F004323A0 /* ClassicCarsNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassicCarsNames.plist; sourceTree = "<group>"; };
+		8733E3DF22E4B5A0004323A0 /* 4x4CarsNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 4x4CarsNames.plist; sourceTree = "<group>"; };
+		8733E3E022E4B5A0004323A0 /* 4x4CarsVariants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 4x4CarsVariants.plist; sourceTree = "<group>"; };
 		874DD8D522D22C4D004AF43B /* CustomChalkduster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CustomChalkduster.ttf; sourceTree = "<group>"; };
 		87517A3E22CE034F00D5B0E4 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		876691A522CF40E6008F8A7F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		9D75BB9902EDDF983924C1D8 /* Pods_GuessTheCarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessTheCarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5165C0F22060CF0005CC20D /* GameProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProcessViewController.swift; sourceTree = "<group>"; };
-		A527B0BB2280C1F000046C1F /* CarsList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsList.plist; sourceTree = "<group>"; };
-		A527B0BD2280C20700046C1F /* Cars.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cars.plist; sourceTree = "<group>"; };
+		A527B0BB2280C1F000046C1F /* AllCars.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AllCars.plist; sourceTree = "<group>"; };
+		A527B0BD2280C20700046C1F /* AllCarsNames.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AllCarsNames.plist; sourceTree = "<group>"; };
 		A530CD192247AD5800AB256C /* Scores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Scores.plist; sourceTree = "<group>"; };
 		A53F656E2247B6530080298F /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
 		A551618E226B90AB00273E29 /* GuessTheCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessTheCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -836,7 +1094,7 @@
 		A551619E226B90BA00273E29 /* GuessTheCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheCarTests.swift; sourceTree = "<group>"; };
 		A55161A0226B90BA00273E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A557C6FE2219CBFC00E6BBA8 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
-		A561B73E2273917B003DCF52 /* CarsVariants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarsVariants.plist; sourceTree = "<group>"; };
+		A561B73E2273917B003DCF52 /* AllCarsVariants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AllCarsVariants.plist; sourceTree = "<group>"; };
 		A56FB231222062C300EAFAA4 /* BackgroundSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundSound.mp3; sourceTree = "<group>"; };
 		A56FB2342220630900EAFAA4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A56FB23822206ED700EAFAA4 /* Horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Horn.wav; sourceTree = "<group>"; };
@@ -900,6 +1158,93 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		870265C322E5CDEC0033C92A /* classic cars */ = {
+			isa = PBXGroup;
+			children = (
+				870265C422E5CDEC0033C92A /* Dodge Charger Daytona 1969.jpg */,
+				870265C522E5CDEC0033C92A /* Mercury Montego GT.jpg */,
+				870265C622E5CDEC0033C92A /* Chrysler Windsor.jpg */,
+				870265C722E5CDEC0033C92A /* Toyota 2000GT.jpg */,
+				870265C822E5CDEC0033C92A /* VW Beetle.jpg */,
+				870265C922E5CDEC0033C92A /* Aston Martin Lagonda.jpg */,
+				870265CA22E5CDEC0033C92A /* Porsche 959.jpg */,
+				870265CB22E5CDEC0033C92A /* Audi Quattro.jpg */,
+				870265CC22E5CDEC0033C92A /* Nissan 240SX.jpg */,
+				870265CD22E5CDEC0033C92A /* Cadillac Fleetwood.jpg */,
+				870265CE22E5CDEC0033C92A /* BMW Z8.jpg */,
+				870265CF22E5CDEC0033C92A /* Ford Thunderbird 1970.jpg */,
+				870265D022E5CDEC0033C92A /* Ford Capri.jpg */,
+				870265D122E5CDEC0033C92A /* Chevrolet Chevelle SS.jpg */,
+				870265D222E5CDEC0033C92A /* Chrysler Saratoga 1957.jpg */,
+				870265D322E5CDEC0033C92A /* Lamborghini Jalpa.jpg */,
+				870265D422E5CDEC0033C92A /* Chevrolet Caprice.jpg */,
+				870265D522E5CDEC0033C92A /* Toyota Mark II.jpg */,
+				870265D622E5CDEC0033C92A /* Maserati Bora.jpg */,
+				870265D722E5CDEC0033C92A /* Cadillac Brougham.jpg */,
+				870265D822E5CDEC0033C92A /* Ford Mustang 1969.jpg */,
+				870265D922E5CDEC0033C92A /* Dodge Charger RT Hemi 1971.jpg */,
+				870265DA22E5CDEC0033C92A /* Chevrolet Impala.jpg */,
+				870265DB22E5CDEC0033C92A /* Ferrari Mondial.jpg */,
+				870265DC22E5CDEC0033C92A /* Alfa Romeo 1750 Spider.jpg */,
+				870265DD22E5CDEC0033C92A /* BMW 507.jpg */,
+				870265DE22E5CDEC0033C92A /* Porsche 356A.jpg */,
+				870265DF22E5CDEC0033C92A /* Chevrolet Monte Carlo.jpg */,
+				870265E022E5CDEC0033C92A /* Cadillac Eldorado.jpg */,
+				870265E122E5CDEC0033C92A /* Pontiac Grand Am.jpg */,
+				870265E222E5CDEC0033C92A /* Porsche 911 1964.jpg */,
+				870265E322E5CDEC0033C92A /* Dodge Challenger RT 1970.jpg */,
+				870265E422E5CDEC0033C92A /* Mercedes-Benz 190 SL.jpg */,
+				870265E522E5CDEC0033C92A /* Mercedes-Benz 220 SE.jpg */,
+				870265E622E5CDEC0033C92A /* Pontiac Sunbird.jpg */,
+				870265E722E5CDEC0033C92A /* Aston Martin DB4.jpg */,
+				870265E822E5CDEC0033C92A /* Chevrolet Monza.jpg */,
+				870265E922E5CDEC0033C92A /* Chevrolet Corvette Stingray.jpg */,
+				870265EA22E5CDEC0033C92A /* Jaguar E-Type.jpg */,
+				870265EB22E5CDEC0033C92A /* VW Typ 2.jpg */,
+				870265EC22E5CDEC0033C92A /* Chevrolet Camaro 1969.jpg */,
+				870265ED22E5CDEC0033C92A /* Aston Martin DB5.jpg */,
+				870265EE22E5CDEC0033C92A /* Porsche 928.jpg */,
+				870265EF22E5CDEC0033C92A /* Saab 99.jpg */,
+				870265F022E5CDEC0033C92A /* Cadillac DeVille.jpg */,
+				870265F122E5CDEC0033C92A /* Ferrari 250 GTO.jpg */,
+				870265F222E5CDEC0033C92A /* Chevrolet Blazer.jpg */,
+				870265F322E5CDEC0033C92A /* Ferrari 328 GTB.jpg */,
+				870265F422E5CDEC0033C92A /* Saab 900.jpg */,
+				870265F522E5CDEC0033C92A /* Dodge 600 1985.jpg */,
+				870265F622E5CDEC0033C92A /* Chrysler New Yorker 1958.jpg */,
+				870265F722E5CDEC0033C92A /* Mercury Eight Club Coupe.jpg */,
+				870265F822E5CDEC0033C92A /* Mercury Montclair Convertible.jpg */,
+				870265F922E5CDEC0033C92A /* Nissan Skyline.jpg */,
+				870265FA22E5CDEC0033C92A /* Ford Maverick.jpg */,
+				870265FB22E5CDEC0033C92A /* Ford GT40.jpg */,
+				870265FC22E5CDEC0033C92A /* Ford Torino Cobra.jpg */,
+				870265FD22E5CDEC0033C92A /* Chrysler Imperial.jpg */,
+				870265FE22E5CDEC0033C92A /* BMW 8-Series.jpg */,
+				870265FF22E5CDEC0033C92A /* Lamborghini Islero.jpg */,
+				8702660022E5CDEC0033C92A /* Chevrolet Camaro 1971.jpg */,
+				8702660122E5CDEC0033C92A /* Rolls-Royce Silver Cloud.jpg */,
+				8702660222E5CDEC0033C92A /* Mercury Monarch.jpg */,
+				8702660322E5CDEC0033C92A /* Ford Consul GT 1972.jpg */,
+				8702660422E5CDEC0033C92A /* Ford Crown Victoria 1955.jpg */,
+				8702660522E5CDEC0033C92A /* Dodge Monaco.jpg */,
+				8702660622E5CDEC0033C92A /* Rolls-Royce Camargue.jpg */,
+				8702660722E5CDEC0033C92A /* Ferrari 512 BB 1976.jpg */,
+				8702660822E5CDEC0033C92A /* Pontiac GTO.jpg */,
+				8702660922E5CDEC0033C92A /* Chrysler 180.jpg */,
+				8702660A22E5CDEC0033C92A /* BMW 3200 CS Coupe.jpg */,
+				8702660B22E5CDEC0033C92A /* Audi 50.jpg */,
+				8702660C22E5CDEC0033C92A /* Ford Fairlane 1966.jpg */,
+				8702660D22E5CDEC0033C92A /* Jaguar XJ220.jpg */,
+				8702660E22E5CDEC0033C92A /* Chevrolet C10.jpg */,
+				8702660F22E5CDEC0033C92A /* Ford LTD.jpg */,
+				8702661022E5CDEC0033C92A /* BMW 2000 CS.jpg */,
+				8702661122E5CDEC0033C92A /* Porsche 968.jpg */,
+				8702661222E5CDEC0033C92A /* Pontiac LeMans.jpg */,
+				8702661322E5CDEC0033C92A /* Rolls-Royce Corniche.jpg */,
+			);
+			path = "classic cars";
+			sourceTree = "<group>";
+		};
 		8714933122D6155600402A25 /* Cars */ = {
 			isa = PBXGroup;
 			children = (
@@ -944,6 +1289,7 @@
 				871493AB22D6182B00402A25 /* Chrysler */,
 				8714939E22D6180800402A25 /* Chevrolet */,
 				8714939322D617F000402A25 /* Cadillac */,
+				870265C322E5CDEC0033C92A /* classic cars */,
 				8714934722D6163100402A25 /* Audi */,
 				8714933E22D6161200402A25 /* Aston Martin */,
 				8714933722D6159D00402A25 /* Alfa Romeo */,
@@ -959,6 +1305,7 @@
 			isa = PBXGroup;
 			children = (
 				8714933322D6159800402A25 /* Acura MDX.jpg */,
+				8702656F22E4DB940033C92A /* Acura NSX.jpg */,
 				8714933422D6159800402A25 /* Acura TLX.jpg */,
 			);
 			path = Acura;
@@ -977,6 +1324,9 @@
 		8714933E22D6161200402A25 /* Aston Martin */ = {
 			isa = PBXGroup;
 			children = (
+				8702657322E4DBA20033C92A /* Aston Martin One-77.jpg */,
+				8702657122E4DBA20033C92A /* Aston Martin Valkyrie.jpg */,
+				8702657222E4DBA20033C92A /* Aston Martin Vulcan.jpg */,
 				8714933F22D6162B00402A25 /* Aston Martin Cygnet.jpg */,
 				8714934222D6162C00402A25 /* Aston Martin DB11.jpg */,
 				8714934122D6162B00402A25 /* Aston Martin DBS.jpeg */,
@@ -988,6 +1338,7 @@
 		8714934722D6163100402A25 /* Audi */ = {
 			isa = PBXGroup;
 			children = (
+				870265AF22E4EC3D0033C92A /* Audi A6 Allroad.jpg */,
 				8714935122D6164800402A25 /* Audi 80.jpg */,
 				8714935322D6164800402A25 /* Audi A1.jpg */,
 				8714934D22D6164700402A25 /* Audi A4.jpg */,
@@ -1042,6 +1393,8 @@
 		8714938C22D6169D00402A25 /* Bugatti */ = {
 			isa = PBXGroup;
 			children = (
+				8702657722E4DBB60033C92A /* Bugatti Divo.jpg */,
+				8702657822E4DBB60033C92A /* Bugatti Vision GT.jpg */,
 				8714938F22D616D000402A25 /* Bugatti Chiron.jpg */,
 				8714938D22D616D000402A25 /* Bugatti Veyron Grand Sport.jpg */,
 				8714938E22D616D000402A25 /* Bugatti Veyron Super Sport.jpeg */,
@@ -1064,8 +1417,11 @@
 		8714939E22D6180800402A25 /* Chevrolet */ = {
 			isa = PBXGroup;
 			children = (
+				870265B322E4EC570033C92A /* Chevrolet Silverado.jpg */,
+				870265B422E4EC570033C92A /* Chevrolet Suburban.jpg */,
+				8702659322E4DBF50033C92A /* Chevrolet Corvette C8.jpg */,
 				871493A322D6182000402A25 /* Chevrolet Camaro.jpg */,
-				871493A222D6182000402A25 /* Chevrolet Corvette.jpg */,
+				871493A222D6182000402A25 /* Chevrolet Corvette C6.jpg */,
 				8714939F22D6181F00402A25 /* Chevrolet Cruze.jpg */,
 				871493A022D6181F00402A25 /* Chevrolet Malibu.jpg */,
 				871493A422D6182000402A25 /* Chevrolet Tahoe.jpg */,
@@ -1077,6 +1433,7 @@
 		871493AB22D6182B00402A25 /* Chrysler */ = {
 			isa = PBXGroup;
 			children = (
+				870265B722E4EC610033C92A /* Chrysler Aspen.jpg */,
 				871493AC22D6183700402A25 /* Chrysler 300C.jpg */,
 				871493AD22D6183700402A25 /* Chrysler Pacifica.jpg */,
 				871493AE22D6183800402A25 /* Chrysler PT Cruiser.jpg */,
@@ -1098,12 +1455,13 @@
 		871493BB22D6187400402A25 /* Dodge */ = {
 			isa = PBXGroup;
 			children = (
+				870265B922E4EC6F0033C92A /* Dodge Ram.jpg */,
 				871493C022D6188A00402A25 /* Dodge Challenger SRT Demon.jpg */,
 				871493BC22D6188900402A25 /* Dodge Challenger.jpg */,
 				871493BE22D6188900402A25 /* Dodge Charger SRT Hellcat.jpg */,
+				870265AB22E4E50C0033C92A /* Dodge Viper.jpg */,
 				871493BF22D6188900402A25 /* Dodge Dart.jpg */,
 				871493C122D6188A00402A25 /* Dodge Durango.jpg */,
-				871493BD22D6188900402A25 /* Dodge Viper.jpg */,
 			);
 			path = Dodge;
 			sourceTree = "<group>";
@@ -1111,6 +1469,12 @@
 		871493C822D6189400402A25 /* Ferrari */ = {
 			isa = PBXGroup;
 			children = (
+				8702657B22E4DBC70033C92A /* Ferrari F12berlinetta.jpg */,
+				8702658022E4DBC80033C92A /* Ferrari F40.jpg */,
+				8702657C22E4DBC70033C92A /* Ferrari F50.jpg */,
+				8702657F22E4DBC80033C92A /* Ferrari FF.jpg */,
+				8702657D22E4DBC80033C92A /* Ferrari SF90 Stradale.jpg */,
+				8702657E22E4DBC80033C92A /* Ferrari Testarossa.jpg */,
 				871493CD22D618A100402A25 /* Ferrari 458 Italia.jpg */,
 				871493C922D618A100402A25 /* Ferrari 488 GTB.jpg */,
 				871493CA22D618A100402A25 /* Ferrari 488 Pista.jpg */,
@@ -1140,6 +1504,7 @@
 		871493E822D618BF00402A25 /* Ford */ = {
 			isa = PBXGroup;
 			children = (
+				870265BB22E4EC780033C92A /* Ford F-250.jpg */,
 				871493F222D618D000402A25 /* Ford Crown Victoria.jpg */,
 				871493EB22D618D000402A25 /* Ford Edge.jpg */,
 				871493EE22D618D000402A25 /* Ford Expedition.jpg */,
@@ -1159,6 +1524,7 @@
 		8714940122D618D600402A25 /* GMC */ = {
 			isa = PBXGroup;
 			children = (
+				870265BD22E4EC880033C92A /* GMC Sierra.jpg */,
 				8714940222D618F300402A25 /* GMC Youkon.jpg */,
 			);
 			path = GMC;
@@ -1167,6 +1533,7 @@
 		8714940422D618FC00402A25 /* Honda */ = {
 			isa = PBXGroup;
 			children = (
+				8702658B22E4DBE30033C92A /* Honda NSX.jpg */,
 				8714940522D6190C00402A25 /* Honda Accord.jpeg */,
 				8714940622D6190C00402A25 /* Honda Civic Type R.jpg */,
 				8714940B22D6190C00402A25 /* Honda Civic.jpg */,
@@ -1271,6 +1638,9 @@
 		8714947922D619B600402A25 /* Koenigsegg */ = {
 			isa = PBXGroup;
 			children = (
+				8702658E22E4DBED0033C92A /* Koenigsegg CCX.jpg */,
+				8702658F22E4DBED0033C92A /* Koenigsegg CCXR.jpg */,
+				8702658D22E4DBEC0033C92A /* Koenigsegg Jesko.jpg */,
 				8714947A22D619CA00402A25 /* Koenigsegg Agera R.jpg */,
 				8714947B22D619CA00402A25 /* Koenigsegg Regera.jpg */,
 			);
@@ -1280,6 +1650,11 @@
 		8714947E22D619D200402A25 /* Lamborghini */ = {
 			isa = PBXGroup;
 			children = (
+				8702659622E4DC110033C92A /* Lamborghini Countach.jpg */,
+				8702659822E4DC110033C92A /* Lamborghini Diablo.jpg */,
+				8702659722E4DC110033C92A /* Lamborghini Miura.jpg */,
+				8702659522E4DC110033C92A /* Lamborghini Reventon.jpg */,
+				8702659922E4DC110033C92A /* Lamborghini Sesto Elemento.jpg */,
 				8714948022D619E900402A25 /* Lamborghini Aventador.jpg */,
 				8714948122D619E900402A25 /* Lamborghini Centenario.jpg */,
 				8714948522D619E900402A25 /* Lamborghini Gallardo.jpg */,
@@ -1337,6 +1712,7 @@
 		871494BC22D61A6500402A25 /* Lotus */ = {
 			isa = PBXGroup;
 			children = (
+				8702659F22E4DC1F0033C92A /* Lotus Evija.jpg */,
 				871494BE22D61A6F00402A25 /* Lotus Evora.jpg */,
 				871494BD22D61A6F00402A25 /* Lotus Exige.jpg */,
 			);
@@ -1358,6 +1734,7 @@
 		871494CC22D61AA300402A25 /* Mazda */ = {
 			isa = PBXGroup;
 			children = (
+				870265A122E4DC260033C92A /* Mazda RX-7.jpg */,
 				871494D222D61AAE00402A25 /* Mazda 3.jpg */,
 				871494D122D61AAE00402A25 /* Mazda 6.jpg */,
 				871494D322D61AAE00402A25 /* Mazda CX-3.jpg */,
@@ -1372,6 +1749,8 @@
 		871494DB22D61AE200402A25 /* McLaren */ = {
 			isa = PBXGroup;
 			children = (
+				8702658722E4DBDA0033C92A /* McLaren 570S.jpg */,
+				8702658822E4DBDA0033C92A /* McLaren 650S.jpg */,
 				871494E022D61AF500402A25 /* McLaren 720S.jpg */,
 				871494DE22D61AF500402A25 /* McLaren GT.jpg */,
 				871494DD22D61AF400402A25 /* McLaren MP4-12C.jpg */,
@@ -1384,6 +1763,7 @@
 		871494E622D61AFA00402A25 /* Mercedes-Benz */ = {
 			isa = PBXGroup;
 			children = (
+				870265C122E4ECA30033C92A /* Mercedes-AMG G63 6x6.jpg */,
 				871494F322D61B1500402A25 /* Mercedes-AMG C63.jpg */,
 				871494FD22D61B1600402A25 /* Mercedes-AMG CL63.jpg */,
 				871494ED22D61B1500402A25 /* Mercedes-AMG CLS63.jpg */,
@@ -1487,6 +1867,10 @@
 		8714957322D61BE400402A25 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				870265B122E4EC460033C92A /* Buick Enclave.jpg */,
+				870265A922E4DC9F0033C92A /* Gumpert Apollo.jpg */,
+				870265A722E4DC510033C92A /* Pontiac Firebird.jpg */,
+				870265A322E4DC310033C92A /* SRT Viper GTS.jpg */,
 				8714957422D61BE400402A25 /* Haval H8.jpg */,
 				8714957522D61BE400402A25 /* Saab 9-5.jpg */,
 				8714957622D61BE400402A25 /* Daewoo Matiz.jpeg */,
@@ -1575,6 +1959,7 @@
 		871495C022D61BF000402A25 /* Porsche */ = {
 			isa = PBXGroup;
 			children = (
+				870265A522E4DC4B0033C92A /* Porsche 911 R.jpg */,
 				871495C122D61BF000402A25 /* Porsche 718 Cayman.jpg */,
 				871495C222D61BF000402A25 /* Porsche Boxter.jpg */,
 				871495C322D61BF000402A25 /* Porsche 911 Carrera GTS.jpg */,
@@ -1599,6 +1984,7 @@
 		871495D222D61BF000402A25 /* Toyota */ = {
 			isa = PBXGroup;
 			children = (
+				870265BF22E4EC960033C92A /* Toyota Tundra.jpg */,
 				871495D322D61BF000402A25 /* Toyota RAV4.jpg */,
 				871495D422D61BF000402A25 /* Toyota Highlander.jpg */,
 				871495D522D61BF000402A25 /* Toyota Yaris.jpg */,
@@ -1671,6 +2057,57 @@
 				8714960022D61BF100402A25 /* Volvo S60.jpg */,
 			);
 			path = Volvo;
+			sourceTree = "<group>";
+		};
+		8733E3CE22E4B428004323A0 /* CarsPlists */ = {
+			isa = PBXGroup;
+			children = (
+				8733E3D222E4B478004323A0 /* SportCars */,
+				8733E3D122E4B46C004323A0 /* 4x4Cars */,
+				8733E3D022E4B461004323A0 /* ClassicCars */,
+				8733E3CF22E4B43E004323A0 /* AllCars */,
+			);
+			path = CarsPlists;
+			sourceTree = "<group>";
+		};
+		8733E3CF22E4B43E004323A0 /* AllCars */ = {
+			isa = PBXGroup;
+			children = (
+				A561B73E2273917B003DCF52 /* AllCarsVariants.plist */,
+				A527B0BB2280C1F000046C1F /* AllCars.plist */,
+				A527B0BD2280C20700046C1F /* AllCarsNames.plist */,
+			);
+			path = AllCars;
+			sourceTree = "<group>";
+		};
+		8733E3D022E4B461004323A0 /* ClassicCars */ = {
+			isa = PBXGroup;
+			children = (
+				8702666522E5CE190033C92A /* ClassicCarsVariants.plist */,
+				8702666422E5CE190033C92A /* ClassicCars.plist */,
+				8733E3D922E4B57F004323A0 /* ClassicCarsNames.plist */,
+			);
+			path = ClassicCars;
+			sourceTree = "<group>";
+		};
+		8733E3D122E4B46C004323A0 /* 4x4Cars */ = {
+			isa = PBXGroup;
+			children = (
+				8733E3DF22E4B5A0004323A0 /* 4x4CarsNames.plist */,
+				870265AD22E4E9390033C92A /* 4x4Cars.plist */,
+				8733E3E022E4B5A0004323A0 /* 4x4CarsVariants.plist */,
+			);
+			path = 4x4Cars;
+			sourceTree = "<group>";
+		};
+		8733E3D222E4B478004323A0 /* SportCars */ = {
+			isa = PBXGroup;
+			children = (
+				8733E3D422E4B514004323A0 /* SportCars.plist */,
+				8733E3D322E4B514004323A0 /* SportCarsNames.plist */,
+				8733E3D522E4B514004323A0 /* SportCarsVariants.plist */,
+			);
+			path = SportCars;
 			sourceTree = "<group>";
 		};
 		874DD8D422D22C3E004AF43B /* Fonts */ = {
@@ -1762,9 +2199,7 @@
 				A5830994220479CD00326ABB /* LaunchScreen.storyboard */,
 				A5830997220479CD00326ABB /* Info.plist */,
 				A530CD192247AD5800AB256C /* Scores.plist */,
-				A561B73E2273917B003DCF52 /* CarsVariants.plist */,
-				A527B0BB2280C1F000046C1F /* CarsList.plist */,
-				A527B0BD2280C20700046C1F /* Cars.plist */,
+				8733E3CE22E4B428004323A0 /* CarsPlists */,
 			);
 			path = GuessTheCar;
 			sourceTree = "<group>";
@@ -1906,7 +2341,9 @@
 				8714963822D61BF100402A25 /* Toyota GT 86.jpg in Resources */,
 				8714960F22D61BF100402A25 /* VW Jetta.jpg in Resources */,
 				8714959622D61BE400402A25 /* Suzuki Grand Vitara.jpg in Resources */,
+				8702665F22E5CDEC0033C92A /* Ford LTD.jpg in Resources */,
 				8714961922D61BF100402A25 /* VW Amarok.jpg in Resources */,
+				8702663F22E5CDEC0033C92A /* Saab 99.jpg in Resources */,
 				8714959322D61BE400402A25 /* Suzuki Swift.jpg in Resources */,
 				871493FC22D618D000402A25 /* Ford Mustang.jpg in Resources */,
 				8714962A22D61BF100402A25 /* Porsche 718 Boxter.jpg in Resources */,
@@ -1915,6 +2352,9 @@
 				8714939922D6180300402A25 /* Cadillac Escalade.jpg in Resources */,
 				8714938522D6168C00402A25 /* BMW 6-Series GT.jpg in Resources */,
 				8714940322D618F300402A25 /* GMC Youkon.jpg in Resources */,
+				870265B022E4EC3D0033C92A /* Audi A6 Allroad.jpg in Resources */,
+				8702659A22E4DC110033C92A /* Lamborghini Reventon.jpg in Resources */,
+				8702657922E4DBB60033C92A /* Bugatti Divo.jpg in Resources */,
 				8714965D22D61BF100402A25 /* Volvo S60.jpg in Resources */,
 				8714933C22D615E900402A25 /* Alfa Romeo Mito.jpg in Resources */,
 				8714938122D6168C00402A25 /* BMW M5 E60.jpeg in Resources */,
@@ -1927,6 +2367,7 @@
 				8714950522D61B1600402A25 /* Mercedes-Benz GLC Coupe.jpg in Resources */,
 				871493A922D6182000402A25 /* Chevrolet Camaro.jpg in Resources */,
 				8714951222D61B1600402A25 /* Mercedes-Benz GLS.jpg in Resources */,
+				8702665A22E5CDEC0033C92A /* BMW 3200 CS Coupe.jpg in Resources */,
 				A5830996220479CD00326ABB /* LaunchScreen.storyboard in Resources */,
 				8714960922D61BF100402A25 /* Peugeot 307.jpg in Resources */,
 				871493E622D618BC00402A25 /* Fiat 500.jpg in Resources */,
@@ -1939,11 +2380,15 @@
 				8714964522D61BF100402A25 /* Subaru Impreza WRX STI.jpg in Resources */,
 				8714951822D61B1600402A25 /* Mercedes-Benz EQC.jpg in Resources */,
 				8714951322D61B1600402A25 /* Mercedes-Benz GLE-Class.jpg in Resources */,
+				8702665D22E5CDEC0033C92A /* Jaguar XJ220.jpg in Resources */,
 				8714961A22D61BF100402A25 /* VW Polo.jpg in Resources */,
 				8714955922D61B7400402A25 /* Nissan Leaf.jpg in Resources */,
+				8702663A22E5CDEC0033C92A /* Jaguar E-Type.jpg in Resources */,
 				871493C722D6188A00402A25 /* Dodge Durango.jpg in Resources */,
 				8714954022D61B5400402A25 /* Mitsubishi Galant.jpg in Resources */,
+				8702659122E4DBED0033C92A /* Koenigsegg CCX.jpg in Resources */,
 				8714959222D61BE400402A25 /* Lada Granta.jpg in Resources */,
+				8702663322E5CDEC0033C92A /* Dodge Challenger RT 1970.jpg in Resources */,
 				8714960422D61BF100402A25 /* Peugeot 407.jpg in Resources */,
 				8714956D22D61BD700402A25 /* Opel Antara.jpg in Resources */,
 				8714955A22D61B7400402A25 /* Nissan Note.jpg in Resources */,
@@ -1952,30 +2397,44 @@
 				8714955822D61B7400402A25 /* Nissan Qashqai.jpg in Resources */,
 				8714947122D619B100402A25 /* KIA K900.jpg in Resources */,
 				871494BA22D61A5E00402A25 /* Lincoln MKC.jpg in Resources */,
+				8702661622E5CDEC0033C92A /* Chrysler Windsor.jpg in Resources */,
 				8714940E22D6190D00402A25 /* Honda Accord.jpeg in Resources */,
 				8714945422D6197400402A25 /* Jaguar E-Pace.jpg in Resources */,
 				8714938622D6168C00402A25 /* BMW X7.jpg in Resources */,
 				8714943122D6194500402A25 /* Hyundai Tycson.jpg in Resources */,
 				8714965822D61BF100402A25 /* Volvo V40.jpg in Resources */,
+				8733E3DC22E4B580004323A0 /* ClassicCarsNames.plist in Resources */,
 				8714938222D6168C00402A25 /* BMW X3.jpg in Resources */,
 				871493E422D618BC00402A25 /* Fiat Panda.jpg in Resources */,
+				8702663722E5CDEC0033C92A /* Aston Martin DB4.jpg in Resources */,
 				8714944622D6195E00402A25 /* Infiniti JX.jpg in Resources */,
 				8714961822D61BF100402A25 /* VW Passat.jpg in Resources */,
 				8714949D22D61A0900402A25 /* Land Rover Freelander.jpg in Resources */,
 				8714939A22D6180300402A25 /* Cadillac CTS-V.jpg in Resources */,
 				871493A522D6182000402A25 /* Chevrolet Cruze.jpg in Resources */,
+				8702658122E4DBC80033C92A /* Ferrari F12berlinetta.jpg in Resources */,
 				8714959422D61BE400402A25 /* Dacia Dokker.jpg in Resources */,
+				8702662922E5CDEC0033C92A /* Dodge Charger RT Hemi 1971.jpg in Resources */,
 				8714958B22D61BE400402A25 /* Lada Kalina.jpg in Resources */,
+				870265BA22E4EC6F0033C92A /* Dodge Ram.jpg in Resources */,
 				8714939D22D6180300402A25 /* Cadillac SRX.jpg in Resources */,
 				871494B222D61A3B00402A25 /* Lexus LFA.jpg in Resources */,
-				A527B0BC2280C1F000046C1F /* CarsList.plist in Resources */,
+				A527B0BC2280C1F000046C1F /* AllCars.plist in Resources */,
 				8714947722D619B100402A25 /* KIA Rio.jpg in Resources */,
 				8714962822D61BF100402A25 /* Porsche 911 Turbo S.jpg in Resources */,
+				8702665E22E5CDEC0033C92A /* Chevrolet C10.jpg in Resources */,
+				8702665822E5CDEC0033C92A /* Pontiac GTO.jpg in Resources */,
 				8714949922D61A0900402A25 /* Land Rover RR Sport.jpg in Resources */,
-				A561B73F2273917B003DCF52 /* CarsVariants.plist in Resources */,
+				A561B73F2273917B003DCF52 /* AllCarsVariants.plist in Resources */,
+				8733E3E322E4B5A0004323A0 /* 4x4CarsVariants.plist in Resources */,
 				8714960A22D61BF100402A25 /* Tesla Model X.jpg in Resources */,
 				8714954322D61B5400402A25 /* Mitsubishi Eclipse Cross.jpg in Resources */,
+				8702663022E5CDEC0033C92A /* Cadillac Eldorado.jpg in Resources */,
 				8714950E22D61B1600402A25 /* Mercedes-AMG S63 Coupe.jpg in Resources */,
+				8702662422E5CDEC0033C92A /* Chevrolet Caprice.jpg in Resources */,
+				8702658522E4DBC80033C92A /* Ferrari FF.jpg in Resources */,
+				8702661C22E5CDEC0033C92A /* Nissan 240SX.jpg in Resources */,
+				8702657622E4DBA30033C92A /* Aston Martin One-77.jpg in Resources */,
 				8714941122D6190D00402A25 /* Honda HR-V.jpg in Resources */,
 				871493E522D618BC00402A25 /* Fiat Punto.jpg in Resources */,
 				8714963122D61BF100402A25 /* Porsche Cayenne Coupe.jpg in Resources */,
@@ -1987,12 +2446,14 @@
 				8714961422D61BF100402A25 /* VW Arteon.jpg in Resources */,
 				8714955C22D61B7400402A25 /* Nissan 350Z.jpg in Resources */,
 				8714933522D6159800402A25 /* Acura MDX.jpg in Resources */,
+				8702659E22E4DC110033C92A /* Lamborghini Sesto Elemento.jpg in Resources */,
 				8714945222D6197400402A25 /* Jaguar X-Type.jpg in Resources */,
 				8714935922D6164800402A25 /* Audi Q7.jpg in Resources */,
 				8714961222D61BF100402A25 /* VW Phaeton.jpg in Resources */,
 				8714963022D61BF100402A25 /* Porsche Panamera.jpg in Resources */,
 				8714950922D61B1600402A25 /* Mercedes-AMG SL63.jpg in Resources */,
 				8714958D22D61BE400402A25 /* Hennessey Venom GT2.jpg in Resources */,
+				870265A822E4DC510033C92A /* Pontiac Firebird.jpg in Resources */,
 				871494E322D61AF500402A25 /* McLaren GT.jpg in Resources */,
 				8714957222D61BD700402A25 /* Opel Combo.jpg in Resources */,
 				8714962722D61BF100402A25 /* Porsche Cayenne.jpg in Resources */,
@@ -2012,6 +2473,7 @@
 				8714956322D61B7400402A25 /* Nissan Tiida.jpg in Resources */,
 				8714946F22D619B100402A25 /* KIA Optima.jpg in Resources */,
 				8714948C22D619E900402A25 /* Lamborghini Urus.jpg in Resources */,
+				8702662E22E5CDEC0033C92A /* Porsche 356A.jpg in Resources */,
 				8714961722D61BF100402A25 /* VW Golf.jpg in Resources */,
 				8714958E22D61BE400402A25 /* Cherry Tiggo.jpeg in Resources */,
 				871493DA22D618A100402A25 /* Ferrari F8 Tributo.jpg in Resources */,
@@ -2019,53 +2481,84 @@
 				8714965322D61BF100402A25 /* Renault Duster.jpg in Resources */,
 				8714955722D61B7400402A25 /* Nissan Maxima.jpg in Resources */,
 				871493FF22D618D000402A25 /* Ford Kuga.jpg in Resources */,
+				8702663522E5CDEC0033C92A /* Mercedes-Benz 220 SE.jpg in Resources */,
+				8702658C22E4DBE40033C92A /* Honda NSX.jpg in Resources */,
 				8714933622D6159800402A25 /* Acura TLX.jpg in Resources */,
 				8714959022D61BE400402A25 /* Lada Vesta.jpeg in Resources */,
+				870265A622E4DC4B0033C92A /* Porsche 911 R.jpg in Resources */,
 				8714961F22D61BF100402A25 /* Skoda Kodiaq.jpg in Resources */,
+				8702657A22E4DBB60033C92A /* Bugatti Vision GT.jpg in Resources */,
 				8714947322D619B100402A25 /* KIA Sportage.jpg in Resources */,
 				8714947D22D619CA00402A25 /* Koenigsegg Regera.jpg in Resources */,
 				8714960B22D61BF100402A25 /* Tesla Model Y.jpg in Resources */,
 				8714947022D619B100402A25 /* KIA Cerato.jpg in Resources */,
 				8714956122D61B7400402A25 /* Nissan 370Z.jpg in Resources */,
 				8714951C22D61B1600402A25 /* Mercedes-AMG Project One.jpg in Resources */,
+				8702665122E5CDEC0033C92A /* Rolls-Royce Silver Cloud.jpg in Resources */,
 				A5F8E775223D87CA005B06E2 /* Wrong.wav in Resources */,
+				8702659222E4DBED0033C92A /* Koenigsegg CCXR.jpg in Resources */,
+				8702665922E5CDEC0033C92A /* Chrysler 180.jpg in Resources */,
 				871494B022D61A3B00402A25 /* Lexus GX.jpg in Resources */,
 				8714936122D6164800402A25 /* Audi A1.jpg in Resources */,
 				8714938922D6168C00402A25 /* BMW 5-Series E34.jpeg in Resources */,
 				871494E422D61AF500402A25 /* McLaren P1.jpg in Resources */,
 				871494C922D61A9F00402A25 /* Maserati GranTurismo.jpg in Resources */,
+				8702663B22E5CDEC0033C92A /* VW Typ 2.jpg in Resources */,
+				8702661A22E5CDEC0033C92A /* Porsche 959.jpg in Resources */,
 				8714944222D6195E00402A25 /* Infiniti EX.jpg in Resources */,
+				8702664722E5CDEC0033C92A /* Mercury Eight Club Coupe.jpg in Resources */,
+				8702662B22E5CDEC0033C92A /* Ferrari Mondial.jpg in Resources */,
 				8714959722D61BE400402A25 /* Smart Forfour.jpg in Resources */,
+				8702657022E4DB940033C92A /* Acura NSX.jpg in Resources */,
+				870265AC22E4E50D0033C92A /* Dodge Viper.jpg in Resources */,
 				8714961D22D61BF100402A25 /* Skoda Yeti.jpg in Resources */,
 				8714946E22D619B100402A25 /* KIA Sorento.jpg in Resources */,
 				8714945522D6197400402A25 /* Jaguar F-Type.jpg in Resources */,
 				8714964922D61BF100402A25 /* Rolls-Royce Wraith.jpg in Resources */,
 				8714948722D619E900402A25 /* Lamborghini Huracan Perfomante.jpg in Resources */,
 				8714935E22D6164800402A25 /* Audi A8.jpg in Resources */,
+				8702661E22E5CDEC0033C92A /* BMW Z8.jpg in Resources */,
 				8714963E22D61BF100402A25 /* Toyota Hilux.jpg in Resources */,
 				8714942922D6194500402A25 /* Hyundai Elantra.jpg in Resources */,
+				8733E3D722E4B514004323A0 /* SportCars.plist in Resources */,
 				8714947622D619B100402A25 /* KIA Stinger.jpg in Resources */,
+				8702661522E5CDEC0033C92A /* Mercury Montego GT.jpg in Resources */,
 				871493F822D618D000402A25 /* Ford Mondeo.jpg in Resources */,
+				8702662C22E5CDEC0033C92A /* Alfa Romeo 1750 Spider.jpg in Resources */,
 				871494B822D61A5E00402A25 /* Lincoln Aviator.jpg in Resources */,
+				8702662522E5CDEC0033C92A /* Toyota Mark II.jpg in Resources */,
+				8702662722E5CDEC0033C92A /* Cadillac Brougham.jpg in Resources */,
 				8714944322D6195E00402A25 /* Infiniti Q60.jpg in Resources */,
 				8714958722D61BE400402A25 /* Haval H8.jpg in Resources */,
+				8702662A22E5CDEC0033C92A /* Chevrolet Impala.jpg in Resources */,
+				8702666122E5CDEC0033C92A /* Porsche 968.jpg in Resources */,
 				8714951122D61B1600402A25 /* Mercedes-AMG C63.jpg in Resources */,
 				8714938322D6168C00402A25 /* BMW M5 F90.jpeg in Resources */,
 				8714960E22D61BF100402A25 /* Tesla Model S.jpg in Resources */,
+				8702664422E5CDEC0033C92A /* Saab 900.jpg in Resources */,
 				8714953A22D61B5400402A25 /* Mitsubishi ASX.jpg in Resources */,
 				8714961022D61BF100402A25 /* VW Golf R.jpg in Resources */,
 				8714944522D6195E00402A25 /* Infiniti Q50.jpg in Resources */,
 				8714940022D618D000402A25 /* Ford S-MAX.jpg in Resources */,
+				8702661422E5CDEC0033C92A /* Dodge Charger Daytona 1969.jpg in Resources */,
+				8702661722E5CDEC0033C92A /* Toyota 2000GT.jpg in Resources */,
+				8702663622E5CDEC0033C92A /* Pontiac Sunbird.jpg in Resources */,
 				8714962622D61BF100402A25 /* Porsche 911 Targa 4.jpg in Resources */,
 				8714948B22D619E900402A25 /* Lamborghini Huracan.jpg in Resources */,
 				8714935822D6164800402A25 /* Audi RS7.jpg in Resources */,
+				8702664A22E5CDEC0033C92A /* Ford Maverick.jpg in Resources */,
 				871494BF22D61A6F00402A25 /* Lotus Exige.jpg in Resources */,
 				8714945122D6197400402A25 /* Jaguar XJ.jpg in Resources */,
+				8702663122E5CDEC0033C92A /* Pontiac Grand Am.jpg in Resources */,
+				8702662122E5CDEC0033C92A /* Chevrolet Chevelle SS.jpg in Resources */,
 				8714948E22D619E900402A25 /* Lamborghini Veneno.jpg in Resources */,
 				8714951922D61B1600402A25 /* Mercedes-Benz SLR McLaren.jpg in Resources */,
 				8714947222D619B100402A25 /* KIA Soul.jpg in Resources */,
+				870265B622E4EC570033C92A /* Chevrolet Suburban.jpg in Resources */,
 				8714964022D61BF100402A25 /* Toyota Fortuner.jpg in Resources */,
+				8702662D22E5CDEC0033C92A /* BMW 507.jpg in Resources */,
 				8714964B22D61BF100402A25 /* Renault Megane.jpg in Resources */,
+				8702661822E5CDEC0033C92A /* VW Beetle.jpg in Resources */,
 				8714951022D61B1600402A25 /* Mercedes-Benz A-Class.jpg in Resources */,
 				871493D522D618A100402A25 /* Ferrari F430.jpg in Resources */,
 				8714937F22D6168C00402A25 /* BMW i3.jpg in Resources */,
@@ -2074,12 +2567,18 @@
 				8714944022D6195E00402A25 /* Infiniti QX50.jpg in Resources */,
 				8714955B22D61B7400402A25 /* Nissan GT-R.jpg in Resources */,
 				871493D622D618A100402A25 /* Ferrari 458 Italia.jpg in Resources */,
+				8702664222E5CDEC0033C92A /* Chevrolet Blazer.jpg in Resources */,
 				8714963B22D61BF100402A25 /* Toyota Prius.jpg in Resources */,
 				A56FB232222062C300EAFAA4 /* BackgroundSound.mp3 in Resources */,
+				8702659C22E4DC110033C92A /* Lamborghini Miura.jpg in Resources */,
 				8714952B22D61B2B00402A25 /* Mini Clubman.jpg in Resources */,
+				8702665022E5CDEC0033C92A /* Chevrolet Camaro 1971.jpg in Resources */,
 				8714945622D6197400402A25 /* Jaguar F-Pace.jpg in Resources */,
+				8702666322E5CDEC0033C92A /* Rolls-Royce Corniche.jpg in Resources */,
 				8714950622D61B1600402A25 /* Mercedes-Benz CLA-Class.jpg in Resources */,
 				8714963A22D61BF100402A25 /* Toyota Land Cruiser.jpg in Resources */,
+				870265B222E4EC460033C92A /* Buick Enclave.jpg in Resources */,
+				870265BE22E4EC880033C92A /* GMC Sierra.jpg in Resources */,
 				8714934322D6162C00402A25 /* Aston Martin Cygnet.jpg in Resources */,
 				8714965222D61BF100402A25 /* Renault Kangoo.jpg in Resources */,
 				8714949722D61A0900402A25 /* Land Rover Defender.jpg in Resources */,
@@ -2088,6 +2587,9 @@
 				871493D222D618A100402A25 /* Ferrari 488 GTB.jpg in Resources */,
 				8714944722D6195E00402A25 /* Infiniti FX.jpg in Resources */,
 				8714956E22D61BD700402A25 /* Opel Corsa.jpg in Resources */,
+				8702663D22E5CDEC0033C92A /* Aston Martin DB5.jpg in Resources */,
+				8702665622E5CDEC0033C92A /* Rolls-Royce Camargue.jpg in Resources */,
+				8702664022E5CDEC0033C92A /* Cadillac DeVille.jpg in Resources */,
 				8714965722D61BF100402A25 /* Volvo XC60.jpg in Resources */,
 				8714955D22D61B7400402A25 /* Nissan Juke.jpg in Resources */,
 				8714948D22D619E900402A25 /* Lamborghini Gallardo.jpg in Resources */,
@@ -2097,25 +2599,37 @@
 				871493B822D6185200402A25 /* Citroen C5.jpg in Resources */,
 				8714963422D61BF100402A25 /* Toyota RAV4.jpg in Resources */,
 				8714960C22D61BF100402A25 /* Tesla Roadster.jpg in Resources */,
+				8702659422E4DBF50033C92A /* Chevrolet Corvette C8.jpg in Resources */,
+				8733E3E222E4B5A0004323A0 /* 4x4CarsNames.plist in Resources */,
 				8714963C22D61BF100402A25 /* Toyota Camry.jpg in Resources */,
 				8714954122D61B5400402A25 /* Mitsubishi Lancer Evolution.jpg in Resources */,
+				870265BC22E4EC780033C92A /* Ford F-250.jpg in Resources */,
 				8714935722D6164800402A25 /* Audi R8.jpg in Resources */,
 				8714964D22D61BF100402A25 /* Renault Arkana.jpg in Resources */,
 				8714964C22D61BF100402A25 /* Renault Clio.jpg in Resources */,
+				870265B522E4EC570033C92A /* Chevrolet Silverado.jpg in Resources */,
 				871494DA22D61AAE00402A25 /* Mazda CX-3.jpg in Resources */,
 				A530CD1A2247AD5900AB256C /* Scores.plist in Resources */,
 				8714951B22D61B1600402A25 /* Mercedes-AMG CL63.jpg in Resources */,
 				871493D922D618A100402A25 /* Ferrari 599 GTB.jpg in Resources */,
 				8714963D22D61BF100402A25 /* Toyota Supra.jpg in Resources */,
+				8702664D22E5CDEC0033C92A /* Chrysler Imperial.jpg in Resources */,
 				8714950D22D61B1600402A25 /* Mercedes-Benz X-Class.jpg in Resources */,
+				8702663422E5CDEC0033C92A /* Mercedes-Benz 190 SL.jpg in Resources */,
+				8702663C22E5CDEC0033C92A /* Chevrolet Camaro 1969.jpg in Resources */,
 				8714939B22D6180300402A25 /* Cadillac STS.jpg in Resources */,
+				8702661F22E5CDEC0033C92A /* Ford Thunderbird 1970.jpg in Resources */,
 				8714965622D61BF100402A25 /* Volvo S90.jpg in Resources */,
 				8714957122D61BD700402A25 /* Opel Frontera.jpg in Resources */,
+				8702657422E4DBA30033C92A /* Aston Martin Valkyrie.jpg in Resources */,
 				8714964622D61BF100402A25 /* Rolls-Royce Phantom.jpg in Resources */,
+				8702665222E5CDEC0033C92A /* Mercury Monarch.jpg in Resources */,
 				8714934422D6162C00402A25 /* Aston Martin Vanquish.jpg in Resources */,
 				871494AA22D61A3B00402A25 /* Lexus LC.jpg in Resources */,
+				8702664522E5CDEC0033C92A /* Dodge 600 1985.jpg in Resources */,
 				8714942B22D6194500402A25 /* Hyundai Genesis.jpg in Resources */,
 				8714943222D6194500402A25 /* Hyundai Solaris.jpeg in Resources */,
+				8702663922E5CDEC0033C92A /* Chevrolet Corvette Stingray.jpg in Resources */,
 				8714962222D61BF100402A25 /* Skoda Fabia.jpg in Resources */,
 				8714965022D61BF100402A25 /* Renault Laguna.jpg in Resources */,
 				8714961322D61BF100402A25 /* VW Tiguan.jpg in Resources */,
@@ -2123,7 +2637,7 @@
 				8714941622D6190D00402A25 /* Honda Passport.jpg in Resources */,
 				8714933B22D615E900402A25 /* Alfa Romeo Giulia.jpg in Resources */,
 				871494A922D61A3B00402A25 /* Lexus IS.jpg in Resources */,
-				A527B0BE2280C20700046C1F /* Cars.plist in Resources */,
+				A527B0BE2280C20700046C1F /* AllCarsNames.plist in Resources */,
 				8714960222D61BF100402A25 /* Peugeot 408.jpg in Resources */,
 				871494D522D61AAE00402A25 /* Mazda MX-5.jpg in Resources */,
 				8714941C22D6192400402A25 /* Hummer H2.jpg in Resources */,
@@ -2139,12 +2653,16 @@
 				8714960122D61BF100402A25 /* Peugeot Partner.jpg in Resources */,
 				8714964322D61BF100402A25 /* Subaru Forester.jpg in Resources */,
 				871494CB22D61A9F00402A25 /* Maserati Ghibli.jpeg in Resources */,
+				8733E3D822E4B514004323A0 /* SportCarsVariants.plist in Resources */,
 				8714955522D61B7400402A25 /* Nissan Patrol.jpg in Resources */,
+				870265A422E4DC310033C92A /* SRT Viper GTS.jpg in Resources */,
+				8702664322E5CDEC0033C92A /* Ferrari 328 GTB.jpg in Resources */,
 				8714962F22D61BF100402A25 /* Porsche Macan.jpg in Resources */,
 				8714947522D619B100402A25 /* KIA Mohave.jpg in Resources */,
 				8714943022D6194500402A25 /* Hyundai Veloster.jpg in Resources */,
 				8714965922D61BF100402A25 /* Volvo C70.jpg in Resources */,
 				8714964222D61BF100402A25 /* Subaru Impreza.jpg in Resources */,
+				8702659022E4DBED0033C92A /* Koenigsegg Jesko.jpg in Resources */,
 				871493B122D6183800402A25 /* Chrysler PT Cruiser.jpg in Resources */,
 				8714947422D619B100402A25 /* KIA Ceed.jpg in Resources */,
 				8714942A22D6194500402A25 /* Hyundai Genesis Coupe.jpg in Resources */,
@@ -2153,9 +2671,11 @@
 				871493E322D618BC00402A25 /* Fiat Ducato.jpg in Resources */,
 				8714958822D61BE400402A25 /* Saab 9-5.jpg in Resources */,
 				8714960722D61BF100402A25 /* Peugeot 4008.jpg in Resources */,
+				8702658A22E4DBDA0033C92A /* McLaren 650S.jpg in Resources */,
 				8714951F22D61B1600402A25 /* Mercedes-AMG SLS.jpg in Resources */,
 				871494C722D61A9F00402A25 /* Maserati MC12.jpg in Resources */,
 				8714964422D61BF100402A25 /* Subaru WRX STI.jpg in Resources */,
+				8702666022E5CDEC0033C92A /* BMW 2000 CS.jpg in Resources */,
 				871494AB22D61A3B00402A25 /* Lexus ES.jpg in Resources */,
 				8714961B22D61BF100402A25 /* VW New Beetle.jpg in Resources */,
 				8714941222D6190D00402A25 /* Honda Jazz.jpg in Resources */,
@@ -2164,15 +2684,19 @@
 				871493A622D6182000402A25 /* Chevrolet Malibu.jpg in Resources */,
 				871494AE22D61A3B00402A25 /* Lexus SC.jpg in Resources */,
 				A5830991220479CC00326ABB /* Main.storyboard in Resources */,
+				8702662022E5CDEC0033C92A /* Ford Capri.jpg in Resources */,
 				8714940F22D6190D00402A25 /* Honda Civic Type R.jpg in Resources */,
 				871493D722D618A100402A25 /* Ferrari California.jpg in Resources */,
 				8714950822D61B1600402A25 /* Mercedes-Benz Maybach S500.jpg in Resources */,
 				871493FA22D618D000402A25 /* Ford Expedition.jpg in Resources */,
+				8702658422E4DBC80033C92A /* Ferrari Testarossa.jpg in Resources */,
 				8714953E22D61B5400402A25 /* Mitsubishi Grandis.jpg in Resources */,
 				8714942D22D6194500402A25 /* Hyundai i30.jpg in Resources */,
 				8714951722D61B1600402A25 /* Mercedes-AMG E63.jpg in Resources */,
+				8702665C22E5CDEC0033C92A /* Ford Fairlane 1966.jpg in Resources */,
 				8714962022D61BF100402A25 /* Skoda Octavia.jpg in Resources */,
 				8714944422D6195E00402A25 /* Infiniti QX56.jpg in Resources */,
+				870265B822E4EC610033C92A /* Chrysler Aspen.jpg in Resources */,
 				8714947C22D619CA00402A25 /* Koenigsegg Agera R.jpg in Resources */,
 				A5CF275222737AEE0055FAC5 /* Assets.xcassets in Resources */,
 				8714965A22D61BF100402A25 /* Volvo XC40.jpg in Resources */,
@@ -2180,25 +2704,38 @@
 				8714964A22D61BF100402A25 /* Rolls-Royce Cullinan.jpg in Resources */,
 				8714948922D619E900402A25 /* Lamborghini Centenario.jpg in Resources */,
 				8714943F22D6195E00402A25 /* Infiniti QX30.jpg in Resources */,
+				8702664E22E5CDEC0033C92A /* BMW 8-Series.jpg in Resources */,
 				871493C622D6188A00402A25 /* Dodge Challenger SRT Demon.jpg in Resources */,
 				8714941522D6190D00402A25 /* Honda Insight.jpg in Resources */,
 				8714946022D6198400402A25 /* Jeep Compass.jpg in Resources */,
+				8702665722E5CDEC0033C92A /* Ferrari 512 BB 1976.jpg in Resources */,
+				8702662F22E5CDEC0033C92A /* Chevrolet Monte Carlo.jpg in Resources */,
 				871494C022D61A6F00402A25 /* Lotus Evora.jpg in Resources */,
 				871493C422D6188A00402A25 /* Dodge Charger SRT Hellcat.jpg in Resources */,
+				8702661B22E5CDEC0033C92A /* Audi Quattro.jpg in Resources */,
+				8702658622E4DBC80033C92A /* Ferrari F40.jpg in Resources */,
 				871493FE22D618D000402A25 /* Ford Crown Victoria.jpg in Resources */,
+				870265A222E4DC260033C92A /* Mazda RX-7.jpg in Resources */,
+				8702663822E5CDEC0033C92A /* Chevrolet Monza.jpg in Resources */,
 				871493AF22D6183800402A25 /* Chrysler 300C.jpg in Resources */,
 				8714935F22D6164800402A25 /* Audi 80.jpg in Resources */,
+				8702664C22E5CDEC0033C92A /* Ford Torino Cobra.jpg in Resources */,
 				871493F622D618D000402A25 /* Ford F150.jpg in Resources */,
 				871494B122D61A3B00402A25 /* Lexus LS.jpg in Resources */,
+				8702662322E5CDEC0033C92A /* Lamborghini Jalpa.jpg in Resources */,
+				8733E3D622E4B514004323A0 /* SportCarsNames.plist in Resources */,
 				8714945E22D6198400402A25 /* Jeep Liberty.jpg in Resources */,
 				8714938022D6168C00402A25 /* BMW X6 M.jpeg in Resources */,
+				870265AA22E4DC9F0033C92A /* Gumpert Apollo.jpg in Resources */,
 				8714948A22D619E900402A25 /* Lamborghini Murcielago.jpg in Resources */,
 				871493AA22D6182000402A25 /* Chevrolet Tahoe.jpg in Resources */,
 				8714963322D61BF100402A25 /* Porsche 911 GT3 RS.jpg in Resources */,
 				8714935622D6164800402A25 /* Audi Q5.jpg in Resources */,
+				8702665522E5CDEC0033C92A /* Dodge Monaco.jpg in Resources */,
 				8714958C22D61BE400402A25 /* Pagani Huayra.jpg in Resources */,
 				8714939222D616D000402A25 /* Bugatti Chiron.jpg in Resources */,
 				8714936B22D6166400402A25 /* Bentley Mulsanne.jpg in Resources */,
+				8702666622E5CE1A0033C92A /* ClassicCars.plist in Resources */,
 				871494C822D61A9F00402A25 /* Maserati Quattroporte.jpg in Resources */,
 				871493B722D6185200402A25 /* Citroen C2.jpg in Resources */,
 				8714949C22D61A0900402A25 /* Land Rover RR Evoque.jpg in Resources */,
@@ -2207,8 +2744,10 @@
 				8714947822D619B100402A25 /* KIA Cadenza.jpg in Resources */,
 				8714963222D61BF100402A25 /* Porsche 911 GT3.jpg in Resources */,
 				8714962522D61BF100402A25 /* Porsche 911 Carrera GTS.jpg in Resources */,
+				8702665322E5CDEC0033C92A /* Ford Consul GT 1972.jpg in Resources */,
 				8714958922D61BE400402A25 /* Daewoo Matiz.jpeg in Resources */,
 				8714935D22D6164800402A25 /* Audi A6.jpg in Resources */,
+				8702661922E5CDEC0033C92A /* Aston Martin Lagonda.jpg in Resources */,
 				8714957022D61BD700402A25 /* Opel GT.jpg in Resources */,
 				871493C222D6188A00402A25 /* Dodge Challenger.jpg in Resources */,
 				8714951E22D61B1600402A25 /* Mercedes-Benz B-Class.jpg in Resources */,
@@ -2219,6 +2758,7 @@
 				8714955E22D61B7400402A25 /* Nissan X-Trail.jpg in Resources */,
 				8714960822D61BF100402A25 /* Peugeot 107.jpg in Resources */,
 				8714941422D6190D00402A25 /* Honda Civic.jpg in Resources */,
+				8702657522E4DBA30033C92A /* Aston Martin Vulcan.jpg in Resources */,
 				8714943E22D6195E00402A25 /* Infiniti G.jpg in Resources */,
 				8714963722D61BF100402A25 /* Toyota Land Cruiser Prado.jpg in Resources */,
 				8714945022D6197400402A25 /* Jaguar I-Pace.jpg in Resources */,
@@ -2229,18 +2769,24 @@
 				8714949B22D61A0900402A25 /* Land Rover RR Velar.jpg in Resources */,
 				8714965C22D61BF100402A25 /* Volvo XC90.jpg in Resources */,
 				A5F8E774223D87CA005B06E2 /* Correct.wav in Resources */,
+				8702662622E5CDEC0033C92A /* Maserati Bora.jpg in Resources */,
 				8714941D22D6192400402A25 /* Hummer H3.jpg in Resources */,
+				8702658222E4DBC80033C92A /* Ferrari F50.jpg in Resources */,
 				871494AF22D61A3B00402A25 /* Lexus RX.jpg in Resources */,
 				871494CA22D61A9F00402A25 /* Maserati Levante.jpg in Resources */,
+				8702664822E5CDEC0033C92A /* Mercury Montclair Convertible.jpg in Resources */,
 				871493E222D618BC00402A25 /* Fiat Tipo.jpg in Resources */,
 				8714964722D61BF100402A25 /* Rolls-Royce Dawn.jpg in Resources */,
 				8714961E22D61BF100402A25 /* Skoda Superb.jpg in Resources */,
+				870265C222E4ECA30033C92A /* Mercedes-AMG G63 6x6.jpg in Resources */,
 				8714952A22D61B2B00402A25 /* Mini Paceman.jpg in Resources */,
 				871494D822D61AAE00402A25 /* Mazda 6.jpg in Resources */,
 				8714935A22D6164800402A25 /* Audi TT.jpg in Resources */,
 				8714941B22D6192400402A25 /* Hummer H1.jpg in Resources */,
 				8714939C22D6180300402A25 /* Cadillac ATS.jpg in Resources */,
 				8714959122D61BE400402A25 /* Pagani Zonda.jpg in Resources */,
+				8702665422E5CDEC0033C92A /* Ford Crown Victoria 1955.jpg in Resources */,
+				8702664622E5CDEC0033C92A /* Chrysler New Yorker 1958.jpg in Resources */,
 				8714965122D61BF100402A25 /* Renault Sandero.jpg in Resources */,
 				8714965422D61BF100402A25 /* Renault Koleos.jpg in Resources */,
 				871494B922D61A5E00402A25 /* Lincoln Navigator.jpg in Resources */,
@@ -2249,19 +2795,29 @@
 				8714945F22D6198400402A25 /* Jeep Cherokee.jpg in Resources */,
 				8714936222D6164800402A25 /* Audi Q8.jpeg in Resources */,
 				8714960522D61BF100402A25 /* Peugeot 607.jpg in Resources */,
+				8702662222E5CDEC0033C92A /* Chrysler Saratoga 1957.jpg in Resources */,
 				8714942E22D6194500402A25 /* Hyundai Palisade.jpg in Resources */,
+				8702658322E4DBC80033C92A /* Ferrari SF90 Stradale.jpg in Resources */,
+				8702666722E5CE1A0033C92A /* ClassicCarsVariants.plist in Resources */,
 				871494D422D61AAE00402A25 /* Mazda CX-7.jpg in Resources */,
 				8714951D22D61B1600402A25 /* Mercedes-AMG S65.jpg in Resources */,
 				871494D622D61AAE00402A25 /* Mazda CX-5.jpg in Resources */,
 				8714938722D6168C00402A25 /* BMW X5.jpg in Resources */,
 				8714936322D6164800402A25 /* Audi A7.jpg in Resources */,
+				8702664922E5CDEC0033C92A /* Nissan Skyline.jpg in Resources */,
 				8714953C22D61B5400402A25 /* Mitsubishi Eclipse.jpg in Resources */,
 				8714951522D61B1600402A25 /* Mercedes-Benz E-Class.jpg in Resources */,
+				8702664B22E5CDEC0033C92A /* Ford GT40.jpg in Resources */,
 				8714938B22D6168C00402A25 /* BMW 3-Series.jpg in Resources */,
+				8702663E22E5CDEC0033C92A /* Porsche 928.jpg in Resources */,
 				8714944122D6195E00402A25 /* Infiniti Q30.jpg in Resources */,
 				8714938822D6168C00402A25 /* BMW 1-Series.jpg in Resources */,
+				8702662822E5CDEC0033C92A /* Ford Mustang 1969.jpg in Resources */,
+				870265A022E4DC1F0033C92A /* Lotus Evija.jpg in Resources */,
 				871493C522D6188A00402A25 /* Dodge Dart.jpg in Resources */,
+				8702666222E5CDEC0033C92A /* Pontiac LeMans.jpg in Resources */,
 				871494D722D61AAE00402A25 /* Mazda RX-8.jpg in Resources */,
+				8702659B22E4DC110033C92A /* Lamborghini Countach.jpg in Resources */,
 				8714936D22D6166400402A25 /* Bentley Azure.jpg in Resources */,
 				8714963522D61BF100402A25 /* Toyota Highlander.jpg in Resources */,
 				8714962122D61BF100402A25 /* Skoda Roomster.jpg in Resources */,
@@ -2271,22 +2827,30 @@
 				8714959522D61BE400402A25 /* Geely Atlas.jpg in Resources */,
 				8714963922D61BF100402A25 /* Toyota Avensis.jpg in Resources */,
 				8714936022D6164800402A25 /* Audi RS6 Avant.jpeg in Resources */,
-				871493A822D6182000402A25 /* Chevrolet Corvette.jpg in Resources */,
+				8702663222E5CDEC0033C92A /* Porsche 911 1964.jpg in Resources */,
+				871493A822D6182000402A25 /* Chevrolet Corvette C6.jpg in Resources */,
 				871493E722D618BC00402A25 /* Fiat Bravo.jpg in Resources */,
+				870265C022E4EC960033C92A /* Toyota Tundra.jpg in Resources */,
 				8714961C22D61BF100402A25 /* Skoda Rapid.jpg in Resources */,
 				8714962422D61BF100402A25 /* Porsche Boxter.jpg in Resources */,
 				8714951A22D61B1600402A25 /* Mercedes-Benz GLE Coupe.jpg in Resources */,
 				8714955622D61B7400402A25 /* Nissan Almera.jpg in Resources */,
+				8702658922E4DBDA0033C92A /* McLaren 570S.jpg in Resources */,
 				8714959822D61BE400402A25 /* Geely Emgrand GT.jpg in Resources */,
 				8714939022D616D000402A25 /* Bugatti Veyron Grand Sport.jpg in Resources */,
+				8702664F22E5CDEC0033C92A /* Lamborghini Islero.jpg in Resources */,
 				871493A722D6182000402A25 /* Chevrolet Volt.jpg in Resources */,
 				8714961622D61BF100402A25 /* VW Multivan.jpg in Resources */,
+				8702665B22E5CDEC0033C92A /* Audi 50.jpg in Resources */,
 				8714963622D61BF100402A25 /* Toyota Yaris.jpg in Resources */,
+				8702664122E5CDEC0033C92A /* Ferrari 250 GTO.jpg in Resources */,
 				8714965B22D61BF100402A25 /* Volvo V60.jpg in Resources */,
-				871493C322D6188A00402A25 /* Dodge Viper.jpg in Resources */,
 				8714956F22D61BD700402A25 /* Opel Insignia.jpg in Resources */,
+				8702659D22E4DC110033C92A /* Lamborghini Diablo.jpg in Resources */,
+				870265AE22E4E9390033C92A /* 4x4Cars.plist in Resources */,
 				8714951422D61B1600402A25 /* Mercedes-AMG GT63 4-Door Coupe.jpg in Resources */,
 				8714962E22D61BF100402A25 /* Porsche Carrera GT.jpg in Resources */,
+				8702661D22E5CDEC0033C92A /* Cadillac Fleetwood.jpg in Resources */,
 				8714952D22D61B2B00402A25 /* Mini Cooper 5-Door.jpg in Resources */,
 				8714958F22D61BE400402A25 /* Dacia Logan.jpg in Resources */,
 				8714954422D61B5400402A25 /* Mitsubishi Outlander.jpg in Resources */,
@@ -2675,7 +3239,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S2R484H276;
 				INFOPLIST_FILE = GuessTheCar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -2683,6 +3247,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juniorsoftcorp.guessthecar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2698,7 +3263,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S2R484H276;
 				INFOPLIST_FILE = GuessTheCar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -2706,6 +3271,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juniorsoftcorp.guessthecar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

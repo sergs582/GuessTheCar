@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Audi</key>
+	<array>
+		<string>80</string>
+		<string>50</string>
+	</array>
+	<key>BMW</key>
+	<array>
+		<string>3200 CS Coupe</string>
+		<string>507</string>
+		<string>Z8</string>
+		<string>8-Series</string>
+	</array>
+	<key>Alfa Romeo</key>
+	<array>
+		<string>1750 Spider</string>
+	</array>
+	<key>Aston Martin</key>
+	<array>
+		<string>DB4</string>
+	</array>
+	<key>Bentley</key>
+	<array>
+		<string>Azure</string>
+	</array>
+	<key>Cadillac</key>
+	<array>
+		<string>Fleetwood</string>
+		<string>Brougham</string>
+	</array>
+	<key>Chevrolet</key>
+	<array>
+		<string>Blazer</string>
+		<string>Camaro 1969</string>
+	</array>
+	<key>Dodge</key>
+	<array>
+		<string>Charger Daytona 1969</string>
+		<string>Challenger RT 1970</string>
+	</array>
+	<key>Ferrari</key>
+	<array>
+		<string>512 BB 1976</string>
+		<string>Mondial</string>
+		<string>328 GTB</string>
+		<string>F40</string>
+		<string>Testarossa</string>
+	</array>
+	<key>Ford</key>
+	<array>
+		<string>GT40</string>
+		<string>LTD</string>
+		<string>Maverick</string>
+		<string>Torino Cobra</string>
+		<string>Capri</string>
+	</array>
+	<key>Hummer</key>
+	<array>
+		<string>H1</string>
+	</array>
+	<key>Lamborghini</key>
+	<array>
+		<string>Diablo</string>
+		<string>Miura</string>
+	</array>
+	<key>Mercedes-Benz</key>
+	<array>
+		<string>190 SL</string>
+		<string>220 SE</string>
+	</array>
+	<key>Nissan</key>
+	<array>
+		<string>240SX</string>
+	</array>
+	<key>Rolls-Royce</key>
+	<array>
+		<string>Corniche</string>
+		<string>Silver Cloud</string>
+		<string>Camargue</string>
+	</array>
+	<key>Toyota</key>
+	<array>
+		<string>Mark II</string>
+		<string>2000GT</string>
+	</array>
+	<key>VW</key>
+	<array>
+		<string>Beetle</string>
+		<string>Typ 2</string>
+	</array>
+	<key>Other</key>
+	<array>
+		<string>Chevrolet C10</string>
+		<string>Jaguar XJ220</string>
+		<string>BMW 2000 CS</string>
+		<string>Aston Martin DB5</string>
+		<string>Porsche 356A</string>
+		<string>Mercury Eight Club Coupe</string>
+		<string>Chevrolet Monte Carlo</string>
+		<string>Chevrolet Monza</string>
+		<string>Ferrari F50</string>
+		<string>Audi Quattro</string>
+		<string>Saab 900</string>
+		<string>Saab 99</string>
+		<string>Maserati MC12</string>
+		<string>Pontiac Sunbird</string>
+		<string>Chevrolet Impala</string>
+		<string>Lamborghini Islero</string>
+		<string>Dodge Monaco</string>
+		<string>Ford Fairlane 1966</string>
+		<string>Chrysler Windsor</string>
+		<string>Ford Crown Victoria 1955</string>
+		<string>Porsche 959</string>
+		<string>Pontiac Grand Am</string>
+	</array>
+	<key>Easy</key>
+	<array>
+		<string>Pontiac LeMans</string>
+		<string>Porsche 968</string>
+		<string>Nissan Skyline</string>
+		<string>Ford Consul GT 1972</string>
+		<string>Porsche 911 1964</string>
+		<string>Porsche 928</string>
+		<string>Jaguar E-Type</string>
+		<string>Mercury Monarch</string>
+		<string>Dodge 600 1985</string>
+		<string>Ferrari 250 GTO</string>
+		<string>Mercury Montego GT</string>
+		<string>Honda NSX</string>
+		<string>Lamborghini Countach</string>
+		<string>Pontiac Firebird</string>
+		<string>Mercury Montclair Convertible</string>
+		<string>Cadillac DeVille</string>
+		<string>Cadillac Eldorado</string>
+		<string>Chrysler 180</string>
+		<string>Dodge Charger RT Hemi 1971</string>
+		<string>Chevrolet Corvette Stingray</string>
+		<string>Chevrolet Camaro 1971</string>
+		<string>Chrysler Saratoga 1957</string>
+		<string>Ford Mustang 1969</string>
+		<string>Chrysler New Yorker 1958</string>
+		<string>Chevrolet Caprice</string>
+		<string>Lamborghini Jalpa</string>
+		<string>Ferrari 599 GTB</string>
+		<string>Maserati Bora</string>
+		<string>Chrysler Imperial</string>
+		<string>Chevrolet Chevelle SS</string>
+		<string>Ford Thunderbird 1970</string>
+	</array>
+</dict>
+</plist>

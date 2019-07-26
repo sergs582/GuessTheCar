@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Audi</key>
+	<array>
+		<string>RS6 Avant</string>
+		<string>Q8</string>
+		<string>A6 Allroad</string>
+		<string>Q5</string>
+		<string>Q7</string>
+	</array>
+	<key>Acura</key>
+	<array>
+		<string>MDX</string>
+	</array>
+	<key>BMW</key>
+	<array>
+		<string>X6 M</string>
+		<string>X3</string>
+		<string>X7</string>
+	</array>
+	<key>Bentley</key>
+	<array>
+		<string>Bentayga</string>
+	</array>
+	<key>Cadillac</key>
+	<array>
+		<string>Escalade</string>
+	</array>
+	<key>Chevrolet</key>
+	<array>
+		<string>Suburban</string>
+		<string>Tahoe</string>
+	</array>
+	<key>Chrysler</key>
+	<array>
+		<string>Aspen</string>
+	</array>
+	<key>Dodge</key>
+	<array>
+		<string>Durango</string>
+		<string>Ram</string>
+	</array>
+	<key>Ford</key>
+	<array>
+		<string>Expedition</string>
+		<string>Edge</string>
+		<string>F150</string>
+		<string>F-250</string>
+	</array>
+	<key>GMC</key>
+	<array>
+		<string>Youkon</string>
+	</array>
+	<key>Honda</key>
+	<array>
+		<string>Pilot</string>
+		<string>HR-V</string>
+		<string>CR-V</string>
+		<string>Passport</string>
+	</array>
+	<key>Hummer</key>
+	<array>
+		<string>H1</string>
+		<string>H2</string>
+		<string>H3</string>
+	</array>
+	<key>Hyundai</key>
+	<array>
+		<string>Grand Santa Fe</string>
+		<string>Tycson</string>
+	</array>
+	<key>Infiniti</key>
+	<array>
+		<string>QX30</string>
+		<string>JX</string>
+		<string>QX50</string>
+		<string>QX56</string>
+	</array>
+	<key>Jaguar</key>
+	<array>
+		<string>E-Pace</string>
+		<string>F-Pace</string>
+		<string>I-Pace</string>
+	</array>
+	<key>Jeep</key>
+	<array>
+		<string>Cherokee</string>
+		<string>Compass</string>
+		<string>Wrangler</string>
+		<string>Grand Cherokee</string>
+		<string>Liberty</string>
+	</array>
+	<key>KIA</key>
+	<array>
+		<string>Sorento</string>
+		<string>Mohave</string>
+	</array>
+	<key>Lamborghini</key>
+	<array>
+		<string>Urus</string>
+	</array>
+	<key>Land Rover</key>
+	<array>
+		<string>Defender</string>
+		<string>Discovery</string>
+		<string>RR Velar</string>
+		<string>RR Evoque</string>
+		<string>RR Sport</string>
+		<string>RR Vogue</string>
+	</array>
+	<key>Lexus</key>
+	<array>
+		<string>LX</string>
+		<string>RX</string>
+	</array>
+	<key>Lincoln</key>
+	<array>
+		<string>Navigator</string>
+		<string>Aviator</string>
+		<string>MKC</string>
+	</array>
+	<key>Maserati</key>
+	<array>
+		<string>Levante</string>
+	</array>
+	<key>Mercedes-Benz</key>
+	<array>
+		<string>EQC</string>
+		<string>G-Class</string>
+		<string>GLC Coupe</string>
+		<string>X-Class</string>
+	</array>
+	<key>Mercedes-AMG</key>
+	<array>
+		<string>G63 6x6</string>
+		<string>G63</string>
+		<string>GL63</string>
+	</array>
+	<key>Mitsubishi</key>
+	<array>
+		<string>ASX</string>
+		<string>Pajero</string>
+		<string>Outlander</string>
+		<string>L200</string>
+		<string>Eclipse Cross</string>
+	</array>
+	<key>Nissan</key>
+	<array>
+		<string>Juke</string>
+		<string>Murano</string>
+		<string>Patrol</string>
+		<string>X-Trail</string>
+	</array>
+	<key>Opel</key>
+	<array>
+		<string>Antara</string>
+	</array>
+	<key>Peugeot</key>
+	<array>
+		<string>4008</string>
+	</array>
+	<key>Porsche</key>
+	<array>
+		<string>Cayenne</string>
+		<string>Macan</string>
+	</array>
+	<key>Renault</key>
+	<array>
+		<string>Duster</string>
+		<string>Koleos</string>
+	</array>
+	<key>Rolls-Royce</key>
+	<array>
+		<string>Cullinan</string>
+	</array>
+	<key>Tesla</key>
+	<array>
+		<string>Model X</string>
+	</array>
+	<key>Toyota</key>
+	<array>
+		<string>Highlander</string>
+		<string>Land Cruiser</string>
+		<string>Land Cruiser Prado</string>
+	</array>
+	<key>VW</key>
+	<array>
+		<string>Tiguan</string>
+	</array>
+	<key>Other</key>
+	<array>
+		<string>Cherry Tiggo</string>
+		<string>Chevrolet Silverado</string>
+		<string>Buick Enclave</string>
+		<string>Tesla Model Y</string>
+		<string>Skoda Kodiaq</string>
+		<string>Opel Frontera</string>
+		<string>Volvo XC40</string>
+		<string>Volvo XC90</string>
+		<string>Land Rover Freelander</string>
+		<string>Mercedes-Benz GLS</string>
+		<string>Mercedes-Benz GLE-Class</string>
+		<string>Ford Kuga</string>
+		<string>Nissan Pathfinder</string>
+		<string>Nissan Qashqai</string>
+		<string>Geely Atlas</string>
+		<string>Haval H8</string>
+		<string>Porsche Cayenne Coupe</string>
+		<string>Peugeot 3008</string>
+		<string>Subaru Forester</string>
+		<string>Subaru Outback</string>
+		<string>VW Amarok</string>
+		<string>VW Phaeton</string>
+		<string>VW Touareg</string>
+		<string>Renault Arkana</string>
+		<string>Toyota Fortuner</string>
+		<string>Toyota Hilux</string>
+		<string>Toyota RAV4</string>
+	</array>
+	<key>Easy</key>
+	<array>
+		<string>Toyota Tundra</string>
+		<string>Mercedes-Benz GLA-Class</string>
+		<string>BMW X5</string>
+		<string>Mazda CX-7</string>
+		<string>Renault Kaptur</string>
+		<string>GMC Sierra</string>
+		<string>Cadillac SRX</string>
+		<string>KIA Sportage</string>
+		<string>Mitsubishi Pajero Sport</string>
+		<string>Volvo XC60</string>
+		<string>Infiniti FX</string>
+	</array>
+</dict>
+</plist>
