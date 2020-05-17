@@ -49,7 +49,7 @@ class ViewController: UIViewController, SKPaymentTransactionObserver, SKProducts
     var isProPurchased: Bool = false
     var IsCustomized: Bool = false
     
-    var BackSound : AVAudioPlayer = AVAudioPlayer()
+    var BackSound : AVAudioPlayer!
     
     var product : SKProduct?
     var productID = "com.juniorsoftcorp.guessthecar.proversion"
@@ -102,10 +102,9 @@ class ViewController: UIViewController, SKPaymentTransactionObserver, SKProducts
         
         
         let soundPath = Bundle.main.path(forResource: "BackgroundSound", ofType: "mp3")
-        
+        print(soundPath!)
         do{
-            try BackSound = AVAudioPlayer(contentsOf: URL(fileURLWithPath: soundPath!))
-            
+          try BackSound = AVAudioPlayer(contentsOf: URL(fileURLWithPath: soundPath!))
         }catch{
             print(error)
         }

@@ -76,9 +76,10 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate, UIAppl
     var CurrentCar : String = ""
     var titleButton : String = ""
     
-    var HornSound : AVAudioPlayer = AVAudioPlayer()
-    var WrongAnswer : AVAudioPlayer = AVAudioPlayer()
-    var CorrectAnswer : AVAudioPlayer = AVAudioPlayer()
+    var AdCount : Int = 0
+    var HornSound : AVAudioPlayer!
+    var WrongAnswer : AVAudioPlayer!
+    var CorrectAnswer : AVAudioPlayer!
     
     var VariantsButtonsArray: [UIButton] = [UIButton]()
     
@@ -581,8 +582,12 @@ class GameProcessViewController: UIViewController, GADBannerViewDelegate, UIAppl
         CorrectAnswer.stop()
         CorrectAnswer.currentTime = 0
             
-    
-        
+        if AdCount == 12 {
+            AdCount = 0
+            AdBanner.load(GADRequest())
+        }else{
+            AdCount += 1
+        }
         
         var path = Bundle.main.path(forResource: CurrentCar, ofType: "png")
         if path == nil {
